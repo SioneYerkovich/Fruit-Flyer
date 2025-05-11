@@ -4,12 +4,13 @@ using UnityEngine;
 
 public class FruitScript : MonoBehaviour
 {
+    public AudioSource fruitSound;
     public float moveSpeed = 5;
     public float deadZone = -9;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        
+        fruitSound = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -22,5 +23,18 @@ public class FruitScript : MonoBehaviour
             Destroy(gameObject);
         }
 
+    }
+
+    public void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.CompareTag("Player"))
+        {
+            TriggerFruitSound();
+        }
+    }
+
+    private void TriggerFruitSound()
+    {
+        fruitSound.Play();
     }
 }
