@@ -1,0 +1,246 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\sione\\2d test\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5483BADE-4D87-6A55-82D8-E57727570750}|Assembly-CSharp.csproj|C:\\Users\\sione\\2d test\\assets\\scripts\\panelmanagerscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5483BADE-4D87-6A55-82D8-E57727570750}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\panelmanagerscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5483BADE-4D87-6A55-82D8-E57727570750}|Assembly-CSharp.csproj|c:\\users\\sione\\2d test\\assets\\scripts\\bombscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5483BADE-4D87-6A55-82D8-E57727570750}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\bombscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5483BADE-4D87-6A55-82D8-E57727570750}|Assembly-CSharp.csproj|C:\\Users\\sione\\2d test\\assets\\scripts\\backgroundmanagerscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5483BADE-4D87-6A55-82D8-E57727570750}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\backgroundmanagerscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5483BADE-4D87-6A55-82D8-E57727570750}|Assembly-CSharp.csproj|C:\\Users\\sione\\2d test\\assets\\scripts\\fruitspawnscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5483BADE-4D87-6A55-82D8-E57727570750}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\fruitspawnscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5483BADE-4D87-6A55-82D8-E57727570750}|Assembly-CSharp.csproj|C:\\Users\\sione\\2d test\\assets\\scripts\\bombspawnscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5483BADE-4D87-6A55-82D8-E57727570750}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\bombspawnscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5483BADE-4D87-6A55-82D8-E57727570750}|Assembly-CSharp.csproj|C:\\Users\\sione\\2d test\\assets\\scripts\\fruitscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5483BADE-4D87-6A55-82D8-E57727570750}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\fruitscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5483BADE-4D87-6A55-82D8-E57727570750}|Assembly-CSharp.csproj|C:\\Users\\sione\\2d test\\assets\\scripts\\fergusscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5483BADE-4D87-6A55-82D8-E57727570750}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\fergusscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5483BADE-4D87-6A55-82D8-E57727570750}|Assembly-CSharp.csproj|C:\\Users\\sione\\2d test\\assets\\scripts\\bananavalue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5483BADE-4D87-6A55-82D8-E57727570750}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\bananavalue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5483BADE-4D87-6A55-82D8-E57727570750}|Assembly-CSharp.csproj|C:\\Users\\sione\\2d test\\assets\\2d progress bar toolkit\\scripts\\classicprogressbar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5483BADE-4D87-6A55-82D8-E57727570750}|Assembly-CSharp.csproj|solutionrelative:assets\\2d progress bar toolkit\\scripts\\classicprogressbar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5483BADE-4D87-6A55-82D8-E57727570750}|Assembly-CSharp.csproj|C:\\Users\\sione\\2d test\\assets\\scripts\\objectivemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5483BADE-4D87-6A55-82D8-E57727570750}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\objectivemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5483BADE-4D87-6A55-82D8-E57727570750}|Assembly-CSharp.csproj|C:\\Users\\sione\\2d test\\assets\\scripts\\applevalue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5483BADE-4D87-6A55-82D8-E57727570750}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\applevalue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5483BADE-4D87-6A55-82D8-E57727570750}|Assembly-CSharp.csproj|C:\\Users\\sione\\2d test\\assets\\scripts\\watermelonvalue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5483BADE-4D87-6A55-82D8-E57727570750}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\watermelonvalue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5483BADE-4D87-6A55-82D8-E57727570750}|Assembly-CSharp.csproj|C:\\Users\\sione\\2d test\\assets\\scripts\\coconutvalue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5483BADE-4D87-6A55-82D8-E57727570750}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\coconutvalue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{fbcae063-e2c0-4ab1-a516-996ea3dafb72}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PanelManagerScript.cs",
+              "DocumentMoniker": "C:\\Users\\sione\\2d test\\Assets\\Scripts\\PanelManagerScript.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PanelManagerScript.cs",
+              "ToolTip": "C:\\Users\\sione\\2d test\\Assets\\Scripts\\PanelManagerScript.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PanelManagerScript.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAowDIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T21:42:38.195Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BackgroundManagerScript.cs",
+              "DocumentMoniker": "C:\\Users\\sione\\2d test\\Assets\\Scripts\\BackgroundManagerScript.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\BackgroundManagerScript.cs",
+              "ToolTip": "C:\\Users\\sione\\2d test\\Assets\\Scripts\\BackgroundManagerScript.cs",
+              "RelativeToolTip": "Assets\\Scripts\\BackgroundManagerScript.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T08:55:08.554Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AppleValue.cs",
+              "DocumentMoniker": "C:\\Users\\sione\\2d test\\Assets\\Scripts\\AppleValue.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\AppleValue.cs",
+              "ToolTip": "C:\\Users\\sione\\2d test\\Assets\\Scripts\\AppleValue.cs",
+              "RelativeToolTip": "Assets\\Scripts\\AppleValue.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-04T23:39:03.783Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "BananaValue.cs",
+              "DocumentMoniker": "C:\\Users\\sione\\2d test\\Assets\\Scripts\\BananaValue.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\BananaValue.cs",
+              "ToolTip": "C:\\Users\\sione\\2d test\\Assets\\Scripts\\BananaValue.cs",
+              "RelativeToolTip": "Assets\\Scripts\\BananaValue.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-04T20:44:36.421Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CoconutValue.cs",
+              "DocumentMoniker": "C:\\Users\\sione\\2d test\\Assets\\Scripts\\CoconutValue.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CoconutValue.cs",
+              "ToolTip": "C:\\Users\\sione\\2d test\\Assets\\Scripts\\CoconutValue.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CoconutValue.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T08:21:45.643Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "WatermelonValue.cs",
+              "DocumentMoniker": "C:\\Users\\sione\\2d test\\Assets\\Scripts\\WatermelonValue.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\WatermelonValue.cs",
+              "ToolTip": "C:\\Users\\sione\\2d test\\Assets\\Scripts\\WatermelonValue.cs",
+              "RelativeToolTip": "Assets\\Scripts\\WatermelonValue.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-04T20:43:19.02Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "FergusScript.cs",
+              "DocumentMoniker": "C:\\Users\\sione\\2d test\\Assets\\Scripts\\FergusScript.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\FergusScript.cs",
+              "ToolTip": "C:\\Users\\sione\\2d test\\Assets\\Scripts\\FergusScript.cs",
+              "RelativeToolTip": "Assets\\Scripts\\FergusScript.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T21:22:37.062Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ObjectiveManager.cs",
+              "DocumentMoniker": "C:\\Users\\sione\\2d test\\Assets\\Scripts\\ObjectiveManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ObjectiveManager.cs",
+              "ToolTip": "C:\\Users\\sione\\2d test\\Assets\\Scripts\\ObjectiveManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ObjectiveManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T08:56:14.875Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FruitScript.cs",
+              "DocumentMoniker": "C:\\Users\\sione\\2d test\\Assets\\Scripts\\FruitScript.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\FruitScript.cs",
+              "ToolTip": "C:\\Users\\sione\\2d test\\Assets\\Scripts\\FruitScript.cs",
+              "RelativeToolTip": "Assets\\Scripts\\FruitScript.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T23:12:06.516Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BombSpawnScript.cs",
+              "DocumentMoniker": "C:\\Users\\sione\\2d test\\Assets\\Scripts\\BombSpawnScript.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\BombSpawnScript.cs",
+              "ToolTip": "C:\\Users\\sione\\2d test\\Assets\\Scripts\\BombSpawnScript.cs",
+              "RelativeToolTip": "Assets\\Scripts\\BombSpawnScript.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T22:48:06.438Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FruitSpawnScript.cs",
+              "DocumentMoniker": "C:\\Users\\sione\\2d test\\Assets\\Scripts\\FruitSpawnScript.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\FruitSpawnScript.cs",
+              "ToolTip": "C:\\Users\\sione\\2d test\\Assets\\Scripts\\FruitSpawnScript.cs",
+              "RelativeToolTip": "Assets\\Scripts\\FruitSpawnScript.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T22:36:59.759Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ClassicProgressBar.cs",
+              "DocumentMoniker": "C:\\Users\\sione\\2d test\\Assets\\2D Progress Bar Toolkit\\Scripts\\ClassicProgressBar.cs",
+              "RelativeDocumentMoniker": "Assets\\2D Progress Bar Toolkit\\Scripts\\ClassicProgressBar.cs",
+              "ToolTip": "C:\\Users\\sione\\2d test\\Assets\\2D Progress Bar Toolkit\\Scripts\\ClassicProgressBar.cs",
+              "RelativeToolTip": "Assets\\2D Progress Bar Toolkit\\Scripts\\ClassicProgressBar.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T22:32:23.198Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BombScript.cs",
+              "DocumentMoniker": "C:\\Users\\sione\\2d test\\Assets\\Scripts\\BombScript.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\BombScript.cs",
+              "ToolTip": "C:\\Users\\sione\\2d test\\Assets\\Scripts\\BombScript.cs",
+              "RelativeToolTip": "Assets\\Scripts\\BombScript.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAxwCQAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T21:17:47.754Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

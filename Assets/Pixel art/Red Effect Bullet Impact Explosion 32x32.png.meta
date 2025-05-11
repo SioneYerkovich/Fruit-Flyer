@@ -1,0 +1,1657 @@
+fileFormatVersion: 2
+guid: 906f525168d2eee4ca78ef6bbf9b3f02
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5301737717503451341
+    second: Red Effect Bullet Impact Explosion 32x32_0
+  - first:
+      213: 1287062276128514653
+    second: Red Effect Bullet Impact Explosion 32x32_1
+  - first:
+      213: -6792087516190577231
+    second: Red Effect Bullet Impact Explosion 32x32_2
+  - first:
+      213: -1701776041685355865
+    second: Red Effect Bullet Impact Explosion 32x32_3
+  - first:
+      213: 772974101849860497
+    second: Red Effect Bullet Impact Explosion 32x32_4
+  - first:
+      213: -108371660559699564
+    second: Red Effect Bullet Impact Explosion 32x32_5
+  - first:
+      213: -3281901555716543213
+    second: Red Effect Bullet Impact Explosion 32x32_6
+  - first:
+      213: 6024118870199159036
+    second: Red Effect Bullet Impact Explosion 32x32_7
+  - first:
+      213: -8704042881103514132
+    second: Red Effect Bullet Impact Explosion 32x32_8
+  - first:
+      213: -3193489365271432896
+    second: Red Effect Bullet Impact Explosion 32x32_9
+  - first:
+      213: 8453444409817818380
+    second: Red Effect Bullet Impact Explosion 32x32_10
+  - first:
+      213: -7405038917377528868
+    second: Red Effect Bullet Impact Explosion 32x32_11
+  - first:
+      213: -1488483004558933314
+    second: Red Effect Bullet Impact Explosion 32x32_12
+  - first:
+      213: 1335885776192982298
+    second: Red Effect Bullet Impact Explosion 32x32_13
+  - first:
+      213: -207719032019907756
+    second: Red Effect Bullet Impact Explosion 32x32_14
+  - first:
+      213: 6575878064168505180
+    second: Red Effect Bullet Impact Explosion 32x32_15
+  - first:
+      213: -1737010290307276282
+    second: Red Effect Bullet Impact Explosion 32x32_16
+  - first:
+      213: -988806051348281343
+    second: Red Effect Bullet Impact Explosion 32x32_17
+  - first:
+      213: 1633635487994466345
+    second: Red Effect Bullet Impact Explosion 32x32_18
+  - first:
+      213: -3947574542996018333
+    second: Red Effect Bullet Impact Explosion 32x32_19
+  - first:
+      213: -4300246424697208311
+    second: Red Effect Bullet Impact Explosion 32x32_20
+  - first:
+      213: 6379082951007031308
+    second: Red Effect Bullet Impact Explosion 32x32_21
+  - first:
+      213: -9063071305680148249
+    second: Red Effect Bullet Impact Explosion 32x32_22
+  - first:
+      213: 747451089098737006
+    second: Red Effect Bullet Impact Explosion 32x32_23
+  - first:
+      213: 748493080071115603
+    second: Red Effect Bullet Impact Explosion 32x32_24
+  - first:
+      213: -8873160203697286402
+    second: Red Effect Bullet Impact Explosion 32x32_25
+  - first:
+      213: -2158438794101179359
+    second: Red Effect Bullet Impact Explosion 32x32_26
+  - first:
+      213: 5404925014601100223
+    second: Red Effect Bullet Impact Explosion 32x32_27
+  - first:
+      213: -6684486654779235579
+    second: Red Effect Bullet Impact Explosion 32x32_28
+  - first:
+      213: -6066820194151397914
+    second: Red Effect Bullet Impact Explosion 32x32_29
+  - first:
+      213: 6919027417002522907
+    second: Red Effect Bullet Impact Explosion 32x32_30
+  - first:
+      213: 3441681150593350087
+    second: Red Effect Bullet Impact Explosion 32x32_31
+  - first:
+      213: -1932541697134572037
+    second: Red Effect Bullet Impact Explosion 32x32_32
+  - first:
+      213: 6733667449418832073
+    second: Red Effect Bullet Impact Explosion 32x32_33
+  - first:
+      213: 4316651159617995868
+    second: Red Effect Bullet Impact Explosion 32x32_34
+  - first:
+      213: -2956812271582512895
+    second: Red Effect Bullet Impact Explosion 32x32_35
+  - first:
+      213: -5894491375557467773
+    second: Red Effect Bullet Impact Explosion 32x32_36
+  - first:
+      213: 7360398869009765815
+    second: Red Effect Bullet Impact Explosion 32x32_37
+  - first:
+      213: -2933614694228985042
+    second: Red Effect Bullet Impact Explosion 32x32_38
+  - first:
+      213: -9215003817872921305
+    second: Red Effect Bullet Impact Explosion 32x32_39
+  - first:
+      213: -4486102865817002615
+    second: Red Effect Bullet Impact Explosion 32x32_40
+  - first:
+      213: -8878210940466110870
+    second: Red Effect Bullet Impact Explosion 32x32_41
+  - first:
+      213: 5423666168808022109
+    second: Red Effect Bullet Impact Explosion 32x32_42
+  - first:
+      213: 4924949916456441370
+    second: Red Effect Bullet Impact Explosion 32x32_43
+  - first:
+      213: 1984383797559569696
+    second: Red Effect Bullet Impact Explosion 32x32_44
+  - first:
+      213: 1510725550326059185
+    second: Red Effect Bullet Impact Explosion 32x32_45
+  - first:
+      213: 1926950420215722655
+    second: Red Effect Bullet Impact Explosion 32x32_46
+  - first:
+      213: 7753242524648892668
+    second: Red Effect Bullet Impact Explosion 32x32_47
+  - first:
+      213: 561851437059892162
+    second: Red Effect Bullet Impact Explosion 32x32_48
+  - first:
+      213: -1999813349042164916
+    second: Red Effect Bullet Impact Explosion 32x32_49
+  - first:
+      213: 5031465297331114419
+    second: Red Effect Bullet Impact Explosion 32x32_50
+  - first:
+      213: -5745889745772897461
+    second: Red Effect Bullet Impact Explosion 32x32_51
+  - first:
+      213: -6676159420373542759
+    second: Red Effect Bullet Impact Explosion 32x32_52
+  - first:
+      213: 5109229209556295096
+    second: Red Effect Bullet Impact Explosion 32x32_53
+  - first:
+      213: 5299899228426879979
+    second: Red Effect Bullet Impact Explosion 32x32_54
+  - first:
+      213: -412203391372223897
+    second: Red Effect Bullet Impact Explosion 32x32_55
+  - first:
+      213: 7813890823720830834
+    second: Red Effect Bullet Impact Explosion 32x32_56
+  - first:
+      213: 2689763684266251325
+    second: Red Effect Bullet Impact Explosion 32x32_57
+  - first:
+      213: -2729714776621058489
+    second: Red Effect Bullet Impact Explosion 32x32_58
+  - first:
+      213: 8371816323593134897
+    second: Red Effect Bullet Impact Explosion 32x32_59
+  - first:
+      213: -5099392896362744262
+    second: Red Effect Bullet Impact Explosion 32x32_60
+  - first:
+      213: 2366135013319762867
+    second: Red Effect Bullet Impact Explosion 32x32_61
+  - first:
+      213: -642533855446751574
+    second: Red Effect Bullet Impact Explosion 32x32_62
+  - first:
+      213: 3660996438106563022
+    second: Red Effect Bullet Impact Explosion 32x32_63
+  - first:
+      213: -1129599054440507219
+    second: Red Effect Bullet Impact Explosion 32x32_64
+  - first:
+      213: -3489314290385815026
+    second: Red Effect Bullet Impact Explosion 32x32_65
+  - first:
+      213: -842588852231216247
+    second: Red Effect Bullet Impact Explosion 32x32_66
+  - first:
+      213: 4959186327320622202
+    second: Red Effect Bullet Impact Explosion 32x32_67
+  - first:
+      213: -1148010283838534447
+    second: Red Effect Bullet Impact Explosion 32x32_68
+  - first:
+      213: 5911091163124152084
+    second: Red Effect Bullet Impact Explosion 32x32_69
+  - first:
+      213: -1020980536843078537
+    second: Red Effect Bullet Impact Explosion 32x32_70
+  - first:
+      213: -4494536063142754220
+    second: Red Effect Bullet Impact Explosion 32x32_71
+  - first:
+      213: -8183517891614505236
+    second: Red Effect Bullet Impact Explosion 32x32_72
+  - first:
+      213: 2639243749669753489
+    second: Red Effect Bullet Impact Explosion 32x32_73
+  - first:
+      213: -2948121753068033501
+    second: Red Effect Bullet Impact Explosion 32x32_74
+  - first:
+      213: 4728421103484854741
+    second: Red Effect Bullet Impact Explosion 32x32_75
+  - first:
+      213: 334270467445705423
+    second: Red Effect Bullet Impact Explosion 32x32_76
+  - first:
+      213: -7036881687262113287
+    second: Red Effect Bullet Impact Explosion 32x32_77
+  - first:
+      213: -2236642569105326850
+    second: Red Effect Bullet Impact Explosion 32x32_78
+  - first:
+      213: 6994715056020544602
+    second: Red Effect Bullet Impact Explosion 32x32_79
+  - first:
+      213: -1457792224991629759
+    second: Red Effect Bullet Impact Explosion 32x32_80
+  - first:
+      213: -1698341222604224429
+    second: Red Effect Bullet Impact Explosion 32x32_81
+  - first:
+      213: 184122327749817788
+    second: Red Effect Bullet Impact Explosion 32x32_82
+  - first:
+      213: -1345012837445328179
+    second: Red Effect Bullet Impact Explosion 32x32_83
+  - first:
+      213: -1667058495843726246
+    second: Red Effect Bullet Impact Explosion 32x32_84
+  - first:
+      213: -4199293874271005366
+    second: Red Effect Bullet Impact Explosion 32x32_85
+  - first:
+      213: 3339332394594002796
+    second: Red Effect Bullet Impact Explosion 32x32_86
+  - first:
+      213: 7270788701623373974
+    second: Red Effect Bullet Impact Explosion 32x32_87
+  - first:
+      213: 9219866366316494648
+    second: Red Effect Bullet Impact Explosion 32x32_88
+  - first:
+      213: -4687655642060082462
+    second: Red Effect Bullet Impact Explosion 32x32_89
+  - first:
+      213: 5672975222040639843
+    second: Red Effect Bullet Impact Explosion 32x32_90
+  - first:
+      213: 4767959154018991231
+    second: Red Effect Bullet Impact Explosion 32x32_91
+  - first:
+      213: -4997055067030626212
+    second: Red Effect Bullet Impact Explosion 32x32_92
+  - first:
+      213: 8407906376274779962
+    second: Red Effect Bullet Impact Explosion 32x32_93
+  - first:
+      213: 5250632509274744211
+    second: Red Effect Bullet Impact Explosion 32x32_94
+  - first:
+      213: 5889078852548204039
+    second: Red Effect Bullet Impact Explosion 32x32_95
+  - first:
+      213: -1835888382537490868
+    second: Red Effect Bullet Impact Explosion 32x32_96
+  - first:
+      213: 5045021016441074210
+    second: Red Effect Bullet Impact Explosion 32x32_97
+  - first:
+      213: 4874906725841719417
+    second: Red Effect Bullet Impact Explosion 32x32_98
+  - first:
+      213: 2427986713732573485
+    second: Red Effect Bullet Impact Explosion 32x32_99
+  - first:
+      213: -110381429913224097
+    second: Red Effect Bullet Impact Explosion 32x32_100
+  - first:
+      213: -8855151986408807723
+    second: Red Effect Bullet Impact Explosion 32x32_101
+  - first:
+      213: 1121923759924704187
+    second: Red Effect Bullet Impact Explosion 32x32_102
+  - first:
+      213: 6649265700402645008
+    second: Red Effect Bullet Impact Explosion 32x32_103
+  - first:
+      213: -4971301554128726967
+    second: Red Effect Bullet Impact Explosion 32x32_104
+  - first:
+      213: 3364556169191076661
+    second: Red Effect Bullet Impact Explosion 32x32_105
+  - first:
+      213: -6323171103157175737
+    second: Red Effect Bullet Impact Explosion 32x32_106
+  - first:
+      213: 7055761879963518851
+    second: Red Effect Bullet Impact Explosion 32x32_107
+  - first:
+      213: 8990712586093980272
+    second: Red Effect Bullet Impact Explosion 32x32_108
+  - first:
+      213: -7838109339411489553
+    second: Red Effect Bullet Impact Explosion 32x32_109
+  - first:
+      213: 3466103300399996068
+    second: Red Effect Bullet Impact Explosion 32x32_110
+  - first:
+      213: -8761246270986699697
+    second: Red Effect Bullet Impact Explosion 32x32_111
+  - first:
+      213: 4425311985546396917
+    second: Red Effect Bullet Impact Explosion 32x32_112
+  - first:
+      213: 5988485309472048339
+    second: Red Effect Bullet Impact Explosion 32x32_113
+  - first:
+      213: -561660400957418854
+    second: Red Effect Bullet Impact Explosion 32x32_114
+  - first:
+      213: -665167661354399980
+    second: Red Effect Bullet Impact Explosion 32x32_115
+  - first:
+      213: -7347972934304977845
+    second: Red Effect Bullet Impact Explosion 32x32_116
+  - first:
+      213: -8600062853773806205
+    second: Red Effect Bullet Impact Explosion 32x32_117
+  - first:
+      213: 1469533113780703713
+    second: Red Effect Bullet Impact Explosion 32x32_118
+  - first:
+      213: -9199754946779215090
+    second: Red Effect Bullet Impact Explosion 32x32_119
+  - first:
+      213: -791481439065627317
+    second: Red Effect Bullet Impact Explosion 32x32_120
+  - first:
+      213: -7496693187080585132
+    second: Red Effect Bullet Impact Explosion 32x32_121
+  - first:
+      213: 3792841587182553560
+    second: Red Effect Bullet Impact Explosion 32x32_122
+  - first:
+      213: -2813687541899498463
+    second: Red Effect Bullet Impact Explosion 32x32_123
+  - first:
+      213: 5654920954674341272
+    second: Red Effect Bullet Impact Explosion 32x32_124
+  - first:
+      213: 2078944166168354002
+    second: Red Effect Bullet Impact Explosion 32x32_125
+  - first:
+      213: -4915999034720622897
+    second: Red Effect Bullet Impact Explosion 32x32_126
+  - first:
+      213: -7677806666561293141
+    second: Red Effect Bullet Impact Explosion 32x32_127
+  - first:
+      213: -1614467184858405071
+    second: Red Effect Bullet Impact Explosion 32x32_128
+  - first:
+      213: 2838902519606838441
+    second: Red Effect Bullet Impact Explosion 32x32_129
+  - first:
+      213: 1302192379824573085
+    second: Red Effect Bullet Impact Explosion 32x32_130
+  - first:
+      213: -689641182916994204
+    second: Red Effect Bullet Impact Explosion 32x32_131
+  - first:
+      213: -665931555710853970
+    second: Red Effect Bullet Impact Explosion 32x32_132
+  - first:
+      213: 7160973505730122779
+    second: Red Effect Bullet Impact Explosion 32x32_133
+  - first:
+      213: 698387915239909534
+    second: Red Effect Bullet Impact Explosion 32x32_134
+  - first:
+      213: -5185664762566118693
+    second: Red Effect Bullet Impact Explosion 32x32_135
+  - first:
+      213: 2607819202379554022
+    second: Red Effect Bullet Impact Explosion 32x32_136
+  - first:
+      213: -8819275020044443013
+    second: Red Effect Bullet Impact Explosion 32x32_137
+  - first:
+      213: 2169854200457553679
+    second: Red Effect Bullet Impact Explosion 32x32_138
+  - first:
+      213: 6720575164283770697
+    second: Red Effect Bullet Impact Explosion 32x32_139
+  - first:
+      213: -5842122220064038206
+    second: Red Effect Bullet Impact Explosion 32x32_140
+  - first:
+      213: -6114345036783256401
+    second: Red Effect Bullet Impact Explosion 32x32_141
+  - first:
+      213: -4618286054834894646
+    second: Red Effect Bullet Impact Explosion 32x32_142
+  - first:
+      213: 6666761875813522749
+    second: Red Effect Bullet Impact Explosion 32x32_143
+  - first:
+      213: 4196544357472176478
+    second: Red Effect Bullet Impact Explosion 32x32_144
+  - first:
+      213: -7780418866877364687
+    second: Red Effect Bullet Impact Explosion 32x32_145
+  - first:
+      213: -7245422688247749626
+    second: Red Effect Bullet Impact Explosion 32x32_146
+  - first:
+      213: 3660357793509660052
+    second: Red Effect Bullet Impact Explosion 32x32_147
+  - first:
+      213: -1050115889656215152
+    second: Red Effect Bullet Impact Explosion 32x32_148
+  - first:
+      213: 2982515962551753518
+    second: Red Effect Bullet Impact Explosion 32x32_149
+  - first:
+      213: -5120088566220051385
+    second: Red Effect Bullet Impact Explosion 32x32_150
+  - first:
+      213: -8791465903014904239
+    second: Red Effect Bullet Impact Explosion 32x32_151
+  - first:
+      213: -6758960971555532449
+    second: Red Effect Bullet Impact Explosion 32x32_152
+  - first:
+      213: 6713904613649814147
+    second: Red Effect Bullet Impact Explosion 32x32_153
+  - first:
+      213: 1066046151546909984
+    second: Red Effect Bullet Impact Explosion 32x32_154
+  - first:
+      213: 8748276652954217985
+    second: Red Effect Bullet Impact Explosion 32x32_155
+  - first:
+      213: -2515017589510702151
+    second: Red Effect Bullet Impact Explosion 32x32_156
+  - first:
+      213: 2434374238850540079
+    second: Red Effect Bullet Impact Explosion 32x32_157
+  - first:
+      213: -7819778350541486152
+    second: Red Effect Bullet Impact Explosion 32x32_158
+  - first:
+      213: 603590850878757510
+    second: Red Effect Bullet Impact Explosion 32x32_159
+  - first:
+      213: -6192681786814675540
+    second: Red Effect Bullet Impact Explosion 32x32_160
+  - first:
+      213: 5180747305998464452
+    second: Red Effect Bullet Impact Explosion 32x32_161
+  - first:
+      213: -7441783503531671015
+    second: Red Effect Bullet Impact Explosion 32x32_162
+  - first:
+      213: 8507575226939149895
+    second: Red Effect Bullet Impact Explosion 32x32_163
+  - first:
+      213: -6806905743465428118
+    second: Red Effect Bullet Impact Explosion 32x32_164
+  - first:
+      213: 4299676881436895248
+    second: Red Effect Bullet Impact Explosion 32x32_165
+  - first:
+      213: 4747956452230196935
+    second: Red Effect Bullet Impact Explosion 32x32_166
+  - first:
+      213: 6965643294364793812
+    second: Red Effect Bullet Impact Explosion 32x32_167
+  - first:
+      213: -1003489024684964217
+    second: Red Effect Bullet Impact Explosion 32x32_168
+  - first:
+      213: 5645713716298060087
+    second: Red Effect Bullet Impact Explosion 32x32_169
+  - first:
+      213: 2522565781895203437
+    second: Red Effect Bullet Impact Explosion 32x32_170
+  - first:
+      213: 3755167442305990937
+    second: Red Effect Bullet Impact Explosion 32x32_171
+  - first:
+      213: -8191025867611740883
+    second: Red Effect Bullet Impact Explosion 32x32_172
+  - first:
+      213: -3987108189851104626
+    second: Red Effect Bullet Impact Explosion 32x32_173
+  - first:
+      213: -861647625461176049
+    second: Red Effect Bullet Impact Explosion 32x32_174
+  - first:
+      213: 6934975571736532730
+    second: Red Effect Bullet Impact Explosion 32x32_175
+  - first:
+      213: -6706715660095922312
+    second: Red Effect Bullet Impact Explosion 32x32_176
+  - first:
+      213: 3985905081527802873
+    second: Red Effect Bullet Impact Explosion 32x32_177
+  - first:
+      213: -7044074772142207786
+    second: Red Effect Bullet Impact Explosion 32x32_178
+  - first:
+      213: 1432918967178708818
+    second: Red Effect Bullet Impact Explosion 32x32_179
+  - first:
+      213: -1931996748190560631
+    second: Red Effect Bullet Impact Explosion 32x32_180
+  - first:
+      213: 2310414663229407845
+    second: Red Effect Bullet Impact Explosion 32x32_181
+  - first:
+      213: 7734501081658210523
+    second: Red Effect Bullet Impact Explosion 32x32_182
+  - first:
+      213: -8548896706704343438
+    second: Red Effect Bullet Impact Explosion 32x32_183
+  - first:
+      213: -1993097044839716566
+    second: Red Effect Bullet Impact Explosion 32x32_184
+  - first:
+      213: -7846591664256174236
+    second: Red Effect Bullet Impact Explosion 32x32_185
+  - first:
+      213: 7804019830778206611
+    second: Red Effect Bullet Impact Explosion 32x32_186
+  - first:
+      213: 2182907835645371291
+    second: Red Effect Bullet Impact Explosion 32x32_187
+  - first:
+      213: -2091450500298848325
+    second: Red Effect Bullet Impact Explosion 32x32_188
+  - first:
+      213: -1452128970965383627
+    second: Red Effect Bullet Impact Explosion 32x32_189
+  - first:
+      213: -6562148814693196911
+    second: Red Effect Bullet Impact Explosion 32x32_190
+  - first:
+      213: 5287655464295560443
+    second: Red Effect Bullet Impact Explosion 32x32_191
+  - first:
+      213: -4892936648003759996
+    second: Red Effect Bullet Impact Explosion 32x32_192
+  - first:
+      213: -7628167263142038112
+    second: Red Effect Bullet Impact Explosion 32x32_193
+  - first:
+      213: 6363843026654307811
+    second: Red Effect Bullet Impact Explosion 32x32_194
+  - first:
+      213: 881957352182514849
+    second: Red Effect Bullet Impact Explosion 32x32_195
+  - first:
+      213: -3493945969591077509
+    second: Red Effect Bullet Impact Explosion 32x32_196
+  - first:
+      213: 9116083670505483365
+    second: Red Effect Bullet Impact Explosion 32x32_197
+  - first:
+      213: -1213369361722893517
+    second: Red Effect Bullet Impact Explosion 32x32_198
+  - first:
+      213: 714925626916523624
+    second: Red Effect Bullet Impact Explosion 32x32_199
+  - first:
+      213: -190364000160678063
+    second: Red Effect Bullet Impact Explosion 32x32_200
+  - first:
+      213: 6992651801673540917
+    second: Red Effect Bullet Impact Explosion 32x32_201
+  - first:
+      213: 5706323740050194117
+    second: Red Effect Bullet Impact Explosion 32x32_202
+  - first:
+      213: 6261332986872646748
+    second: Red Effect Bullet Impact Explosion 32x32_203
+  - first:
+      213: 3370723685274924514
+    second: Red Effect Bullet Impact Explosion 32x32_204
+  - first:
+      213: -1894698722249896053
+    second: Red Effect Bullet Impact Explosion 32x32_205
+  - first:
+      213: 2042184707489852066
+    second: Red Effect Bullet Impact Explosion 32x32_206
+  - first:
+      213: 5353809123554156845
+    second: Red Effect Bullet Impact Explosion 32x32_207
+  - first:
+      213: 7612416979894120247
+    second: Red Effect Bullet Impact Explosion 32x32_208
+  - first:
+      213: -2650004320013079186
+    second: Red Effect Bullet Impact Explosion 32x32_209
+  - first:
+      213: 5051733618307906654
+    second: Red Effect Bullet Impact Explosion 32x32_210
+  - first:
+      213: -778553059247371852
+    second: Red Effect Bullet Impact Explosion 32x32_211
+  - first:
+      213: -4881806490946454853
+    second: Red Effect Bullet Impact Explosion 32x32_212
+  - first:
+      213: -8440843168124578556
+    second: Red Effect Bullet Impact Explosion 32x32_213
+  - first:
+      213: 3791018642315202978
+    second: Red Effect Bullet Impact Explosion 32x32_214
+  - first:
+      213: -4512557846400098381
+    second: Red Effect Bullet Impact Explosion 32x32_215
+  - first:
+      213: -6355864864274311393
+    second: Red Effect Bullet Impact Explosion 32x32_216
+  - first:
+      213: 6717113056879088946
+    second: Red Effect Bullet Impact Explosion 32x32_217
+  - first:
+      213: -8157131350354770921
+    second: Red Effect Bullet Impact Explosion 32x32_218
+  - first:
+      213: 1990954283773687013
+    second: Red Effect Bullet Impact Explosion 32x32_219
+  - first:
+      213: 4659736874585887079
+    second: Red Effect Bullet Impact Explosion 32x32_220
+  - first:
+      213: 3900243928403206662
+    second: Red Effect Bullet Impact Explosion 32x32_221
+  - first:
+      213: -3348047607823943391
+    second: Red Effect Bullet Impact Explosion 32x32_222
+  - first:
+      213: -660606778105620248
+    second: Red Effect Bullet Impact Explosion 32x32_223
+  - first:
+      213: -1338968530134184582
+    second: Red Effect Bullet Impact Explosion 32x32_224
+  - first:
+      213: -7456026340546523611
+    second: Red Effect Bullet Impact Explosion 32x32_225
+  - first:
+      213: -5720799159159227870
+    second: Red Effect Bullet Impact Explosion 32x32_226
+  - first:
+      213: 9018023319238048523
+    second: Red Effect Bullet Impact Explosion 32x32_227
+  - first:
+      213: -7894581907655368882
+    second: Red Effect Bullet Impact Explosion 32x32_228
+  - first:
+      213: -6457316812343874124
+    second: Red Effect Bullet Impact Explosion 32x32_229
+  - first:
+      213: 7686984745349188035
+    second: Red Effect Bullet Impact Explosion 32x32_230
+  - first:
+      213: -2015272623989446088
+    second: Red Effect Bullet Impact Explosion 32x32_231
+  - first:
+      213: -8043603845162162169
+    second: Red Effect Bullet Impact Explosion 32x32_232
+  - first:
+      213: -6273431261888752617
+    second: Red Effect Bullet Impact Explosion 32x32_233
+  - first:
+      213: 5340434943512998997
+    second: Red Effect Bullet Impact Explosion 32x32_234
+  - first:
+      213: 6343772732214449816
+    second: Red Effect Bullet Impact Explosion 32x32_235
+  - first:
+      213: -2674022785381136603
+    second: Red Effect Bullet Impact Explosion 32x32_236
+  - first:
+      213: 8858170565297733999
+    second: Red Effect Bullet Impact Explosion 32x32_237
+  - first:
+      213: 2542469778193975719
+    second: Red Effect Bullet Impact Explosion 32x32_238
+  - first:
+      213: 1620365396040571407
+    second: Red Effect Bullet Impact Explosion 32x32_239
+  - first:
+      213: 1868384767370442333
+    second: Red Effect Bullet Impact Explosion 32x32_240
+  - first:
+      213: -8304630814651956990
+    second: Red Effect Bullet Impact Explosion 32x32_241
+  - first:
+      213: 5651564480006493311
+    second: Red Effect Bullet Impact Explosion 32x32_242
+  - first:
+      213: 4243896090698970749
+    second: Red Effect Bullet Impact Explosion 32x32_243
+  - first:
+      213: 7255289676185539346
+    second: Red Effect Bullet Impact Explosion 32x32_244
+  - first:
+      213: -554247467423668848
+    second: Red Effect Bullet Impact Explosion 32x32_245
+  - first:
+      213: -7029486457779119467
+    second: Red Effect Bullet Impact Explosion 32x32_246
+  - first:
+      213: -8989817018067336849
+    second: Red Effect Bullet Impact Explosion 32x32_247
+  - first:
+      213: -6119721301313482024
+    second: Red Effect Bullet Impact Explosion 32x32_248
+  - first:
+      213: -5929112783217275110
+    second: Red Effect Bullet Impact Explosion 32x32_249
+  - first:
+      213: -5676082890522485110
+    second: Red Effect Bullet Impact Explosion 32x32_250
+  - first:
+      213: -3406769101288076676
+    second: Red Effect Bullet Impact Explosion 32x32_251
+  - first:
+      213: 5809512909114094615
+    second: Red Effect Bullet Impact Explosion 32x32_252
+  - first:
+      213: 1775759212386288209
+    second: Red Effect Bullet Impact Explosion 32x32_253
+  - first:
+      213: -1818173626128268774
+    second: Red Effect Bullet Impact Explosion 32x32_254
+  - first:
+      213: -7968229734792358089
+    second: Red Effect Bullet Impact Explosion 32x32_255
+  - first:
+      213: 1319017270262746641
+    second: Red Effect Bullet Impact Explosion 32x32_256
+  - first:
+      213: -7052373052630465960
+    second: Red Effect Bullet Impact Explosion 32x32_257
+  - first:
+      213: 2172930405987137212
+    second: Red Effect Bullet Impact Explosion 32x32_258
+  - first:
+      213: 5282113733990903327
+    second: Red Effect Bullet Impact Explosion 32x32_259
+  - first:
+      213: -3338638313014991133
+    second: Red Effect Bullet Impact Explosion 32x32_260
+  - first:
+      213: -4583100744441339315
+    second: Red Effect Bullet Impact Explosion 32x32_261
+  - first:
+      213: 2915279085025836574
+    second: Red Effect Bullet Impact Explosion 32x32_262
+  - first:
+      213: -9186614811056201883
+    second: Red Effect Bullet Impact Explosion 32x32_263
+  - first:
+      213: 1777924375070207697
+    second: Red Effect Bullet Impact Explosion 32x32_264
+  - first:
+      213: 7971895894976353716
+    second: Red Effect Bullet Impact Explosion 32x32_265
+  - first:
+      213: -297014358323575240
+    second: Red Effect Bullet Impact Explosion 32x32_266
+  - first:
+      213: 1503466497359638943
+    second: Red Effect Bullet Impact Explosion 32x32_267
+  - first:
+      213: 6762629562837447113
+    second: Red Effect Bullet Impact Explosion 32x32_268
+  - first:
+      213: -3023133422679975700
+    second: Red Effect Bullet Impact Explosion 32x32_269
+  - first:
+      213: 6960246569423083923
+    second: Red Effect Bullet Impact Explosion 32x32_270
+  - first:
+      213: 5715070150837046291
+    second: Red Effect Bullet Impact Explosion 32x32_271
+  - first:
+      213: -5340795114669146899
+    second: Red Effect Bullet Impact Explosion 32x32_272
+  - first:
+      213: -2241132154673649052
+    second: Red Effect Bullet Impact Explosion 32x32_273
+  - first:
+      213: -7932707076491266839
+    second: Red Effect Bullet Impact Explosion 32x32_274
+  - first:
+      213: 5027914596963575240
+    second: Red Effect Bullet Impact Explosion 32x32_275
+  - first:
+      213: -8166065379360015402
+    second: Red Effect Bullet Impact Explosion 32x32_276
+  - first:
+      213: -7565429219646949124
+    second: Red Effect Bullet Impact Explosion 32x32_277
+  - first:
+      213: 7306371788075998433
+    second: Red Effect Bullet Impact Explosion 32x32_278
+  - first:
+      213: -1473382493898807998
+    second: Red Effect Bullet Impact Explosion 32x32_279
+  - first:
+      213: -6565601357487278122
+    second: Red Effect Bullet Impact Explosion 32x32_280
+  - first:
+      213: -6603486464385711262
+    second: Red Effect Bullet Impact Explosion 32x32_281
+  - first:
+      213: -2682202825727995062
+    second: Red Effect Bullet Impact Explosion 32x32_282
+  - first:
+      213: 5629712433444800193
+    second: Red Effect Bullet Impact Explosion 32x32_283
+  - first:
+      213: 8375182656108891199
+    second: Red Effect Bullet Impact Explosion 32x32_284
+  - first:
+      213: -4014118059804410561
+    second: Red Effect Bullet Impact Explosion 32x32_285
+  - first:
+      213: 3240959290409858531
+    second: Red Effect Bullet Impact Explosion 32x32_286
+  - first:
+      213: -431273790976149465
+    second: Red Effect Bullet Impact Explosion 32x32_287
+  - first:
+      213: -230244460793967599
+    second: Red Effect Bullet Impact Explosion 32x32_288
+  - first:
+      213: 6433475422320054719
+    second: Red Effect Bullet Impact Explosion 32x32_289
+  - first:
+      213: -7294254739699236560
+    second: Red Effect Bullet Impact Explosion 32x32_290
+  - first:
+      213: 102768365809728265
+    second: Red Effect Bullet Impact Explosion 32x32_291
+  - first:
+      213: -6366216073572120623
+    second: Red Effect Bullet Impact Explosion 32x32_292
+  - first:
+      213: -5672083380121314586
+    second: Red Effect Bullet Impact Explosion 32x32_293
+  - first:
+      213: -7009788792861739582
+    second: Red Effect Bullet Impact Explosion 32x32_294
+  - first:
+      213: 2345411747469197894
+    second: Red Effect Bullet Impact Explosion 32x32_295
+  - first:
+      213: 6742411485400383633
+    second: Red Effect Bullet Impact Explosion 32x32_296
+  - first:
+      213: -899505666511889195
+    second: Red Effect Bullet Impact Explosion 32x32_297
+  - first:
+      213: 1018077442007386240
+    second: Red Effect Bullet Impact Explosion 32x32_298
+  - first:
+      213: -3163837474854960520
+    second: Red Effect Bullet Impact Explosion 32x32_299
+  - first:
+      213: -8513159727519740075
+    second: Red Effect Bullet Impact Explosion 32x32_300
+  - first:
+      213: 1011663125694227185
+    second: Red Effect Bullet Impact Explosion 32x32_301
+  - first:
+      213: -2812912059750281357
+    second: Red Effect Bullet Impact Explosion 32x32_302
+  - first:
+      213: -5638350057175836517
+    second: Red Effect Bullet Impact Explosion 32x32_303
+  - first:
+      213: 4785734115598181598
+    second: Red Effect Bullet Impact Explosion 32x32_304
+  - first:
+      213: -1981279551897839680
+    second: Red Effect Bullet Impact Explosion 32x32_305
+  - first:
+      213: -4520419182717416495
+    second: Red Effect Bullet Impact Explosion 32x32_306
+  - first:
+      213: 4287024918106627224
+    second: Red Effect Bullet Impact Explosion 32x32_307
+  - first:
+      213: 3549064139597538623
+    second: Red Effect Bullet Impact Explosion 32x32_308
+  - first:
+      213: -394545309524892982
+    second: Red Effect Bullet Impact Explosion 32x32_309
+  - first:
+      213: 5244192987626865122
+    second: Red Effect Bullet Impact Explosion 32x32_310
+  - first:
+      213: -2500187365285802160
+    second: Red Effect Bullet Impact Explosion 32x32_311
+  - first:
+      213: -4123122018645218419
+    second: Red Effect Bullet Impact Explosion 32x32_312
+  - first:
+      213: -734515745592008167
+    second: Red Effect Bullet Impact Explosion 32x32_313
+  - first:
+      213: -3879754909888448139
+    second: Red Effect Bullet Impact Explosion 32x32_314
+  - first:
+      213: -1719189378378436163
+    second: Red Effect Bullet Impact Explosion 32x32_315
+  - first:
+      213: -993204390495481832
+    second: Red Effect Bullet Impact Explosion 32x32_316
+  - first:
+      213: 6641772119243201766
+    second: Red Effect Bullet Impact Explosion 32x32_317
+  - first:
+      213: 6634966608442654839
+    second: Red Effect Bullet Impact Explosion 32x32_318
+  - first:
+      213: -7056468071822314830
+    second: Red Effect Bullet Impact Explosion 32x32_319
+  - first:
+      213: -3354288032180775786
+    second: Red Effect Bullet Impact Explosion 32x32_320
+  - first:
+      213: 7957499702247201543
+    second: Red Effect Bullet Impact Explosion 32x32_321
+  - first:
+      213: 1934144498995871162
+    second: Red Effect Bullet Impact Explosion 32x32_322
+  - first:
+      213: 4928634988821069968
+    second: Red Effect Bullet Impact Explosion 32x32_323
+  - first:
+      213: 1185117582836852313
+    second: Red Effect Bullet Impact Explosion 32x32_324
+  - first:
+      213: 1899400452152626559
+    second: Red Effect Bullet Impact Explosion 32x32_325
+  - first:
+      213: -7020345777921586885
+    second: Red Effect Bullet Impact Explosion 32x32_326
+  - first:
+      213: 8260206684600791262
+    second: Red Effect Bullet Impact Explosion 32x32_327
+  - first:
+      213: 3477436099150265593
+    second: Red Effect Bullet Impact Explosion 32x32_328
+  - first:
+      213: -2496568300649342599
+    second: Red Effect Bullet Impact Explosion 32x32_329
+  - first:
+      213: 1333369496339372656
+    second: Red Effect Bullet Impact Explosion 32x32_330
+  - first:
+      213: 3415743082164028007
+    second: Red Effect Bullet Impact Explosion 32x32_331
+  - first:
+      213: -8911356306107440461
+    second: Red Effect Bullet Impact Explosion 32x32_332
+  - first:
+      213: 513543460681891367
+    second: Red Effect Bullet Impact Explosion 32x32_333
+  - first:
+      213: 2207825530894125105
+    second: Red Effect Bullet Impact Explosion 32x32_334
+  - first:
+      213: 5592493408913557262
+    second: Red Effect Bullet Impact Explosion 32x32_335
+  - first:
+      213: 5131912453971647020
+    second: Red Effect Bullet Impact Explosion 32x32_336
+  - first:
+      213: 4542098434623436032
+    second: Red Effect Bullet Impact Explosion 32x32_337
+  - first:
+      213: 8074051632890909278
+    second: Red Effect Bullet Impact Explosion 32x32_338
+  - first:
+      213: 1542104642136235364
+    second: Red Effect Bullet Impact Explosion 32x32_339
+  - first:
+      213: 602531175268417349
+    second: Red Effect Bullet Impact Explosion 32x32_340
+  - first:
+      213: -5695893098795422107
+    second: Red Effect Bullet Impact Explosion 32x32_341
+  - first:
+      213: 1997020790693917776
+    second: Red Effect Bullet Impact Explosion 32x32_342
+  - first:
+      213: 1774265263747138949
+    second: Red Effect Bullet Impact Explosion 32x32_343
+  - first:
+      213: 1673415814292249282
+    second: Red Effect Bullet Impact Explosion 32x32_344
+  - first:
+      213: 7726918300462641694
+    second: Red Effect Bullet Impact Explosion 32x32_345
+  - first:
+      213: -7934209783815767023
+    second: Red Effect Bullet Impact Explosion 32x32_346
+  - first:
+      213: -5865412117376505746
+    second: Red Effect Bullet Impact Explosion 32x32_347
+  - first:
+      213: 5838902685720531913
+    second: Red Effect Bullet Impact Explosion 32x32_348
+  - first:
+      213: -1209570509365499451
+    second: Red Effect Bullet Impact Explosion 32x32_349
+  - first:
+      213: 4639943835775002691
+    second: Red Effect Bullet Impact Explosion 32x32_350
+  - first:
+      213: 4760327206034050558
+    second: Red Effect Bullet Impact Explosion 32x32_351
+  - first:
+      213: 5062106781723581357
+    second: Red Effect Bullet Impact Explosion 32x32_352
+  - first:
+      213: 498555421265987746
+    second: Red Effect Bullet Impact Explosion 32x32_353
+  - first:
+      213: 3954610911152650242
+    second: Red Effect Bullet Impact Explosion 32x32_354
+  - first:
+      213: 3360736821595061528
+    second: Red Effect Bullet Impact Explosion 32x32_355
+  - first:
+      213: 3885374953685592566
+    second: Red Effect Bullet Impact Explosion 32x32_356
+  - first:
+      213: -5223989266445439226
+    second: Red Effect Bullet Impact Explosion 32x32_357
+  - first:
+      213: 4703309393639703493
+    second: Red Effect Bullet Impact Explosion 32x32_358
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Red Effect Bullet Impact Explosion 32x32_0
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 101
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae5ac4f5353a6cd4295c1e6e169897fa
+      internalID: -907670334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Effect Bullet Impact Explosion 32x32_1
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 94
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ce088aa608b79845882fd2c08ca6641
+      internalID: -267071479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Effect Bullet Impact Explosion 32x32_2
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 94
+        width: 32
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c56e9e9009a283a40a27de8f6d027619
+      internalID: 650960746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Effect Bullet Impact Explosion 32x32_3
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 94
+        width: 32
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa3b4318c06d24143bc9bb8c0ce91c20
+      internalID: -1021923487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: d647cd1e38a5d9241b311175a015b52d
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.0,"y":0.0},"autoSlicingMethod":2,"spriteAlignment":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Red Effect Bullet Impact Explosion 32x32_0: -907670334
+      Red Effect Bullet Impact Explosion 32x32_1: -267071479
+      Red Effect Bullet Impact Explosion 32x32_10: 1089437612
+      Red Effect Bullet Impact Explosion 32x32_100: -1614095438
+      Red Effect Bullet Impact Explosion 32x32_101: 2061938158
+      Red Effect Bullet Impact Explosion 32x32_102: -1319560978
+      Red Effect Bullet Impact Explosion 32x32_103: 1876856976
+      Red Effect Bullet Impact Explosion 32x32_104: -1501374207
+      Red Effect Bullet Impact Explosion 32x32_105: 1255809212
+      Red Effect Bullet Impact Explosion 32x32_106: 678728520
+      Red Effect Bullet Impact Explosion 32x32_107: 1114327498
+      Red Effect Bullet Impact Explosion 32x32_108: -983887232
+      Red Effect Bullet Impact Explosion 32x32_109: 982164126
+      Red Effect Bullet Impact Explosion 32x32_11: -93510509
+      Red Effect Bullet Impact Explosion 32x32_110: 1584003423
+      Red Effect Bullet Impact Explosion 32x32_111: -1073425878
+      Red Effect Bullet Impact Explosion 32x32_112: 1812169461
+      Red Effect Bullet Impact Explosion 32x32_113: 477954123
+      Red Effect Bullet Impact Explosion 32x32_114: -897298479
+      Red Effect Bullet Impact Explosion 32x32_115: -1470429590
+      Red Effect Bullet Impact Explosion 32x32_116: 1955836787
+      Red Effect Bullet Impact Explosion 32x32_117: -733023041
+      Red Effect Bullet Impact Explosion 32x32_118: -1332080366
+      Red Effect Bullet Impact Explosion 32x32_119: -28288138
+      Red Effect Bullet Impact Explosion 32x32_12: 982455246
+      Red Effect Bullet Impact Explosion 32x32_120: 887003397
+      Red Effect Bullet Impact Explosion 32x32_121: 754728321
+      Red Effect Bullet Impact Explosion 32x32_122: -1738043198
+      Red Effect Bullet Impact Explosion 32x32_123: -801790640
+      Red Effect Bullet Impact Explosion 32x32_124: -921973986
+      Red Effect Bullet Impact Explosion 32x32_125: 2014983522
+      Red Effect Bullet Impact Explosion 32x32_126: -1656207888
+      Red Effect Bullet Impact Explosion 32x32_127: 946362526
+      Red Effect Bullet Impact Explosion 32x32_128: 212576070
+      Red Effect Bullet Impact Explosion 32x32_129: 954392396
+      Red Effect Bullet Impact Explosion 32x32_13: 1647846967
+      Red Effect Bullet Impact Explosion 32x32_130: -195022670
+      Red Effect Bullet Impact Explosion 32x32_131: 1241276859
+      Red Effect Bullet Impact Explosion 32x32_132: -1010231541
+      Red Effect Bullet Impact Explosion 32x32_133: 630855113
+      Red Effect Bullet Impact Explosion 32x32_134: -1096596696
+      Red Effect Bullet Impact Explosion 32x32_135: -2109664594
+      Red Effect Bullet Impact Explosion 32x32_136: 458737729
+      Red Effect Bullet Impact Explosion 32x32_137: 1261788298
+      Red Effect Bullet Impact Explosion 32x32_138: 1984648266
+      Red Effect Bullet Impact Explosion 32x32_139: 1847479149
+      Red Effect Bullet Impact Explosion 32x32_14: 1750002571
+      Red Effect Bullet Impact Explosion 32x32_140: 478511724
+      Red Effect Bullet Impact Explosion 32x32_141: -2049350742
+      Red Effect Bullet Impact Explosion 32x32_142: -1044100505
+      Red Effect Bullet Impact Explosion 32x32_143: 1053603491
+      Red Effect Bullet Impact Explosion 32x32_144: -201409711
+      Red Effect Bullet Impact Explosion 32x32_145: -754256597
+      Red Effect Bullet Impact Explosion 32x32_146: -1726146862
+      Red Effect Bullet Impact Explosion 32x32_147: -846018088
+      Red Effect Bullet Impact Explosion 32x32_148: -1323331702
+      Red Effect Bullet Impact Explosion 32x32_149: 123779743
+      Red Effect Bullet Impact Explosion 32x32_15: -1122688987
+      Red Effect Bullet Impact Explosion 32x32_150: -2117723843
+      Red Effect Bullet Impact Explosion 32x32_151: -1937648106
+      Red Effect Bullet Impact Explosion 32x32_152: -447197731
+      Red Effect Bullet Impact Explosion 32x32_153: -1200118997
+      Red Effect Bullet Impact Explosion 32x32_154: -1073128777
+      Red Effect Bullet Impact Explosion 32x32_155: -1897348305
+      Red Effect Bullet Impact Explosion 32x32_156: -1112226955
+      Red Effect Bullet Impact Explosion 32x32_157: 1525466770
+      Red Effect Bullet Impact Explosion 32x32_158: 261262138
+      Red Effect Bullet Impact Explosion 32x32_159: -1789281913
+      Red Effect Bullet Impact Explosion 32x32_16: -1716251226
+      Red Effect Bullet Impact Explosion 32x32_160: -442949691
+      Red Effect Bullet Impact Explosion 32x32_161: 866882861
+      Red Effect Bullet Impact Explosion 32x32_162: 1209288087
+      Red Effect Bullet Impact Explosion 32x32_163: -553142869
+      Red Effect Bullet Impact Explosion 32x32_164: -2053738638
+      Red Effect Bullet Impact Explosion 32x32_165: 595614413
+      Red Effect Bullet Impact Explosion 32x32_166: -188744104
+      Red Effect Bullet Impact Explosion 32x32_167: -1330928082
+      Red Effect Bullet Impact Explosion 32x32_168: 801486815
+      Red Effect Bullet Impact Explosion 32x32_169: 14371059
+      Red Effect Bullet Impact Explosion 32x32_17: -2030043000
+      Red Effect Bullet Impact Explosion 32x32_170: 1301134999
+      Red Effect Bullet Impact Explosion 32x32_171: -451832521
+      Red Effect Bullet Impact Explosion 32x32_172: 1323895133
+      Red Effect Bullet Impact Explosion 32x32_173: 371372232
+      Red Effect Bullet Impact Explosion 32x32_174: 407681394
+      Red Effect Bullet Impact Explosion 32x32_175: -624551789
+      Red Effect Bullet Impact Explosion 32x32_176: -1522166785
+      Red Effect Bullet Impact Explosion 32x32_177: -1457820636
+      Red Effect Bullet Impact Explosion 32x32_178: 1727445598
+      Red Effect Bullet Impact Explosion 32x32_179: 1264781884
+      Red Effect Bullet Impact Explosion 32x32_18: -1418966932
+      Red Effect Bullet Impact Explosion 32x32_180: -456353446
+      Red Effect Bullet Impact Explosion 32x32_181: -855376736
+      Red Effect Bullet Impact Explosion 32x32_182: 232128831
+      Red Effect Bullet Impact Explosion 32x32_183: -1244842237
+      Red Effect Bullet Impact Explosion 32x32_184: -1405791527
+      Red Effect Bullet Impact Explosion 32x32_185: 140893580
+      Red Effect Bullet Impact Explosion 32x32_186: -659466927
+      Red Effect Bullet Impact Explosion 32x32_187: 802737162
+      Red Effect Bullet Impact Explosion 32x32_188: 1752380616
+      Red Effect Bullet Impact Explosion 32x32_189: 2127769066
+      Red Effect Bullet Impact Explosion 32x32_19: -2124327296
+      Red Effect Bullet Impact Explosion 32x32_190: -1202648319
+      Red Effect Bullet Impact Explosion 32x32_191: 1152625991
+      Red Effect Bullet Impact Explosion 32x32_192: -517238272
+      Red Effect Bullet Impact Explosion 32x32_193: 1997758082
+      Red Effect Bullet Impact Explosion 32x32_194: 1803834323
+      Red Effect Bullet Impact Explosion 32x32_195: -1355107448
+      Red Effect Bullet Impact Explosion 32x32_196: 1641148378
+      Red Effect Bullet Impact Explosion 32x32_197: -711246480
+      Red Effect Bullet Impact Explosion 32x32_198: -40987404
+      Red Effect Bullet Impact Explosion 32x32_199: 606590255
+      Red Effect Bullet Impact Explosion 32x32_2: 650960746
+      Red Effect Bullet Impact Explosion 32x32_20: -433809071
+      Red Effect Bullet Impact Explosion 32x32_200: 1992032706
+      Red Effect Bullet Impact Explosion 32x32_201: 1182238372
+      Red Effect Bullet Impact Explosion 32x32_202: 677780646
+      Red Effect Bullet Impact Explosion 32x32_203: -777686229
+      Red Effect Bullet Impact Explosion 32x32_204: 648100441
+      Red Effect Bullet Impact Explosion 32x32_205: -651159955
+      Red Effect Bullet Impact Explosion 32x32_206: -621664226
+      Red Effect Bullet Impact Explosion 32x32_207: -1329280918
+      Red Effect Bullet Impact Explosion 32x32_208: -157715388
+      Red Effect Bullet Impact Explosion 32x32_209: 2055804356
+      Red Effect Bullet Impact Explosion 32x32_21: 285658858
+      Red Effect Bullet Impact Explosion 32x32_210: -1970332763
+      Red Effect Bullet Impact Explosion 32x32_211: -1278110366
+      Red Effect Bullet Impact Explosion 32x32_212: -134794237
+      Red Effect Bullet Impact Explosion 32x32_213: 1783748341
+      Red Effect Bullet Impact Explosion 32x32_214: 1206259715
+      Red Effect Bullet Impact Explosion 32x32_215: -256734373
+      Red Effect Bullet Impact Explosion 32x32_216: -380356283
+      Red Effect Bullet Impact Explosion 32x32_217: 2097870154
+      Red Effect Bullet Impact Explosion 32x32_218: -1110847743
+      Red Effect Bullet Impact Explosion 32x32_219: 2069039140
+      Red Effect Bullet Impact Explosion 32x32_22: 1372508047
+      Red Effect Bullet Impact Explosion 32x32_220: 59809419
+      Red Effect Bullet Impact Explosion 32x32_221: -509754570
+      Red Effect Bullet Impact Explosion 32x32_222: 840694194
+      Red Effect Bullet Impact Explosion 32x32_223: -1312556607
+      Red Effect Bullet Impact Explosion 32x32_224: -1535161947
+      Red Effect Bullet Impact Explosion 32x32_225: -1916992666
+      Red Effect Bullet Impact Explosion 32x32_226: -1249968869
+      Red Effect Bullet Impact Explosion 32x32_227: 946555026
+      Red Effect Bullet Impact Explosion 32x32_228: 732239600
+      Red Effect Bullet Impact Explosion 32x32_229: 803942819
+      Red Effect Bullet Impact Explosion 32x32_23: 570438379
+      Red Effect Bullet Impact Explosion 32x32_230: 423089334
+      Red Effect Bullet Impact Explosion 32x32_231: -394535361
+      Red Effect Bullet Impact Explosion 32x32_232: 531475226
+      Red Effect Bullet Impact Explosion 32x32_233: 741067680
+      Red Effect Bullet Impact Explosion 32x32_234: -1635681547
+      Red Effect Bullet Impact Explosion 32x32_235: 1916679256
+      Red Effect Bullet Impact Explosion 32x32_236: -1694219840
+      Red Effect Bullet Impact Explosion 32x32_237: -1857196334
+      Red Effect Bullet Impact Explosion 32x32_238: -406705047
+      Red Effect Bullet Impact Explosion 32x32_239: -495223831
+      Red Effect Bullet Impact Explosion 32x32_24: 115918209
+      Red Effect Bullet Impact Explosion 32x32_240: -44851509
+      Red Effect Bullet Impact Explosion 32x32_241: -1627466695
+      Red Effect Bullet Impact Explosion 32x32_242: 607587143
+      Red Effect Bullet Impact Explosion 32x32_243: -1176327529
+      Red Effect Bullet Impact Explosion 32x32_244: 939595547
+      Red Effect Bullet Impact Explosion 32x32_245: 1718052204
+      Red Effect Bullet Impact Explosion 32x32_246: -2031598429
+      Red Effect Bullet Impact Explosion 32x32_247: 1379997137
+      Red Effect Bullet Impact Explosion 32x32_248: 103819851
+      Red Effect Bullet Impact Explosion 32x32_249: 949961935
+      Red Effect Bullet Impact Explosion 32x32_25: -843818847
+      Red Effect Bullet Impact Explosion 32x32_250: -1510432835
+      Red Effect Bullet Impact Explosion 32x32_251: -1130449656
+      Red Effect Bullet Impact Explosion 32x32_252: 476825156
+      Red Effect Bullet Impact Explosion 32x32_253: 597218687
+      Red Effect Bullet Impact Explosion 32x32_254: 1278535057
+      Red Effect Bullet Impact Explosion 32x32_255: -501553299
+      Red Effect Bullet Impact Explosion 32x32_256: -1499795970
+      Red Effect Bullet Impact Explosion 32x32_257: -1837795391
+      Red Effect Bullet Impact Explosion 32x32_258: -243752613
+      Red Effect Bullet Impact Explosion 32x32_259: -324418705
+      Red Effect Bullet Impact Explosion 32x32_26: -487536268
+      Red Effect Bullet Impact Explosion 32x32_260: -1257354327
+      Red Effect Bullet Impact Explosion 32x32_261: 948989329
+      Red Effect Bullet Impact Explosion 32x32_262: 1491683053
+      Red Effect Bullet Impact Explosion 32x32_263: 399429750
+      Red Effect Bullet Impact Explosion 32x32_264: 1597945373
+      Red Effect Bullet Impact Explosion 32x32_265: 865548155
+      Red Effect Bullet Impact Explosion 32x32_266: -2141761071
+      Red Effect Bullet Impact Explosion 32x32_267: 869339379
+      Red Effect Bullet Impact Explosion 32x32_268: 1845475550
+      Red Effect Bullet Impact Explosion 32x32_269: -975988332
+      Red Effect Bullet Impact Explosion 32x32_27: 144263300
+      Red Effect Bullet Impact Explosion 32x32_270: 1733332377
+      Red Effect Bullet Impact Explosion 32x32_271: -1712811516
+      Red Effect Bullet Impact Explosion 32x32_272: -32647555
+      Red Effect Bullet Impact Explosion 32x32_273: 837613610
+      Red Effect Bullet Impact Explosion 32x32_274: 818726685
+      Red Effect Bullet Impact Explosion 32x32_275: 7405364
+      Red Effect Bullet Impact Explosion 32x32_276: 1162938399
+      Red Effect Bullet Impact Explosion 32x32_277: 1777847433
+      Red Effect Bullet Impact Explosion 32x32_278: 1488675536
+      Red Effect Bullet Impact Explosion 32x32_279: 1163062907
+      Red Effect Bullet Impact Explosion 32x32_28: 1829552216
+      Red Effect Bullet Impact Explosion 32x32_280: -1238590525
+      Red Effect Bullet Impact Explosion 32x32_281: 1933356277
+      Red Effect Bullet Impact Explosion 32x32_282: -1284902842
+      Red Effect Bullet Impact Explosion 32x32_283: -1206432854
+      Red Effect Bullet Impact Explosion 32x32_284: 1918702218
+      Red Effect Bullet Impact Explosion 32x32_285: -939721483
+      Red Effect Bullet Impact Explosion 32x32_286: -101484669
+      Red Effect Bullet Impact Explosion 32x32_287: -536123573
+      Red Effect Bullet Impact Explosion 32x32_288: 1614593379
+      Red Effect Bullet Impact Explosion 32x32_289: -1980553151
+      Red Effect Bullet Impact Explosion 32x32_29: -1322491228
+      Red Effect Bullet Impact Explosion 32x32_290: -1860370964
+      Red Effect Bullet Impact Explosion 32x32_291: 581083535
+      Red Effect Bullet Impact Explosion 32x32_292: 449629300
+      Red Effect Bullet Impact Explosion 32x32_293: 408942891
+      Red Effect Bullet Impact Explosion 32x32_294: -1541762820
+      Red Effect Bullet Impact Explosion 32x32_295: -1798463397
+      Red Effect Bullet Impact Explosion 32x32_296: -96695927
+      Red Effect Bullet Impact Explosion 32x32_297: 1845423034
+      Red Effect Bullet Impact Explosion 32x32_298: -310654358
+      Red Effect Bullet Impact Explosion 32x32_299: 323229793
+      Red Effect Bullet Impact Explosion 32x32_3: -1021923487
+      Red Effect Bullet Impact Explosion 32x32_30: 1497977266
+      Red Effect Bullet Impact Explosion 32x32_300: -1052921195
+      Red Effect Bullet Impact Explosion 32x32_301: -552626532
+      Red Effect Bullet Impact Explosion 32x32_302: 2065851433
+      Red Effect Bullet Impact Explosion 32x32_303: 1738664156
+      Red Effect Bullet Impact Explosion 32x32_304: 443720142
+      Red Effect Bullet Impact Explosion 32x32_305: -842574840
+      Red Effect Bullet Impact Explosion 32x32_306: 352085132
+      Red Effect Bullet Impact Explosion 32x32_307: 707950880
+      Red Effect Bullet Impact Explosion 32x32_308: 660642559
+      Red Effect Bullet Impact Explosion 32x32_309: -566391683
+      Red Effect Bullet Impact Explosion 32x32_31: 282246575
+      Red Effect Bullet Impact Explosion 32x32_310: 540047929
+      Red Effect Bullet Impact Explosion 32x32_311: 2068530273
+      Red Effect Bullet Impact Explosion 32x32_312: 1672295472
+      Red Effect Bullet Impact Explosion 32x32_313: -1508213130
+      Red Effect Bullet Impact Explosion 32x32_314: -1186034301
+      Red Effect Bullet Impact Explosion 32x32_315: 1532884307
+      Red Effect Bullet Impact Explosion 32x32_316: 427378354
+      Red Effect Bullet Impact Explosion 32x32_317: 1907694980
+      Red Effect Bullet Impact Explosion 32x32_318: 48629450
+      Red Effect Bullet Impact Explosion 32x32_319: 787640062
+      Red Effect Bullet Impact Explosion 32x32_32: -75141120
+      Red Effect Bullet Impact Explosion 32x32_320: -2006998261
+      Red Effect Bullet Impact Explosion 32x32_321: -739656038
+      Red Effect Bullet Impact Explosion 32x32_322: 1816748727
+      Red Effect Bullet Impact Explosion 32x32_323: -1720732857
+      Red Effect Bullet Impact Explosion 32x32_324: 21730428
+      Red Effect Bullet Impact Explosion 32x32_325: -755143867
+      Red Effect Bullet Impact Explosion 32x32_326: 859287763
+      Red Effect Bullet Impact Explosion 32x32_327: 1428124734
+      Red Effect Bullet Impact Explosion 32x32_328: -1849254158
+      Red Effect Bullet Impact Explosion 32x32_329: -1027994192
+      Red Effect Bullet Impact Explosion 32x32_33: 516195658
+      Red Effect Bullet Impact Explosion 32x32_330: -1230974163
+      Red Effect Bullet Impact Explosion 32x32_331: -1913908941
+      Red Effect Bullet Impact Explosion 32x32_332: 638943735
+      Red Effect Bullet Impact Explosion 32x32_333: 41186673
+      Red Effect Bullet Impact Explosion 32x32_334: -1671246726
+      Red Effect Bullet Impact Explosion 32x32_335: 1762092288
+      Red Effect Bullet Impact Explosion 32x32_336: 399219818
+      Red Effect Bullet Impact Explosion 32x32_337: -1379228034
+      Red Effect Bullet Impact Explosion 32x32_338: 807416664
+      Red Effect Bullet Impact Explosion 32x32_339: -864324132
+      Red Effect Bullet Impact Explosion 32x32_34: -1725618077
+      Red Effect Bullet Impact Explosion 32x32_340: -741152313
+      Red Effect Bullet Impact Explosion 32x32_341: 748621151
+      Red Effect Bullet Impact Explosion 32x32_342: -1158375247
+      Red Effect Bullet Impact Explosion 32x32_343: 46475678
+      Red Effect Bullet Impact Explosion 32x32_344: 1347807469
+      Red Effect Bullet Impact Explosion 32x32_345: 1418235659
+      Red Effect Bullet Impact Explosion 32x32_346: -1583874474
+      Red Effect Bullet Impact Explosion 32x32_347: 312901682
+      Red Effect Bullet Impact Explosion 32x32_348: -482769881
+      Red Effect Bullet Impact Explosion 32x32_349: -1512117537
+      Red Effect Bullet Impact Explosion 32x32_35: 210446881
+      Red Effect Bullet Impact Explosion 32x32_350: -2023094946
+      Red Effect Bullet Impact Explosion 32x32_351: 819022857
+      Red Effect Bullet Impact Explosion 32x32_352: 937367686
+      Red Effect Bullet Impact Explosion 32x32_353: 737222216
+      Red Effect Bullet Impact Explosion 32x32_354: -1432847173
+      Red Effect Bullet Impact Explosion 32x32_355: 334105950
+      Red Effect Bullet Impact Explosion 32x32_356: -1511775558
+      Red Effect Bullet Impact Explosion 32x32_357: 2076927780
+      Red Effect Bullet Impact Explosion 32x32_358: 2138936248
+      Red Effect Bullet Impact Explosion 32x32_359: -693418892
+      Red Effect Bullet Impact Explosion 32x32_36: 446628976
+      Red Effect Bullet Impact Explosion 32x32_37: 1348094980
+      Red Effect Bullet Impact Explosion 32x32_38: 1571857135
+      Red Effect Bullet Impact Explosion 32x32_39: 1177183196
+      Red Effect Bullet Impact Explosion 32x32_4: 2104112159
+      Red Effect Bullet Impact Explosion 32x32_40: 1630071409
+      Red Effect Bullet Impact Explosion 32x32_41: -1754611381
+      Red Effect Bullet Impact Explosion 32x32_42: -1540261871
+      Red Effect Bullet Impact Explosion 32x32_43: -480325797
+      Red Effect Bullet Impact Explosion 32x32_44: -649669039
+      Red Effect Bullet Impact Explosion 32x32_45: -311487526
+      Red Effect Bullet Impact Explosion 32x32_46: 172212330
+      Red Effect Bullet Impact Explosion 32x32_47: -949079266
+      Red Effect Bullet Impact Explosion 32x32_48: -686077953
+      Red Effect Bullet Impact Explosion 32x32_49: -1192223977
+      Red Effect Bullet Impact Explosion 32x32_5: 1645704397
+      Red Effect Bullet Impact Explosion 32x32_50: 1912573625
+      Red Effect Bullet Impact Explosion 32x32_51: 1098864685
+      Red Effect Bullet Impact Explosion 32x32_52: 1095059824
+      Red Effect Bullet Impact Explosion 32x32_53: -1836732837
+      Red Effect Bullet Impact Explosion 32x32_54: 1852139233
+      Red Effect Bullet Impact Explosion 32x32_55: -884846781
+      Red Effect Bullet Impact Explosion 32x32_56: 514120529
+      Red Effect Bullet Impact Explosion 32x32_57: -1224487564
+      Red Effect Bullet Impact Explosion 32x32_58: -2093780909
+      Red Effect Bullet Impact Explosion 32x32_59: 717150686
+      Red Effect Bullet Impact Explosion 32x32_6: -1784252414
+      Red Effect Bullet Impact Explosion 32x32_60: -32987860
+      Red Effect Bullet Impact Explosion 32x32_61: -91383264
+      Red Effect Bullet Impact Explosion 32x32_62: 289458525
+      Red Effect Bullet Impact Explosion 32x32_63: 1855455761
+      Red Effect Bullet Impact Explosion 32x32_64: -415071707
+      Red Effect Bullet Impact Explosion 32x32_65: -276848048
+      Red Effect Bullet Impact Explosion 32x32_66: 1422531834
+      Red Effect Bullet Impact Explosion 32x32_67: -1010093579
+      Red Effect Bullet Impact Explosion 32x32_68: -1773452936
+      Red Effect Bullet Impact Explosion 32x32_69: -1637195046
+      Red Effect Bullet Impact Explosion 32x32_7: 1416761440
+      Red Effect Bullet Impact Explosion 32x32_70: 736876791
+      Red Effect Bullet Impact Explosion 32x32_71: -575076400
+      Red Effect Bullet Impact Explosion 32x32_72: -892801152
+      Red Effect Bullet Impact Explosion 32x32_73: 857345496
+      Red Effect Bullet Impact Explosion 32x32_74: -1107349085
+      Red Effect Bullet Impact Explosion 32x32_75: -1907453098
+      Red Effect Bullet Impact Explosion 32x32_76: 1889832014
+      Red Effect Bullet Impact Explosion 32x32_77: 582630045
+      Red Effect Bullet Impact Explosion 32x32_78: -1976818003
+      Red Effect Bullet Impact Explosion 32x32_79: -1566097376
+      Red Effect Bullet Impact Explosion 32x32_8: -1764032786
+      Red Effect Bullet Impact Explosion 32x32_80: 262030840
+      Red Effect Bullet Impact Explosion 32x32_81: 1909566234
+      Red Effect Bullet Impact Explosion 32x32_82: 1473461656
+      Red Effect Bullet Impact Explosion 32x32_83: 1492833612
+      Red Effect Bullet Impact Explosion 32x32_84: 709637120
+      Red Effect Bullet Impact Explosion 32x32_85: 1028880938
+      Red Effect Bullet Impact Explosion 32x32_86: -1816618285
+      Red Effect Bullet Impact Explosion 32x32_87: -1922711591
+      Red Effect Bullet Impact Explosion 32x32_88: -266709856
+      Red Effect Bullet Impact Explosion 32x32_89: -450946237
+      Red Effect Bullet Impact Explosion 32x32_9: -862249791
+      Red Effect Bullet Impact Explosion 32x32_90: -676108986
+      Red Effect Bullet Impact Explosion 32x32_91: -1653912145
+      Red Effect Bullet Impact Explosion 32x32_92: -1539883504
+      Red Effect Bullet Impact Explosion 32x32_93: 516526309
+      Red Effect Bullet Impact Explosion 32x32_94: -660865311
+      Red Effect Bullet Impact Explosion 32x32_95: 1412354532
+      Red Effect Bullet Impact Explosion 32x32_96: -185044904
+      Red Effect Bullet Impact Explosion 32x32_97: -1171814342
+      Red Effect Bullet Impact Explosion 32x32_98: 2117053237
+      Red Effect Bullet Impact Explosion 32x32_99: -1516891584
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
