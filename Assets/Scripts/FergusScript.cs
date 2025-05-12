@@ -6,6 +6,7 @@ using UnityEngine.UIElements;
 
 public class FergusScript : MonoBehaviour
 {
+    public GameObject startText;
     InputAction jumpAction;
     public Rigidbody2D FergusRigidbody;
     public Animator animator;
@@ -14,19 +15,31 @@ public class FergusScript : MonoBehaviour
     void Start()
     {
         jumpAction = InputSystem.actions.FindAction("Jump");
+        FergusRigidbody.constraints = RigidbodyConstraints2D.FreezeAll;
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (jumpAction.IsPressed())
+        startText.SetActive(!GameManagerScript.Instance.gameStarted);
+
+        if (!GameManagerScript.Instance.gameStarted && jumpAction.IsPressed())
         {
-            FergusRigidbody.linearVelocity = new Vector2(0, 1) * flapStrength;
-            animator.SetBool("jumping", true);
+            GameManagerScript.Instance.gameStarted = true;
+            FergusRigidbody.constraints = RigidbodyConstraints2D.FreezeRotation;
         }
-        else
+
+        if (GameManagerScript.Instance.gameStarted)
         {
-            animator.SetBool("jumping", false);
+            if (jumpAction.IsPressed())
+            {
+                FergusRigidbody.linearVelocity = new Vector2(0, 1) * flapStrength;
+                animator.SetBool("jumping", true);
+            }
+            else
+            {
+                animator.SetBool("jumping", false);
+            }
         }
     }
 

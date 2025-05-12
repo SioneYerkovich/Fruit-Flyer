@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class BombSpawnScript : MonoBehaviour
 {
+    private bool commenceSpawn = false;
     public GameObject Bomb;
     public float minSpawnTime = 1f;
     public float maxSpawnTime = 5f;
@@ -11,13 +12,17 @@ public class BombSpawnScript : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        InvokeRepeating("SpawnBomb", 0f, Random.Range(minSpawnTime, maxSpawnTime));
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        if (!commenceSpawn && GameManagerScript.Instance.gameStarted)
+        {
+            commenceSpawn = true;
+            InvokeRepeating("SpawnBomb", 0f, Random.Range(minSpawnTime, maxSpawnTime));
+        }
     }
 
     Vector3 GetRandomPosition()
@@ -30,8 +35,11 @@ public class BombSpawnScript : MonoBehaviour
 
     void SpawnBomb()
     {
-        Instantiate(Bomb, GetRandomPosition(), Quaternion.identity);
-        CancelInvoke("SpawnBomb");
-        InvokeRepeating("SpawnBomb", Random.Range(minSpawnTime, maxSpawnTime), Random.Range(minSpawnTime, maxSpawnTime));
+        if (GameManagerScript.Instance.gameStarted)
+        {
+            Instantiate(Bomb, GetRandomPosition(), Quaternion.identity);
+            CancelInvoke("SpawnBomb");
+            InvokeRepeating("SpawnBomb", Random.Range(minSpawnTime, maxSpawnTime), Random.Range(minSpawnTime, maxSpawnTime));
+        }
     }
 }
