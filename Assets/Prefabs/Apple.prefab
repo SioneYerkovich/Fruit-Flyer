@@ -9,9 +9,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4682129048185687046}
-  - component: {fileID: 8316858826979367064}
   - component: {fileID: 5717775515591585304}
   - component: {fileID: 4060043691946297905}
+  - component: {fileID: -5442622048919910496}
   - component: {fileID: -5573137345728768426}
   - component: {fileID: 2985672172462653660}
   - component: {fileID: -3600454624063400919}
@@ -37,21 +37,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &8316858826979367064
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3982908074640907561}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3358638ec3dd51146b96f5cf8386e929, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  fruitSound: {fileID: -3600454624063400919}
-  moveSpeed: 5
-  deadZone: -9
 --- !u!212 &5717775515591585304
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -143,6 +128,19 @@ CircleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: 0.01, y: -0.02}
   m_Radius: 0.22
+--- !u!114 &-5442622048919910496
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3982908074640907561}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3358638ec3dd51146b96f5cf8386e929, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fruitSound: {fileID: -3600454624063400919}
 --- !u!114 &-5573137345728768426
 MonoBehaviour:
   m_ObjectHideFlags: 0

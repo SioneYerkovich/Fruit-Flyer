@@ -1,15 +1,16 @@
 using UnityEngine;
 
-public class BombScript : MonoBehaviour
+public class SpeedBoostScript : MonoBehaviour
 {
     public Animator animator;
-    public float moveSpeed = 5;
-    public float deadZone = -9;
-    public AudioSource explosionSound;
+    public BombScript BombScript;
+    public AudioSource PowerupSound;
+    public GameObject sparkles;
+    public float duration = 10f;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        explosionSound = GetComponent<AudioSource>();
+        PowerupSound = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -29,18 +30,25 @@ public class BombScript : MonoBehaviour
             Destroy(gameObject);
         }
     }
+
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Player"))
         {
-            TriggerExplosionSound();
-            animator.SetBool("Death", true);
+            FruitManagerScript.Instance.ActivateBoost(duration);
+            animator.SetBool("grabbed", true);
+            TriggerPowerupSound();
+            GameObject effect = Instantiate(sparkles, transform.position, Quaternion.identity);
+            ParticleSystem sparklesEffect = effect.GetComponent<ParticleSystem>();
+            sparklesEffect.Play();
+            Destroy(effect, 0.5f);
             Destroy(gameObject, 1f);
         }
     }
 
-    private void TriggerExplosionSound()
+    private void TriggerPowerupSound()
     {
-        explosionSound.Play();
+        PowerupSound.Play();
     }
+
 }

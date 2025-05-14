@@ -5,8 +5,7 @@ using UnityEngine;
 public class FruitScript : MonoBehaviour
 {
     public AudioSource fruitSound;
-    public float moveSpeed = 5;
-    public float deadZone = -9;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -16,13 +15,19 @@ public class FruitScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.position = transform.position + (Vector3.left * moveSpeed) * Time.deltaTime;
+        if (!FruitManagerScript.Instance.isBoosted)
+        {
+            transform.position = transform.position + (Vector3.left * FruitManagerScript.Instance.normalSpeed) * Time.deltaTime;
+        }
+        else
+        {
+            transform.position = transform.position + (Vector3.left * FruitManagerScript.Instance.boostedSpeed) * Time.deltaTime;
+        }
 
-        if (transform.position.x < deadZone)
+        if (transform.position.x < FruitManagerScript.Instance.deadZone)
         {
             Destroy(gameObject);
         }
-
     }
 
     public void OnTriggerEnter2D(Collider2D collision)

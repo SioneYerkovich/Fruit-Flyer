@@ -6,7 +6,9 @@ using UnityEngine.UIElements;
 
 public class FergusScript : MonoBehaviour
 {
+    public GameObject player;
     public GameObject startText;
+    public GameObject introText;
     InputAction jumpAction;
     public Rigidbody2D FergusRigidbody;
     public Animator animator;
@@ -14,6 +16,7 @@ public class FergusScript : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        player.SetActive(false);
         jumpAction = InputSystem.actions.FindAction("Jump");
         FergusRigidbody.constraints = RigidbodyConstraints2D.FreezeAll;
     }
@@ -23,10 +26,13 @@ public class FergusScript : MonoBehaviour
     {
         startText.SetActive(!GameManagerScript.Instance.gameStarted);
 
-        if (!GameManagerScript.Instance.gameStarted && jumpAction.IsPressed())
+        if (!GameManagerScript.Instance.gameStarted && player.activeSelf == true)
         {
-            GameManagerScript.Instance.gameStarted = true;
-            FergusRigidbody.constraints = RigidbodyConstraints2D.FreezeRotation;
+            if (jumpAction.IsPressed())
+            {
+                GameManagerScript.Instance.gameStarted = true;
+                FergusRigidbody.constraints = RigidbodyConstraints2D.FreezeRotation;
+            }
         }
 
         if (GameManagerScript.Instance.gameStarted)

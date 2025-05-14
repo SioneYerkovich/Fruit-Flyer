@@ -4,6 +4,7 @@ public class GameManagerScript : MonoBehaviour
 {
     public static GameManagerScript Instance;
     public bool gameStarted = false;
+    public bool gameIntro = true;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
