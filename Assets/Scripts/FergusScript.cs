@@ -24,9 +24,9 @@ public class FergusScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        startText.SetActive(!GameManagerScript.Instance.gameStarted);
+        startText.SetActive(!GameManagerScript.Instance.gameStarted && !GameManagerScript.Instance.characterMonologue);
 
-        if (!GameManagerScript.Instance.gameStarted && player.activeSelf == true)
+        if (!GameManagerScript.Instance.gameStarted && !GameManagerScript.Instance.characterMonologue)
         {
             if (jumpAction.IsPressed())
             {

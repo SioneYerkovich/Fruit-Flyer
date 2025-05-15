@@ -7,6 +7,7 @@ using UnityEngine.UI;
 
 public class PanelManagerScript : MonoBehaviour
 {
+    public Animator gameplayPanel;
     public GameObject player;
     InputAction jumpAction;
     public GameObject[] panels;
@@ -19,6 +20,7 @@ public class PanelManagerScript : MonoBehaviour
 
     private void Update()
     {
+        CharacterMonologue();
 
         if (GameManagerScript.Instance.gameIntro)
         {
@@ -28,6 +30,7 @@ public class PanelManagerScript : MonoBehaviour
                 GameManagerScript.Instance.gameIntro = false;
             }
         }
+
         ToggleSpeedBoostPanel();
     }
 
@@ -48,6 +51,8 @@ public class PanelManagerScript : MonoBehaviour
         player.SetActive(true);
         panels[0].SetActive(false);
         panels[1].SetActive(true);
+        GameManagerScript.Instance.activateSpeech = true;
+        gameplayPanel.Play("gameplay_cutscene_1");
     }
 
     public void TogglePauseMenu()
@@ -101,6 +106,18 @@ public class PanelManagerScript : MonoBehaviour
     public void DisableIntro()
     {
         panels[4].SetActive(false);
+    }
+
+    public void CharacterMonologue()
+    {
+        if (GameManagerScript.Instance.characterMonologue && GameManagerScript.Instance.activateSpeech)
+        {
+            panels[5].SetActive(true);
+        }
+        else
+        {
+            panels[5].SetActive(false);
+        }
     }
 
     public void CloseGame()

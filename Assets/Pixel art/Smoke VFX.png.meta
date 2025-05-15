@@ -1,0 +1,891 @@
+fileFormatVersion: 2
+guid: 3bea2f6f298115a43998c12dd8fbf443
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4401812957426095863
+    second: Smoke VFX 2 (2)_0
+  - first:
+      213: -7792849812853766459
+    second: Smoke VFX 2 (2)_1
+  - first:
+      213: 3138890830469542452
+    second: Smoke VFX 2 (2)_2
+  - first:
+      213: 1638503417521642647
+    second: Smoke VFX 2 (2)_3
+  - first:
+      213: 1634761781341136136
+    second: Smoke VFX 2 (2)_4
+  - first:
+      213: -3763397559675441374
+    second: Smoke VFX 2 (2)_5
+  - first:
+      213: -1373083549641441815
+    second: Smoke VFX 2 (2)_6
+  - first:
+      213: -4450064806658915876
+    second: Smoke VFX 2 (2)_7
+  - first:
+      213: -1575004457741834088
+    second: Smoke VFX 2 (2)_8
+  - first:
+      213: 898090559781873756
+    second: Smoke VFX 2 (2)_9
+  - first:
+      213: -5923391960670318822
+    second: Smoke VFX 2 (2)_10
+  - first:
+      213: 7619500173737738130
+    second: Smoke VFX 2 (2)_11
+  - first:
+      213: -3585549110930707059
+    second: Smoke VFX 2 (2)_12
+  - first:
+      213: -8411815014106843967
+    second: Smoke VFX 2 (2)_13
+  - first:
+      213: -486331636968837517
+    second: Smoke VFX 2 (2)_14
+  - first:
+      213: 1203113663771745058
+    second: Smoke VFX 2 (2)_15
+  - first:
+      213: 3552727205825296908
+    second: Smoke VFX 2 (2)_16
+  - first:
+      213: 327220953877897352
+    second: Smoke VFX 2 (2)_17
+  - first:
+      213: 708854939105654280
+    second: Smoke VFX 2 (2)_18
+  - first:
+      213: 3712829626887478705
+    second: Smoke VFX 2 (2)_19
+  - first:
+      213: 5663781552239419561
+    second: Smoke VFX 2 (2)_20
+  - first:
+      213: -7029668561246318062
+    second: Smoke VFX 2 (2)_21
+  - first:
+      213: -4026145546638540137
+    second: Smoke VFX 2 (2)_22
+  - first:
+      213: -1350158640797676387
+    second: Smoke VFX 2 (2)_23
+  - first:
+      213: -7293149751894997083
+    second: Smoke VFX 2 (2)_24
+  - first:
+      213: 8346359395938529128
+    second: Smoke VFX 2 (2)_25
+  - first:
+      213: 4143948429265918729
+    second: Smoke VFX 2 (2)_26
+  - first:
+      213: -3081172095159903486
+    second: Smoke VFX 2 (2)_27
+  - first:
+      213: -2568925343310891202
+    second: Smoke VFX 2 (2)_28
+  - first:
+      213: -8751251884691493727
+    second: Smoke VFX 2 (2)_29
+  - first:
+      213: -2022113420555885185
+    second: Smoke VFX 2 (2)_30
+  - first:
+      213: -6426734695009086786
+    second: Smoke VFX 2 (2)_31
+  - first:
+      213: 3553133638351210482
+    second: Smoke VFX 2 (2)_32
+  - first:
+      213: 3280109892816936218
+    second: Smoke VFX 2 (2)_33
+  - first:
+      213: 7964697612058792776
+    second: Smoke VFX 2 (2)_34
+  - first:
+      213: 5869133205833415830
+    second: Smoke VFX 2 (2)_35
+  - first:
+      213: -8670797874359579595
+    second: Smoke VFX 2 (2)_36
+  - first:
+      213: 4213737280771517830
+    second: Smoke VFX 2 (2)_37
+  - first:
+      213: 6144789632140075524
+    second: Smoke VFX 2 (2)_38
+  - first:
+      213: -386915565872897622
+    second: Smoke VFX 2 (2)_39
+  - first:
+      213: -2870262618758438542
+    second: Smoke VFX 2 (2)_40
+  - first:
+      213: -3321062460302988294
+    second: Smoke VFX 2 (2)_41
+  - first:
+      213: -5449189348140222398
+    second: Smoke VFX 2 (2)_42
+  - first:
+      213: 3967084216670469450
+    second: Smoke VFX 2 (2)_43
+  - first:
+      213: -3802242582075058387
+    second: Smoke VFX 2 (2)_44
+  - first:
+      213: 4174840296750443592
+    second: Smoke VFX 2 (2)_45
+  - first:
+      213: -966893766638434565
+    second: Smoke VFX 2 (2)_46
+  - first:
+      213: 4079774835546302804
+    second: Smoke VFX 2 (2)_47
+  - first:
+      213: -3531613317634551039
+    second: Smoke VFX 2 (2)_48
+  - first:
+      213: -4935286113434383704
+    second: Smoke VFX 2 (2)_49
+  - first:
+      213: -8645314327845856070
+    second: Smoke VFX 2 (2)_50
+  - first:
+      213: -7864050567274527202
+    second: Smoke VFX 2 (2)_51
+  - first:
+      213: -3729375998573074452
+    second: Smoke VFX 2 (2)_52
+  - first:
+      213: -7552016325877914624
+    second: Smoke VFX 2 (2)_53
+  - first:
+      213: 1230422341129075873
+    second: Smoke VFX 2 (2)_54
+  - first:
+      213: 6713606748595281630
+    second: Smoke VFX 2 (2)_55
+  - first:
+      213: 1132546371569361445
+    second: Smoke VFX 2 (2)_56
+  - first:
+      213: 643037798826190061
+    second: Smoke VFX 2 (2)_57
+  - first:
+      213: 4514850537395354970
+    second: Smoke VFX 2 (2)_58
+  - first:
+      213: -3009704180877808145
+    second: Smoke VFX 2 (2)_59
+  - first:
+      213: -6540563909883746989
+    second: Smoke VFX 2 (2)_60
+  - first:
+      213: -1802722252053738194
+    second: Smoke VFX 2 (2)_61
+  - first:
+      213: 1381797093161868110
+    second: Smoke VFX 2 (2)_62
+  - first:
+      213: 1451509686164971487
+    second: Smoke VFX 2 (2)_63
+  - first:
+      213: -8025622870972039542
+    second: Smoke VFX 2 (2)_64
+  - first:
+      213: 6750598283754744653
+    second: Smoke VFX 2 (2)_65
+  - first:
+      213: 7180825387104785182
+    second: Smoke VFX 2 (2)_66
+  - first:
+      213: 7682164712514185386
+    second: Smoke VFX 2 (2)_67
+  - first:
+      213: -2762052069333679553
+    second: Smoke VFX 2 (2)_68
+  - first:
+      213: -7464506591248878059
+    second: Smoke VFX 2 (2)_69
+  - first:
+      213: 7558592489974021564
+    second: Smoke VFX 2 (2)_70
+  - first:
+      213: 5317648670309328276
+    second: Smoke VFX 2 (2)_71
+  - first:
+      213: 4540574509633719645
+    second: Smoke VFX 2 (2)_72
+  - first:
+      213: 6029096988354392798
+    second: Smoke VFX 2 (2)_73
+  - first:
+      213: 1400389570062622861
+    second: Smoke VFX 2 (2)_74
+  - first:
+      213: -5861247217081237895
+    second: Smoke VFX 2 (2)_75
+  - first:
+      213: 48562319149731048
+    second: Smoke VFX 2 (2)_76
+  - first:
+      213: -9018211004197672520
+    second: Smoke VFX 2 (2)_77
+  - first:
+      213: -5269428363104033706
+    second: Smoke VFX 2 (2)_78
+  - first:
+      213: -6142692438959840677
+    second: Smoke VFX 2 (2)_79
+  - first:
+      213: -7193584723623129064
+    second: Smoke VFX 2 (2)_80
+  - first:
+      213: 6830644941810404135
+    second: Smoke VFX 2 (2)_81
+  - first:
+      213: 8302502219540107737
+    second: Smoke VFX 2 (2)_82
+  - first:
+      213: -915797465660459201
+    second: Smoke VFX 2 (2)_83
+  - first:
+      213: 8635479119271712544
+    second: Smoke VFX 2 (2)_84
+  - first:
+      213: 7969514292684155019
+    second: Smoke VFX 2 (2)_85
+  - first:
+      213: -6844475934104066361
+    second: Smoke VFX 2 (2)_86
+  - first:
+      213: 5981734906727614991
+    second: Smoke VFX 2 (2)_87
+  - first:
+      213: -23288045486573310
+    second: Smoke VFX 2 (2)_88
+  - first:
+      213: -4380157863692527925
+    second: Smoke VFX 2 (2)_89
+  - first:
+      213: -2722005151546138009
+    second: Smoke VFX 2 (2)_90
+  - first:
+      213: 4761307519786729780
+    second: Smoke VFX 2 (2)_91
+  - first:
+      213: -1444421063554744155
+    second: Smoke VFX 2 (2)_92
+  - first:
+      213: -4370013332842031251
+    second: Smoke VFX 2 (2)_93
+  - first:
+      213: -2514953024979626268
+    second: Smoke VFX 2 (2)_94
+  - first:
+      213: 1151575767261549025
+    second: Smoke VFX 2 (2)_95
+  - first:
+      213: 6617292601970969680
+    second: Smoke VFX 2 (2)_96
+  - first:
+      213: 1001120451652026628
+    second: Smoke VFX 2 (2)_97
+  - first:
+      213: -955071532034593279
+    second: Smoke VFX 2 (2)_98
+  - first:
+      213: 4552305290019225569
+    second: Smoke VFX 2 (2)_99
+  - first:
+      213: 1532813840944074103
+    second: Smoke VFX 2 (2)_100
+  - first:
+      213: 1390239930143502256
+    second: Smoke VFX 2 (2)_101
+  - first:
+      213: 3805426832798885370
+    second: Smoke VFX 2 (2)_102
+  - first:
+      213: -7652635169360682638
+    second: Smoke VFX 2 (2)_103
+  - first:
+      213: 3700865084447735275
+    second: Smoke VFX 2 (2)_104
+  - first:
+      213: 8008674607516281928
+    second: Smoke VFX 2 (2)_105
+  - first:
+      213: 668528982106631441
+    second: Smoke VFX 2 (2)_106
+  - first:
+      213: -8423396202143031438
+    second: Smoke VFX 2 (2)_107
+  - first:
+      213: -6515848698465341354
+    second: Smoke VFX 2 (2)_108
+  - first:
+      213: -6989267887519273243
+    second: Smoke VFX 2 (2)_109
+  - first:
+      213: 6870119446017973169
+    second: Smoke VFX 2 (2)_110
+  - first:
+      213: -8097299727133193056
+    second: Smoke VFX 2 (2)_111
+  - first:
+      213: 7518129690233107413
+    second: Smoke VFX 2 (2)_112
+  - first:
+      213: 7596580848000104598
+    second: Smoke VFX 2 (2)_113
+  - first:
+      213: -7525595286618064565
+    second: Smoke VFX 2 (2)_114
+  - first:
+      213: -574233099605169349
+    second: Smoke VFX 2 (2)_115
+  - first:
+      213: -7032493298603271145
+    second: Smoke VFX 2 (2)_116
+  - first:
+      213: -8785128418502321198
+    second: Smoke VFX 2 (2)_117
+  - first:
+      213: -4463913064614331808
+    second: Smoke VFX 2 (2)_118
+  - first:
+      213: -4519579524553974807
+    second: Smoke VFX 2 (2)_119
+  - first:
+      213: 7977269990911363277
+    second: Smoke VFX 2 (2)_120
+  - first:
+      213: 5653102818560353390
+    second: Smoke VFX 2 (2)_121
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Smoke VFX 2 part 3
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 47
+        width: 190
+        height: 174
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ed70b859c3d1fce0800000000000000
+      internalID: -1373083549641441815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smoke VFX 2 part 2
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 67
+        width: 154
+        height: 134
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a024a2505bc99e40800000000000000
+      internalID: 5663781552239419561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smoke VFX 2 part 1
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 99
+        width: 86
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e37b471d208595cd0800000000000000
+      internalID: -2568925343310891202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smoke VFX 2 part 4
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 43
+        width: 201
+        height: 187
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d32ed786a3b09d24a8ff1b73ac0ba5d8
+      internalID: 1317364643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smoke VFX 2 part 5
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 44
+        width: 205
+        height: 186
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64784c476e3eb6f49a139a652fb00466
+      internalID: -1541022945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smoke VFX 2 part 6
+      rect:
+        serializedVersion: 2
+        x: 1308
+        y: 43
+        width: 209
+        height: 190
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09c94db9dd582824eb62b3ff4d02f3f7
+      internalID: -413892225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smoke VFX 2 part 7
+      rect:
+        serializedVersion: 2
+        x: 1559
+        y: 39
+        width: 218
+        height: 197
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 959a33dc7b8e78a45953c88a0efb6b29
+      internalID: -1286264973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smoke VFX 2 part 8
+      rect:
+        serializedVersion: 2
+        x: 1816
+        y: 39
+        width: 217
+        height: 199
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4cb6a74ba49142498ee9ae648bafe52
+      internalID: 666041737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smoke VFX 2 part 9
+      rect:
+        serializedVersion: 2
+        x: 2070
+        y: 39
+        width: 215
+        height: 198
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06b8355c12d59284e81c6546a041a854
+      internalID: -31774099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smoke VFX_0
+      rect:
+        serializedVersion: 2
+        x: 2328
+        y: 55
+        width: 196
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fe9f4858e98c364aa892ce6e66e8e93
+      internalID: -870025335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smoke VFX_1
+      rect:
+        serializedVersion: 2
+        x: 2535
+        y: 53
+        width: 263
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddbe6f5d966f2734bbc45cfeb6ce6027
+      internalID: 1479950276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smoke VFX_2
+      rect:
+        serializedVersion: 2
+        x: 2807
+        y: 52
+        width: 234
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b59145b764c15a446af89760ed5a9dc9
+      internalID: -1435526631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 1f60768aa91169e49ad5da1fcfa4d237
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Smoke VFX 2 (2)_0: 4401812957426095863
+      Smoke VFX 2 (2)_1: -7792849812853766459
+      Smoke VFX 2 (2)_10: -5923391960670318822
+      Smoke VFX 2 (2)_100: 1532813840944074103
+      Smoke VFX 2 (2)_101: 1390239930143502256
+      Smoke VFX 2 (2)_102: 3805426832798885370
+      Smoke VFX 2 (2)_103: -7652635169360682638
+      Smoke VFX 2 (2)_104: 3700865084447735275
+      Smoke VFX 2 (2)_105: 8008674607516281928
+      Smoke VFX 2 (2)_106: 668528982106631441
+      Smoke VFX 2 (2)_107: -8423396202143031438
+      Smoke VFX 2 (2)_108: -6515848698465341354
+      Smoke VFX 2 (2)_109: -6989267887519273243
+      Smoke VFX 2 (2)_11: 7619500173737738130
+      Smoke VFX 2 (2)_110: 6870119446017973169
+      Smoke VFX 2 (2)_111: -8097299727133193056
+      Smoke VFX 2 (2)_112: 7518129690233107413
+      Smoke VFX 2 (2)_113: 7596580848000104598
+      Smoke VFX 2 (2)_114: -7525595286618064565
+      Smoke VFX 2 (2)_115: -574233099605169349
+      Smoke VFX 2 (2)_116: -7032493298603271145
+      Smoke VFX 2 (2)_117: -8785128418502321198
+      Smoke VFX 2 (2)_118: -4463913064614331808
+      Smoke VFX 2 (2)_119: -4519579524553974807
+      Smoke VFX 2 (2)_12: -3585549110930707059
+      Smoke VFX 2 (2)_120: 7977269990911363277
+      Smoke VFX 2 (2)_121: 5653102818560353390
+      Smoke VFX 2 (2)_13: -8411815014106843967
+      Smoke VFX 2 (2)_14: -486331636968837517
+      Smoke VFX 2 (2)_15: 1203113663771745058
+      Smoke VFX 2 (2)_16: 3552727205825296908
+      Smoke VFX 2 (2)_17: 327220953877897352
+      Smoke VFX 2 (2)_18: 708854939105654280
+      Smoke VFX 2 (2)_19: 3712829626887478705
+      Smoke VFX 2 (2)_2: 3138890830469542452
+      Smoke VFX 2 (2)_21: -7029668561246318062
+      Smoke VFX 2 (2)_22: -4026145546638540137
+      Smoke VFX 2 (2)_23: -1350158640797676387
+      Smoke VFX 2 (2)_24: -7293149751894997083
+      Smoke VFX 2 (2)_25: 8346359395938529128
+      Smoke VFX 2 (2)_26: 4143948429265918729
+      Smoke VFX 2 (2)_27: -3081172095159903486
+      Smoke VFX 2 (2)_29: -8751251884691493727
+      Smoke VFX 2 (2)_3: 1638503417521642647
+      Smoke VFX 2 (2)_30: -2022113420555885185
+      Smoke VFX 2 (2)_31: -6426734695009086786
+      Smoke VFX 2 (2)_32: 3553133638351210482
+      Smoke VFX 2 (2)_33: 3280109892816936218
+      Smoke VFX 2 (2)_34: 7964697612058792776
+      Smoke VFX 2 (2)_35: 5869133205833415830
+      Smoke VFX 2 (2)_36: -8670797874359579595
+      Smoke VFX 2 (2)_37: 4213737280771517830
+      Smoke VFX 2 (2)_38: 6144789632140075524
+      Smoke VFX 2 (2)_39: -386915565872897622
+      Smoke VFX 2 (2)_4: 1634761781341136136
+      Smoke VFX 2 (2)_40: -2870262618758438542
+      Smoke VFX 2 (2)_41: -3321062460302988294
+      Smoke VFX 2 (2)_42: -5449189348140222398
+      Smoke VFX 2 (2)_43: 3967084216670469450
+      Smoke VFX 2 (2)_44: -3802242582075058387
+      Smoke VFX 2 (2)_45: 4174840296750443592
+      Smoke VFX 2 (2)_46: -966893766638434565
+      Smoke VFX 2 (2)_47: 4079774835546302804
+      Smoke VFX 2 (2)_48: -3531613317634551039
+      Smoke VFX 2 (2)_49: -4935286113434383704
+      Smoke VFX 2 (2)_5: -3763397559675441374
+      Smoke VFX 2 (2)_50: -8645314327845856070
+      Smoke VFX 2 (2)_51: -7864050567274527202
+      Smoke VFX 2 (2)_52: -3729375998573074452
+      Smoke VFX 2 (2)_53: -7552016325877914624
+      Smoke VFX 2 (2)_54: 1230422341129075873
+      Smoke VFX 2 (2)_55: 6713606748595281630
+      Smoke VFX 2 (2)_56: 1132546371569361445
+      Smoke VFX 2 (2)_57: 643037798826190061
+      Smoke VFX 2 (2)_58: 4514850537395354970
+      Smoke VFX 2 (2)_59: -3009704180877808145
+      Smoke VFX 2 (2)_60: -6540563909883746989
+      Smoke VFX 2 (2)_61: -1802722252053738194
+      Smoke VFX 2 (2)_62: 1381797093161868110
+      Smoke VFX 2 (2)_63: 1451509686164971487
+      Smoke VFX 2 (2)_64: -8025622870972039542
+      Smoke VFX 2 (2)_65: 6750598283754744653
+      Smoke VFX 2 (2)_66: 7180825387104785182
+      Smoke VFX 2 (2)_67: 7682164712514185386
+      Smoke VFX 2 (2)_68: -2762052069333679553
+      Smoke VFX 2 (2)_69: -7464506591248878059
+      Smoke VFX 2 (2)_7: -4450064806658915876
+      Smoke VFX 2 (2)_70: 7558592489974021564
+      Smoke VFX 2 (2)_71: 5317648670309328276
+      Smoke VFX 2 (2)_72: 4540574509633719645
+      Smoke VFX 2 (2)_73: 6029096988354392798
+      Smoke VFX 2 (2)_74: 1400389570062622861
+      Smoke VFX 2 (2)_75: -5861247217081237895
+      Smoke VFX 2 (2)_76: 48562319149731048
+      Smoke VFX 2 (2)_77: -9018211004197672520
+      Smoke VFX 2 (2)_78: -5269428363104033706
+      Smoke VFX 2 (2)_79: -6142692438959840677
+      Smoke VFX 2 (2)_8: -1575004457741834088
+      Smoke VFX 2 (2)_80: -7193584723623129064
+      Smoke VFX 2 (2)_81: 6830644941810404135
+      Smoke VFX 2 (2)_82: 8302502219540107737
+      Smoke VFX 2 (2)_83: -915797465660459201
+      Smoke VFX 2 (2)_84: 8635479119271712544
+      Smoke VFX 2 (2)_85: 7969514292684155019
+      Smoke VFX 2 (2)_86: -6844475934104066361
+      Smoke VFX 2 (2)_87: 5981734906727614991
+      Smoke VFX 2 (2)_88: -23288045486573310
+      Smoke VFX 2 (2)_89: -4380157863692527925
+      Smoke VFX 2 (2)_9: 898090559781873756
+      Smoke VFX 2 (2)_90: -2722005151546138009
+      Smoke VFX 2 (2)_91: 4761307519786729780
+      Smoke VFX 2 (2)_92: -1444421063554744155
+      Smoke VFX 2 (2)_93: -4370013332842031251
+      Smoke VFX 2 (2)_94: -2514953024979626268
+      Smoke VFX 2 (2)_95: 1151575767261549025
+      Smoke VFX 2 (2)_96: 6617292601970969680
+      Smoke VFX 2 (2)_97: 1001120451652026628
+      Smoke VFX 2 (2)_98: -955071532034593279
+      Smoke VFX 2 (2)_99: 4552305290019225569
+      Smoke VFX 2 part 1: -2568925343310891202
+      Smoke VFX 2 part 2: 5663781552239419561
+      Smoke VFX 2 part 3: -1373083549641441815
+      Smoke VFX 2 part 4: 1317364643
+      Smoke VFX 2 part 5: -1541022945
+      Smoke VFX 2 part 6: -413892225
+      Smoke VFX 2 part 7: -1286264973
+      Smoke VFX 2 part 8: 666041737
+      Smoke VFX 2 part 9: -31774099
+      Smoke VFX_0: -870025335
+      Smoke VFX_1: 1479950276
+      Smoke VFX_2: -1435526631
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
