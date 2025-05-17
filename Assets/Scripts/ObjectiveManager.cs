@@ -6,6 +6,7 @@ public class ObjectiveManager : MonoBehaviour
     public static ObjectiveManager Instance;
     public int fruitsCollected = 0;
     public int fruitsNeeded = 100;
+    public bool stageComplete = false;
     public Text scoreText;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -13,11 +14,11 @@ public class ObjectiveManager : MonoBehaviour
         
     }
 
-    // Update is called once per frame
+    //Update is called once per frame
     void Update()
     {
-        
-    }
+
+     }
 
     public void Awake()
     {
@@ -29,10 +30,19 @@ public class ObjectiveManager : MonoBehaviour
 
         fruitsCollected += amount;
         scoreText.text = fruitsCollected.ToString() + "/100";
-        if (fruitsCollected >= fruitsNeeded)
+        if (fruitsCollected >= 100)
         {
-            //Trigger next stage
+            GameManagerScript.Instance.currentCheckpoint++;
+            GameManagerScript.Instance.SaveCheckpoint();
+            stageComplete = true;
         }
     }
+
+    public void ResetObjectives()
+   {
+        fruitsCollected = 0;
+        stageComplete = false;
+    }
+
 
 }

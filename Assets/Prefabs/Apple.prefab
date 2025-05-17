@@ -11,13 +11,13 @@ GameObject:
   - component: {fileID: 4682129048185687046}
   - component: {fileID: 5717775515591585304}
   - component: {fileID: 4060043691946297905}
-  - component: {fileID: -5442622048919910496}
   - component: {fileID: -5573137345728768426}
   - component: {fileID: 2985672172462653660}
   - component: {fileID: -3600454624063400919}
+  - component: {fileID: 962944102876989530}
   m_Layer: 0
   m_Name: Apple
-  m_TagString: Untagged
+  m_TagString: Fruit
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -128,19 +128,6 @@ CircleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: 0.01, y: -0.02}
   m_Radius: 0.22
---- !u!114 &-5442622048919910496
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3982908074640907561}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3358638ec3dd51146b96f5cf8386e929, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  fruitSound: {fileID: -3600454624063400919}
 --- !u!114 &-5573137345728768426
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -275,3 +262,20 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &962944102876989530
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3982908074640907561}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f5eeb6f8daf570459f84883251c047f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundEffect: {fileID: -3600454624063400919}
+  powerupSparkles: {fileID: 2631208630969574817, guid: 55c9b044904d1a84091342ae64fff3fe, type: 3}
+  animator: {fileID: 2985672172462653660}
+  deadZone: -9
+  powerupDuration: 10

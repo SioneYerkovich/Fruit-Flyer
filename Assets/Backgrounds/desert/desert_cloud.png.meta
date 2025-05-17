@@ -138,173 +138,19 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 514
-        width: 715
-        height: 486
+        y: 0
+        width: 1900
+        height: 1000
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 4261c0272047ae5c0800000000000000
-      internalID: -4185405349835303388
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: desert_cloud_1
-      rect:
-        serializedVersion: 2
-        x: 738
-        y: 890
-        width: 121
-        height: 72
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 69af54865fc101b00800000000000000
-      internalID: 797168974386559638
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: desert_cloud_2
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 245
-        width: 470
-        height: 292
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8d86d74385d4b3970800000000000000
-      internalID: 8735660943448303832
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: desert_cloud_3
-      rect:
-        serializedVersion: 2
-        x: 601
-        y: 245
-        width: 418
-        height: 247
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0a6f59396100b42c0800000000000000
-      internalID: -4446460110132873568
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: desert_cloud_4
-      rect:
-        serializedVersion: 2
-        x: 1026
-        y: 406
-        width: 22
-        height: 19
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e657f05fcbfc8f990800000000000000
-      internalID: -7351897981210102418
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: desert_cloud_5
-      rect:
-        serializedVersion: 2
-        x: 1430
-        y: 244
-        width: 470
-        height: 598
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8ca3764ef41c75300800000000000000
-      internalID: 240873653966158536
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: desert_cloud_6
-      rect:
-        serializedVersion: 2
-        x: 1265
-        y: 277
-        width: 44
-        height: 33
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 03c3b7fc0cc03c740800000000000000
-      internalID: 5170990819405675568
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: desert_cloud_7
-      rect:
-        serializedVersion: 2
-        x: 1337
-        y: 247
-        width: 153
-        height: 111
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 01e74a96ac065d380800000000000000
-      internalID: -8947138662229574128
+      spriteID: 4a9e0197b78248d4c977f072f1001507
+      internalID: 1933669612
       vertices: []
       indices: 
       edges: []
@@ -313,7 +159,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 4615771716b84104daa7b472d1d4b496
     internalID: 0
     vertices: []
     indices: 
@@ -322,7 +168,9 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      desert_cloud_0: 1933669612
+      desert_cloud_8: 252822482
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

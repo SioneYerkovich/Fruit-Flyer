@@ -9,15 +9,15 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 142525220469164331}
-  - component: {fileID: 5222714115422610796}
   - component: {fileID: 5641033472752694013}
   - component: {fileID: 5445259705666435905}
   - component: {fileID: 297158633454506375}
   - component: {fileID: 288538957527497786}
   - component: {fileID: 4986743009778399056}
+  - component: {fileID: -5375358346545837693}
   m_Layer: 0
   m_Name: Watermelon
-  m_TagString: Untagged
+  m_TagString: Fruit
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -37,21 +37,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &5222714115422610796
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2397911363098360577}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3358638ec3dd51146b96f5cf8386e929, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  fruitSound: {fileID: 4986743009778399056}
-  moveSpeed: 5
-  deadZone: -9
 --- !u!212 &5641033472752694013
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -277,3 +262,20 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &-5375358346545837693
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2397911363098360577}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f5eeb6f8daf570459f84883251c047f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundEffect: {fileID: 4986743009778399056}
+  powerupSparkles: {fileID: 2631208630969574817, guid: 55c9b044904d1a84091342ae64fff3fe, type: 3}
+  animator: {fileID: 0}
+  deadZone: -9
+  powerupDuration: 10

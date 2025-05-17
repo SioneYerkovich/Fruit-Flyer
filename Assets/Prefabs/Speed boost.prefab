@@ -12,11 +12,11 @@ GameObject:
   - component: {fileID: 4809310182104242005}
   - component: {fileID: 4816665881722881079}
   - component: {fileID: 4899814271747421800}
-  - component: {fileID: 6364427517485020759}
   - component: {fileID: 6757342399226771275}
+  - component: {fileID: 8893421752621040997}
   m_Layer: 0
   m_Name: Speed boost
-  m_TagString: Untagged
+  m_TagString: Powerup
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -159,23 +159,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &6364427517485020759
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3544097204812963214}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2008248cf33c6564487f783736417c91, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  animator: {fileID: 4899814271747421800}
-  BombScript: {fileID: 4451489084106162662, guid: a034362361b6e7446a013011faad8c7d, type: 3}
-  PowerupSound: {fileID: 6757342399226771275}
-  sparkles: {fileID: 2631208630969574817, guid: 55c9b044904d1a84091342ae64fff3fe, type: 3}
-  duration: 10
 --- !u!82 &6757342399226771275
 AudioSource:
   m_ObjectHideFlags: 0
@@ -273,3 +256,20 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &8893421752621040997
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3544097204812963214}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f5eeb6f8daf570459f84883251c047f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundEffect: {fileID: 6757342399226771275}
+  powerupSparkles: {fileID: 2631208630969574817, guid: 55c9b044904d1a84091342ae64fff3fe, type: 3}
+  animator: {fileID: 4899814271747421800}
+  deadZone: -9
+  powerupDuration: 10

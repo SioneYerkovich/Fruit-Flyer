@@ -32,6 +32,7 @@ public class PanelManagerScript : MonoBehaviour
         }
 
         ToggleSpeedBoostPanel();
+        StageComplete();
     }
 
     public void StartGameAnimation()
@@ -71,10 +72,10 @@ public class PanelManagerScript : MonoBehaviour
 
     public void ToggleSpeedBoostPanel()
     {
-        if (FruitManagerScript.Instance.isBoosted)
+        if (SpeedBoostManagerScript.Instance.isBoosted)
         {
             panels[3].SetActive(true);
-            float timeRemaining = FruitManagerScript.Instance.speedBoostTimer;
+            float timeRemaining = SpeedBoostManagerScript.Instance.speedBoostTimer;
 
             if (timeRemaining > 0)
             {
@@ -120,6 +121,15 @@ public class PanelManagerScript : MonoBehaviour
         }
     }
 
+    public void StageComplete()
+    {
+        if (ObjectiveManager.Instance.stageComplete == true)
+        {
+            Animator animator = panels[6].GetComponent<Animator>();
+            panels[6].SetActive(true);
+            animator.Play("fade_out");
+        }
+    }
     public void CloseGame()
     {
         Application.Quit();

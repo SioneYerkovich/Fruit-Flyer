@@ -123,63 +123,19 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 16
-        width: 126
-        height: 109
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f40ee83cfb7ecadd0800000000000000
-      internalID: -2473347284527554481
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sky_cloud_floor_1
-      rect:
-        serializedVersion: 2
-        x: 463
-        y: 40
-        width: 795
-        height: 115
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 83496dc74d1be5930800000000000000
-      internalID: 4133937034158314552
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sky_cloud_floor_2
-      rect:
-        serializedVersion: 2
-        x: 1687
         y: 0
-        width: 213
-        height: 154
+        width: 1900
+        height: 166
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: e21415072cc8eda20800000000000000
-      internalID: 3089061161158656302
+      spriteID: 463cdabf49ab6f14581d7cdedb31dea0
+      internalID: 1591023996
       vertices: []
       indices: 
       edges: []
@@ -188,7 +144,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 507d2a01bd81a0345a29d25768eeb2a9
     internalID: 0
     vertices: []
     indices: 
@@ -197,7 +153,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      sky_cloud_floor_0: 1591023996
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

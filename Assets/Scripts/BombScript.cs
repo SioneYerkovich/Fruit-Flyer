@@ -15,16 +15,16 @@ public class BombScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (!FruitManagerScript.Instance.isBoosted)
+        if (!SpeedBoostManagerScript.Instance.isBoosted)
         {
-            transform.position = transform.position + (Vector3.left * FruitManagerScript.Instance.normalSpeed) * Time.deltaTime;
+            transform.position = transform.position + (Vector3.left * SpeedBoostManagerScript.Instance.normalSpeed) * Time.deltaTime;
         }
         else
         {
-            transform.position = transform.position + (Vector3.left * FruitManagerScript.Instance.boostedSpeed) * Time.deltaTime;
+            transform.position = transform.position + (Vector3.left * SpeedBoostManagerScript.Instance.boostedSpeed) * Time.deltaTime;
         }
 
-        if (transform.position.x < FruitManagerScript.Instance.deadZone)
+        if (transform.position.x < CollectableManagerScript.Instance.deadZone)
         {
             Destroy(gameObject);
         }

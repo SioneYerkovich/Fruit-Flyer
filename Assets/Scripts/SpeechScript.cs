@@ -56,13 +56,13 @@ public class SpeechScript : MonoBehaviour
 
     public void FirstEncounter()
     {
-        float delay = 14.5f;
+        float delay = 12f;
 
         if (GameManagerScript.Instance.characterMonologue && !GameManagerScript.Instance.gameStarted)
         {
             jumpAction.Disable();
             ShowBubbleLeft("My family are starving.... theres no way we're alone. \r\nI have to stop baron to save my family.");
-            Invoke("Boomberry", 8.5f);
+            Invoke("Boomberry", 6f);
             Invoke("monologueCompleted", delay);
         }
     }
