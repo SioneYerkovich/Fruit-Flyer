@@ -3,11 +3,10 @@ using UnityEngine;
 
 public class CollectableManagerScript : MonoBehaviour
 {
-    public static CollectableManagerScript Instance;
     public AudioSource soundEffect;
     public GameObject powerupSparkles;
     public Animator animator;
-    public float deadZone = -9;
+    public float deadZone = -15;
     public float powerupDuration = 10f;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -21,11 +20,6 @@ public class CollectableManagerScript : MonoBehaviour
     {
         SetObjectSpeed();
         DestroyObject();
-    }
-
-    private void Awake()
-    {
-        Instance = this;
     }
 
     public void OnTriggerEnter2D(Collider2D collision)

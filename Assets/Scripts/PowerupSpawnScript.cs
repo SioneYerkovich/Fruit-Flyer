@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class PowerupSpawnScript : MonoBehaviour
 {
-    private bool commenceSpawn = false;
     public GameObject[] Powerups;
     public float minSpawnTime = 1f;
     public float maxSpawnTime = 5f;
@@ -18,10 +17,10 @@ public class PowerupSpawnScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (!commenceSpawn && GameManagerScript.Instance.gameStarted)
+        if (!GameManagerScript.Instance.commencePowerupSpawn && GameManagerScript.Instance.gameStarted)
         {
-            commenceSpawn = true;
-            InvokeRepeating("SpawnPowerup", 0f, Random.Range(minSpawnTime, maxSpawnTime));
+            GameManagerScript.Instance.commencePowerupSpawn = true;
+            InvokeRepeating("SpawnPowerup", 2f, Random.Range(minSpawnTime, maxSpawnTime));
         }
     }
     GameObject GetRandomObject()
@@ -48,4 +47,5 @@ public class PowerupSpawnScript : MonoBehaviour
             InvokeRepeating("SpawnPowerup", Random.Range(minSpawnTime, maxSpawnTime), Random.Range(minSpawnTime, maxSpawnTime));
         }
     }
+
 }

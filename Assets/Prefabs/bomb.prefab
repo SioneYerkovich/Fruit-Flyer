@@ -79,7 +79,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 6
+  m_SortingOrder: 9
   m_Sprite: {fileID: -2613247888821195678, guid: 0189674a69f858a4ea4f9527d70fbd9d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -185,7 +185,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animator: {fileID: 5405403836612171284}
   moveSpeed: 5
-  deadZone: -9
+  deadZone: -15
   explosionSound: {fileID: 6579881878191793742}
 --- !u!82 &6579881878191793742
 AudioSource:

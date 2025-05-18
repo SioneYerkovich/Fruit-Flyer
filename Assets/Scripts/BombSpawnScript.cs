@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class BombSpawnScript : MonoBehaviour
 {
-    private bool commenceSpawn = false;
     public GameObject Bomb;
     public float minSpawnTime = 1f;
     public float maxSpawnTime = 5f;
@@ -18,9 +17,9 @@ public class BombSpawnScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (!commenceSpawn && GameManagerScript.Instance.gameStarted)
+        if (!GameManagerScript.Instance.commenceBombSpawn && GameManagerScript.Instance.gameStarted)
         {
-            commenceSpawn = true;
+            GameManagerScript.Instance.commenceBombSpawn = true;
             InvokeRepeating("SpawnBomb", 0f, Random.Range(minSpawnTime, maxSpawnTime));
         }
     }

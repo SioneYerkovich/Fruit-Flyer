@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class FruitSpawnScript : MonoBehaviour
 {
-    private bool commenceSpawn = false;
+
     public GameObject[] Fruits;
     public float minSpawnTime = 1f;
     public float maxSpawnTime = 5f;
@@ -12,16 +12,16 @@ public class FruitSpawnScript : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-
+        //
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (!commenceSpawn && GameManagerScript.Instance.gameStarted)
+        if (!GameManagerScript.Instance.commenceFruitSpawn && GameManagerScript.Instance.gameStarted)
         {
-            commenceSpawn = true;
-            InvokeRepeating("SpawnFruit", 0f, Random.Range(minSpawnTime, maxSpawnTime));
+            GameManagerScript.Instance.commenceFruitSpawn = true;
+            InvokeRepeating("SpawnFruit", 1f, Random.Range(minSpawnTime, maxSpawnTime));
         }
     }
     GameObject GetRandomObject()
@@ -48,4 +48,5 @@ public class FruitSpawnScript : MonoBehaviour
             InvokeRepeating("SpawnFruit", Random.Range(minSpawnTime, maxSpawnTime), Random.Range(minSpawnTime, maxSpawnTime));
         }
     }
+
 }

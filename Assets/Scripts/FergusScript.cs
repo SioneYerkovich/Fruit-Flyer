@@ -63,6 +63,6 @@ public class FergusScript : MonoBehaviour
     {
         jumpAction.Disable();
         FergusRigidbody.gravityScale = 0.4f;
-        GameManagerScript.Instance.LoadCheckpoint(player);
+        PanelManagerScript.Instance.LoadCheckpoint(player);
     }
 }

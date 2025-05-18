@@ -7,12 +7,13 @@ using UnityEngine.UI;
 
 public class PanelManagerScript : MonoBehaviour
 {
-    public Animator gameplayPanel;
+    public static PanelManagerScript Instance;
     public GameObject player;
-    InputAction jumpAction;
     public GameObject[] panels;
     public Text timerText;
     public GameObject introText;
+    InputAction jumpAction;
+
     private void Start()
     {
         jumpAction = InputSystem.actions.FindAction("Jump");
@@ -32,28 +33,36 @@ public class PanelManagerScript : MonoBehaviour
         }
 
         ToggleSpeedBoostPanel();
-        StageComplete();
+    }
+
+    public void Awake()
+    {
+        Instance = this;
     }
 
     public void StartGameAnimation()
     {
+        LoadCheckpoint(player);
+        player.SetActive(true);
         Animator animator = panels[0].GetComponent<Animator>();
         animator.SetTrigger("StartGame");
+        Invoke("StartGame", 1f);
     }
+
 
     public void StartIntroAnimation()
     {
+        ShowStartMenu();
         Animator animator = panels[4].GetComponent<Animator>();
         animator.SetTrigger("fadeIntro");
+        Invoke("DisableIntro", 2f);
     }
 
     public void StartGame()
     {
-        player.SetActive(true);
         panels[0].SetActive(false);
         panels[1].SetActive(true);
         GameManagerScript.Instance.activateSpeech = true;
-        gameplayPanel.Play("gameplay_cutscene_1");
     }
 
     public void TogglePauseMenu()
@@ -128,8 +137,36 @@ public class PanelManagerScript : MonoBehaviour
             Animator animator = panels[6].GetComponent<Animator>();
             panels[6].SetActive(true);
             animator.Play("fade_out");
+            Invoke("StageTransitionDelay", 2f);
         }
     }
+
+    public void StageTransitionDelay()
+    {
+        Animator animator = panels[6].GetComponent<Animator>();
+        animator.SetTrigger("stageCompleted");
+        Invoke("DeactivateFadePanel", 2f);
+    }
+
+    public void DeactivateFadePanel()
+    {
+        panels[6].SetActive(false);
+        ObjectiveManager.Instance.stageComplete = false;
+    }
+
+    public void LoadCheckpoint(GameObject player)
+    {
+        if (PlayerPrefs.HasKey("CurrentStage"))
+        {
+            int currentStage = PlayerPrefs.GetInt("CurrentStage", 0);
+            Vector3 spawnPoint = StageManagerScript.Instance.GetStartPosition(currentStage);
+            player.transform.position = spawnPoint;
+
+            for (int i = 0; i < StageManagerScript.Instance.stages.Length; i++)
+                StageManagerScript.Instance.stages[i].SetActive(i == currentStage);
+        }
+    }
+
     public void CloseGame()
     {
         Application.Quit();

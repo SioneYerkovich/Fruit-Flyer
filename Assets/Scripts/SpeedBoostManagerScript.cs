@@ -5,7 +5,7 @@ public class SpeedBoostManagerScript : MonoBehaviour
     public static SpeedBoostManagerScript Instance;
     public float normalSpeed = 5;
     public float boostedSpeed;
-    public float boostedMoveSpeed = 7;
+    public float boostedMoveSpeed = 10;
     public float speedBoostTimer;
     public bool isBoosted = false;
 
@@ -33,7 +33,7 @@ public class SpeedBoostManagerScript : MonoBehaviour
         isBoosted = true;
     }
 
-    private void EndBoost()
+    public void EndBoost()
     {
         isBoosted = false;
         speedBoostTimer = 0f;

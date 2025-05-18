@@ -7,32 +7,24 @@
       "RelativeMoniker": "D:0:0:{5483BADE-4D87-6A55-82D8-E57727570750}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\stagemanagerscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5483BADE-4D87-6A55-82D8-E57727570750}|Assembly-CSharp.csproj|C:\\Users\\sione\\2d test\\assets\\scripts\\collectablemanagerscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5483BADE-4D87-6A55-82D8-E57727570750}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\collectablemanagerscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5483BADE-4D87-6A55-82D8-E57727570750}|Assembly-CSharp.csproj|c:\\users\\sione\\2d test\\assets\\scripts\\speedboostmanagerscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5483BADE-4D87-6A55-82D8-E57727570750}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\speedboostmanagerscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5483BADE-4D87-6A55-82D8-E57727570750}|Assembly-CSharp.csproj|C:\\Users\\sione\\2d test\\assets\\scripts\\objectivemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5483BADE-4D87-6A55-82D8-E57727570750}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\objectivemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5483BADE-4D87-6A55-82D8-E57727570750}|Assembly-CSharp.csproj|C:\\Users\\sione\\2d test\\assets\\scripts\\panelmanagerscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5483BADE-4D87-6A55-82D8-E57727570750}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\panelmanagerscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{5483BADE-4D87-6A55-82D8-E57727570750}|Assembly-CSharp.csproj|c:\\users\\sione\\2d test\\assets\\scripts\\gamemanagerscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5483BADE-4D87-6A55-82D8-E57727570750}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamemanagerscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{5483BADE-4D87-6A55-82D8-E57727570750}|Assembly-CSharp.csproj|C:\\Users\\sione\\2d test\\assets\\scripts\\speechscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5483BADE-4D87-6A55-82D8-E57727570750}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\speechscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5483BADE-4D87-6A55-82D8-E57727570750}|Assembly-CSharp.csproj|C:\\Users\\sione\\2d test\\assets\\scripts\\objectivemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5483BADE-4D87-6A55-82D8-E57727570750}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\objectivemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{5483BADE-4D87-6A55-82D8-E57727570750}|Assembly-CSharp.csproj|C:\\Users\\sione\\2d test\\assets\\scripts\\fergusscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5483BADE-4D87-6A55-82D8-E57727570750}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\fergusscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5483BADE-4D87-6A55-82D8-E57727570750}|Assembly-CSharp.csproj|C:\\Users\\sione\\2d test\\assets\\scripts\\gamemanagerscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5483BADE-4D87-6A55-82D8-E57727570750}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamemanagerscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -62,54 +54,54 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "SpeedBoostManagerScript.cs",
-              "DocumentMoniker": "C:\\Users\\sione\\2d test\\Assets\\Scripts\\SpeedBoostManagerScript.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\SpeedBoostManagerScript.cs",
-              "ToolTip": "C:\\Users\\sione\\2d test\\Assets\\Scripts\\SpeedBoostManagerScript.cs",
-              "RelativeToolTip": "Assets\\Scripts\\SpeedBoostManagerScript.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAA9wBQAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-16T10:22:03.529Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CollectableManagerScript.cs",
-              "DocumentMoniker": "C:\\Users\\sione\\2d test\\Assets\\Scripts\\CollectableManagerScript.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\CollectableManagerScript.cs",
-              "ToolTip": "C:\\Users\\sione\\2d test\\Assets\\Scripts\\CollectableManagerScript.cs",
-              "RelativeToolTip": "Assets\\Scripts\\CollectableManagerScript.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAgwDwAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-16T09:13:33.215Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "StageManagerScript.cs",
               "DocumentMoniker": "C:\\Users\\sione\\2d test\\Assets\\Scripts\\StageManagerScript.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\StageManagerScript.cs",
               "ToolTip": "C:\\Users\\sione\\2d test\\Assets\\Scripts\\StageManagerScript.cs",
               "RelativeToolTip": "Assets\\Scripts\\StageManagerScript.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA9AAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwB0AAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-15T23:43:20.531Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
+              "Title": "PanelManagerScript.cs",
+              "DocumentMoniker": "C:\\Users\\sione\\2d test\\Assets\\Scripts\\PanelManagerScript.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PanelManagerScript.cs",
+              "ToolTip": "C:\\Users\\sione\\2d test\\Assets\\Scripts\\PanelManagerScript.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PanelManagerScript.cs",
+              "ViewState": "AgIAAHIAAAAAAAAAAAAkwIAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T21:42:38.195Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "ObjectiveManager.cs",
               "DocumentMoniker": "C:\\Users\\sione\\2d test\\Assets\\Scripts\\ObjectiveManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\ObjectiveManager.cs",
               "ToolTip": "C:\\Users\\sione\\2d test\\Assets\\Scripts\\ObjectiveManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\ObjectiveManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAQwCkAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-15T21:26:52.241Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GameManagerScript.cs",
+              "DocumentMoniker": "C:\\Users\\sione\\2d test\\Assets\\Scripts\\GameManagerScript.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GameManagerScript.cs",
+              "ToolTip": "C:\\Users\\sione\\2d test\\Assets\\Scripts\\GameManagerScript.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GameManagerScript.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T23:55:04.611Z",
               "EditorCaption": ""
             },
             {
@@ -120,47 +112,23 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\SpeechScript.cs",
               "ToolTip": "C:\\Users\\sione\\2d test\\Assets\\Scripts\\SpeechScript.cs",
               "RelativeToolTip": "Assets\\Scripts\\SpeechScript.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAAADoAAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwDAAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-14T07:53:38.479Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "PanelManagerScript.cs",
-              "DocumentMoniker": "C:\\Users\\sione\\2d test\\Assets\\Scripts\\PanelManagerScript.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\PanelManagerScript.cs",
-              "ToolTip": "C:\\Users\\sione\\2d test\\Assets\\Scripts\\PanelManagerScript.cs",
-              "RelativeToolTip": "Assets\\Scripts\\PanelManagerScript.cs",
-              "ViewState": "AgIAAD8AAAAAAAAAAAAmwA4AAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-06T21:42:38.195Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "GameManagerScript.cs",
-              "DocumentMoniker": "C:\\Users\\sione\\2d test\\Assets\\Scripts\\GameManagerScript.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\GameManagerScript.cs",
-              "ToolTip": "C:\\Users\\sione\\2d test\\Assets\\Scripts\\GameManagerScript.cs",
-              "RelativeToolTip": "Assets\\Scripts\\GameManagerScript.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADUAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-11T23:55:04.611Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "FergusScript.cs",
               "DocumentMoniker": "C:\\Users\\sione\\2d test\\Assets\\Scripts\\FergusScript.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\FergusScript.cs",
               "ToolTip": "C:\\Users\\sione\\2d test\\Assets\\Scripts\\FergusScript.cs",
               "RelativeToolTip": "Assets\\Scripts\\FergusScript.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEEAAAA4AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBQAAABHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T21:22:37.062Z"
+              "WhenOpened": "2025-05-01T21:22:37.062Z",
+              "EditorCaption": ""
             }
           ]
         }

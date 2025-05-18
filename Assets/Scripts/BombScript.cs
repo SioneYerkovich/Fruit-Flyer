@@ -4,7 +4,7 @@ public class BombScript : MonoBehaviour
 {
     public Animator animator;
     public float moveSpeed = 5;
-    public float deadZone = -9;
+    public float deadZone = -15;
     public AudioSource explosionSound;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -24,7 +24,7 @@ public class BombScript : MonoBehaviour
             transform.position = transform.position + (Vector3.left * SpeedBoostManagerScript.Instance.boostedSpeed) * Time.deltaTime;
         }
 
-        if (transform.position.x < CollectableManagerScript.Instance.deadZone)
+        if (transform.position.x < deadZone)
         {
             Destroy(gameObject);
         }

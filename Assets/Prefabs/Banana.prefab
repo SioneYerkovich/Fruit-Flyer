@@ -80,7 +80,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 6
+  m_SortingOrder: 9
   m_Sprite: {fileID: -2838075456202239619, guid: 66204bf6d191f4746a8fce90a947cd84, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -277,5 +277,5 @@ MonoBehaviour:
   soundEffect: {fileID: -650996784978342442}
   powerupSparkles: {fileID: 2631208630969574817, guid: 55c9b044904d1a84091342ae64fff3fe, type: 3}
   animator: {fileID: 0}
-  deadZone: -9
+  deadZone: -15
   powerupDuration: 10
