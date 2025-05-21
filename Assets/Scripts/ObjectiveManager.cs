@@ -29,8 +29,16 @@ public class ObjectiveManager : MonoBehaviour
 
     public void AddPoints(int amount)
     {
-        fruitsCollected += amount;
-        scoreText.text = fruitsCollected.ToString() + "/100";
+        if (DoublePointManagerScript.Instance.bonus)
+        {
+            fruitsCollected += amount * 2;
+            scoreText.text = fruitsCollected.ToString() + "/100";
+        }
+        else
+        {
+            fruitsCollected += amount;
+            scoreText.text = fruitsCollected.ToString() + "/100";
+        }
         if (fruitsCollected >= fruitsNeeded)
         {
             stageComplete = true;
@@ -46,18 +54,21 @@ public class ObjectiveManager : MonoBehaviour
             fruitsCollected = 0;
             scoreText.text = fruitsCollected.ToString() + "/100";
             SpeedBoostManagerScript.Instance.EndBoost();
+            DoublePointManagerScript.Instance.EndBonus();
             GameManagerScript.Instance.characterMonologue = true;
             GameManagerScript.Instance.gameStarted = false;
 
             GameObject[] spawnedFruits = GameObject.FindGameObjectsWithTag("Fruit");
             GameObject[] spawnedBombs = GameObject.FindGameObjectsWithTag("Bomb");
-            GameObject[] spawnedPowerups = GameObject.FindGameObjectsWithTag("Powerup");
+            GameObject[] spawnedSpeed = GameObject.FindGameObjectsWithTag("SpeedBoost");
+            GameObject[] spawnedBonus = GameObject.FindGameObjectsWithTag("DoublePoints");
             GameObject[] spawnedRotten = GameObject.FindGameObjectsWithTag("Rotten");
 
             List<GameObject> allObjects = new List<GameObject>();
             allObjects.AddRange(spawnedFruits);
             allObjects.AddRange(spawnedBombs);
-            allObjects.AddRange(spawnedPowerups);
+            allObjects.AddRange(spawnedSpeed);
+            allObjects.AddRange(spawnedBonus);
             allObjects.AddRange(spawnedRotten);
             GameObject[] spawnedStuff = allObjects.ToArray();
 

@@ -10,7 +10,8 @@ public class PanelManagerScript : MonoBehaviour
     public static PanelManagerScript Instance;
     public GameObject player;
     public GameObject[] panels;
-    public Text timerText;
+    public Text speedTimerText;
+    public Text bonusTimerText;
     public GameObject introText;
     InputAction jumpAction;
 
@@ -32,7 +33,7 @@ public class PanelManagerScript : MonoBehaviour
             }
         }
 
-        ToggleSpeedBoostPanel();
+        TogglePowerupPanel();
     }
 
     public void Awake()
@@ -79,7 +80,7 @@ public class PanelManagerScript : MonoBehaviour
         }
     }
 
-    public void ToggleSpeedBoostPanel()
+    public void TogglePowerupPanel()
     {
         if (SpeedBoostManagerScript.Instance.isBoosted)
         {
@@ -88,12 +89,27 @@ public class PanelManagerScript : MonoBehaviour
 
             if (timeRemaining > 0)
             {
-                timerText.text = Mathf.Ceil(timeRemaining).ToString() + " s";
+                speedTimerText.text = Mathf.Ceil(timeRemaining).ToString() + " s";
             }
         }
         else
         {
             panels[3].SetActive(false);
+        }
+
+        if (DoublePointManagerScript.Instance.bonus)
+        {
+            panels[7].SetActive(true);
+            float timeRemaining = DoublePointManagerScript.Instance.bonusTimer;
+
+            if (timeRemaining > 0)
+            {
+                bonusTimerText.text = Mathf.Ceil(timeRemaining).ToString() + " s";
+            }
+        }
+        else
+        {
+            panels[7].SetActive(false);
         }
     }
 

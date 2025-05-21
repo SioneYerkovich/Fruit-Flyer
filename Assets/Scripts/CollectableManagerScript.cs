@@ -28,9 +28,21 @@ public class CollectableManagerScript : MonoBehaviour
         {
             TriggerSound();
         }
-        else if (this.gameObject.CompareTag("Powerup"))
+        else if (this.gameObject.CompareTag("SpeedBoost"))
         {
             SpeedBoostManagerScript.Instance.ActivateBoost(powerupDuration);
+            animator.SetBool("grabbed", true);
+            TriggerSound();
+            GameObject effect = Instantiate(powerupSparkles, transform.position, Quaternion.identity);
+            ParticleSystem sparklesEffect = effect.GetComponent<ParticleSystem>();
+            sparklesEffect.Play();
+            Destroy(effect, 0.5f);
+            Destroy(gameObject, 1f);
+        }
+        else if (this.gameObject.CompareTag("DoublePoints"))
+        {
+            DoublePointManagerScript.Instance.ActivateBonus(powerupDuration);
+            this.gameObject.GetComponent<ParticleSystem>().Stop();
             animator.SetBool("grabbed", true);
             TriggerSound();
             GameObject effect = Instantiate(powerupSparkles, transform.position, Quaternion.identity);
