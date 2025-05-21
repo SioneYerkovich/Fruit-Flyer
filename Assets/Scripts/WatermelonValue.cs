@@ -14,7 +14,7 @@ public class WatermelonValue : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+         
     }
 
     private void OnTriggerEnter2D(Collider2D other)
@@ -26,7 +26,15 @@ public class WatermelonValue : MonoBehaviour
             {
                 ObjectiveManager.Instance.AddPoints(watermelon.value);
             }
-            animator.SetBool("PopFruit", true);
+
+            if (this.gameObject.CompareTag("Rotten"))
+            {
+                animator.SetBool("Rotten", true);
+            }
+            else
+            {
+                animator.SetBool("PopFruit", true);
+            }
             GameObject effect = Instantiate(sparkles, transform.position, Quaternion.identity);
             ParticleSystem sparklesEffect = effect.GetComponent<ParticleSystem>();
             sparklesEffect.Play();

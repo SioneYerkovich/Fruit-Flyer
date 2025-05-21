@@ -165,6 +165,10 @@ public class PanelManagerScript : MonoBehaviour
             for (int i = 0; i < StageManagerScript.Instance.stages.Length; i++)
                 StageManagerScript.Instance.stages[i].SetActive(i == currentStage);
         }
+        else
+        {
+            StageManagerScript.Instance.stages[0].SetActive(true);
+        }
     }
 
     public void CloseGame()

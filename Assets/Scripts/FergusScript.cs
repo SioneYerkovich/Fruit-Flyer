@@ -26,6 +26,8 @@ public class FergusScript : MonoBehaviour
     {
         startText.SetActive(!GameManagerScript.Instance.gameStarted && !GameManagerScript.Instance.characterMonologue);
 
+        ResetPlayer();
+
         if (!GameManagerScript.Instance.gameStarted && !GameManagerScript.Instance.characterMonologue)
         {
             if (jumpAction.IsPressed())
@@ -55,7 +57,18 @@ public class FergusScript : MonoBehaviour
         {
             Die();
             animator.SetBool("Death", true);
-            Destroy(gameObject, 2.5f);
+            Destroy(gameObject, 2.3f);
+        }
+    }
+
+    private void ResetPlayer()
+    {
+        if (ObjectiveManager.Instance.stageComplete)
+        {
+            FergusRigidbody.constraints = RigidbodyConstraints2D.FreezeAll;
+            int currentStage = PlayerPrefs.GetInt("CurrentStage", 0);
+            Vector3 spawnPoint = StageManagerScript.Instance.GetStartPosition(currentStage);
+            player.transform.position = spawnPoint;
         }
     }
 
@@ -63,6 +76,5 @@ public class FergusScript : MonoBehaviour
     {
         jumpAction.Disable();
         FergusRigidbody.gravityScale = 0.4f;
-        PanelManagerScript.Instance.LoadCheckpoint(player);
     }
 }

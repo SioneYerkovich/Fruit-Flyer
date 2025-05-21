@@ -26,7 +26,15 @@ public class CoconutValue : MonoBehaviour
             {
                 ObjectiveManager.Instance.AddPoints(coconut.value);
             }
-            animator.SetBool("PopFruit", true);
+
+            if (this.gameObject.CompareTag("Rotten"))
+            {
+                animator.SetBool("Rotten", true);
+            }
+            else
+            {
+                animator.SetBool("PopFruit", true);
+            }
             GameObject effect = Instantiate(sparkles, transform.position, Quaternion.identity);
             ParticleSystem sparklesEffect = effect.GetComponent<ParticleSystem>();
             sparklesEffect.Play();

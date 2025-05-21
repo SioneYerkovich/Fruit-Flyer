@@ -5,6 +5,7 @@ using UnityEngine.UI;
 public class ObjectiveManager : MonoBehaviour
 {
     public static ObjectiveManager Instance;
+    public GameObject player;
     public int fruitsCollected = 0;
     public int fruitsNeeded = 100;
     public Text scoreText;
@@ -51,11 +52,13 @@ public class ObjectiveManager : MonoBehaviour
             GameObject[] spawnedFruits = GameObject.FindGameObjectsWithTag("Fruit");
             GameObject[] spawnedBombs = GameObject.FindGameObjectsWithTag("Bomb");
             GameObject[] spawnedPowerups = GameObject.FindGameObjectsWithTag("Powerup");
+            GameObject[] spawnedRotten = GameObject.FindGameObjectsWithTag("Rotten");
 
             List<GameObject> allObjects = new List<GameObject>();
             allObjects.AddRange(spawnedFruits);
             allObjects.AddRange(spawnedBombs);
             allObjects.AddRange(spawnedPowerups);
+            allObjects.AddRange(spawnedRotten);
             GameObject[] spawnedStuff = allObjects.ToArray();
 
             foreach (GameObject objects in spawnedStuff)

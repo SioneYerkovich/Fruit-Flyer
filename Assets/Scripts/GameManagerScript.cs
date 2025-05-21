@@ -7,6 +7,7 @@ public class GameManagerScript : MonoBehaviour
     public bool commenceFruitSpawn = false;
     public bool commenceBombSpawn = false;
     public bool commencePowerupSpawn = false;
+    public bool commenceRottenSpawn = false;
     public bool characterMonologue = true;
     public bool gameStarted = false;
     public bool gameIntro = true;

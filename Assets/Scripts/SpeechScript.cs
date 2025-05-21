@@ -10,11 +10,12 @@ public class SpeechScript : MonoBehaviour
     private int currentStage;
     public GameObject[] characters;
     public GameObject smoke;
+    public Text nameHeaderEnemy;
     public GameObject speechBubbleLeft;
     public GameObject speechBubbleRight;
     public Text bubbleTextLeft;
     public Text bubbleTextRight;
-    public float duration = 4f;
+    public float duration = 5f;
 
 
     public void Start()
@@ -37,8 +38,9 @@ public class SpeechScript : MonoBehaviour
         Invoke("HideBubbleLeft", duration);
     }
 
-    public void ShowBubbleRight(string message)
+    public void ShowBubbleRight(string message, string name)
     {
+        nameHeaderEnemy.text = name;
         speechBubbleRight.SetActive(true);
         bubbleTextRight.text = message;
         Invoke("HideBubbleRight", duration);
@@ -88,11 +90,11 @@ public class SpeechScript : MonoBehaviour
 
     public void FirstEncounter()
     {
-        float delay = 9f;
+        float delay = 11f;
 
         if (GameManagerScript.Instance.characterMonologue && !GameManagerScript.Instance.gameStarted)
         {
-            ShowBubbleLeft("My family are starving.... theres no way we're alone. \nI have to stop baron to save my family.");
+            ShowBubbleLeft("My family are starving.... We aren't the only ones. \nI have to stop baron to save the world.");
             Invoke("Boomberry", 5f);
             Invoke("monologueCompleted", delay);
         }
@@ -100,11 +102,11 @@ public class SpeechScript : MonoBehaviour
 
     public void SecondEncounter()
     {
-        float delay = 9f;
+        float delay = 11f;
 
         if (GameManagerScript.Instance.characterMonologue && !GameManagerScript.Instance.gameStarted)
         {
-            ShowBubbleLeft("Phew, i nearly lost a wing to those bombs. \n but i dont think thats the last time i'll see them.");
+            ShowBubbleLeft("Phew, i nearly lost a wing to those bombs. \ni dont think thats the last of them.");
             Invoke("Festerpaw", 5f);
             Invoke("monologueCompleted", delay);
         }
@@ -112,36 +114,36 @@ public class SpeechScript : MonoBehaviour
 
     public void ThirdEncounter()
     {
-        float delay = 9f;
+        float delay = 11f;
 
         if (GameManagerScript.Instance.characterMonologue && !GameManagerScript.Instance.gameStarted)
         {
-            ShowBubbleLeft("My family are starving.... theres no way we're alone. \nI have to stop baron to save my family.");
-            Invoke("Boomberry", 5f);
+            ShowBubbleLeft("i know im a fruit fly and all... \n\nbut there are still limits.");
+            Invoke("Peelz", 5f);
             Invoke("monologueCompleted", delay);
         }
     }
 
     public void FourthEncounter()
     {
-        float delay = 9f;
+        float delay = 11f;
 
         if (GameManagerScript.Instance.characterMonologue && !GameManagerScript.Instance.gameStarted)
         {
-            ShowBubbleLeft("My family are starving.... theres no way we're alone. \nI have to stop baron to save my family.");
-            Invoke("Boomberry", 5f);
+            ShowBubbleLeft("Poor guy, just trying to get by like the rest of us. \nBaron must be close.");
+            Invoke("Logjam", 5f);
             Invoke("monologueCompleted", delay);
         }
     }
 
     public void FinalEncounter()
     {
-        float delay = 9f;
+        float delay = 11f;
 
         if (GameManagerScript.Instance.characterMonologue && !GameManagerScript.Instance.gameStarted)
         {
-            ShowBubbleLeft("My family are starving.... theres no way we're alone. \nI have to stop baron to save my family.");
-            Invoke("Boomberry", 5f);
+            ShowBubbleLeft("hey, you! im here to stop all this monkeying around. hope you're ready.");
+            Invoke("Baron", 5f);
             Invoke("monologueCompleted", delay);
         }
     }
@@ -151,21 +153,50 @@ public class SpeechScript : MonoBehaviour
         Animator animator = characters[1].GetComponent<Animator>();
         SmokeEnterExit();
         characters[1].SetActive(true);
-        ShowBubbleRight("You? tryna get to the boss? \nHow about you get through me first teehee");
+        ShowBubbleRight("*squeak* You? tryna get to the boss? \nHow about you get through me first. *squeak*", "BoomBerry");
         animator.SetTrigger("boomberryOn");
-        Invoke("SmokeEnterExit", 3.8f);
-        Invoke("DisableBoomberry", 4f);
+        Invoke("SmokeEnterExit", 4.8f);
+        Invoke("DisableCharacter", 5f);
     }
 
     public void Festerpaw()
     {
-        Animator animator = characters[1].GetComponent<Animator>();
+        Animator animator = characters[2].GetComponent<Animator>();
         SmokeEnterExit();
-        characters[1].SetActive(true);
-        ShowBubbleRight("Did that sad excuse for a squirrel nearly blow you up? \nMy methods are a little more... sick");
-        animator.SetTrigger("boomberryOn");
-        Invoke("SmokeEnterExit", 3.8f);
-        Invoke("DisableBoomberry", 4f);
+        characters[2].SetActive(true);
+        ShowBubbleRight("Did that sad excuse for a squirrel nearly blow you up? \nMy methods are a little more... sick", "Festerpaw");
+        Invoke("SmokeEnterExit", 4.8f);
+        Invoke("DisableCharacter", 5f);
+    }
+
+    public void Peelz()
+    {
+        Animator animator = characters[3].GetComponent<Animator>();
+        SmokeEnterExit();
+        characters[3].SetActive(true);
+        ShowBubbleRight("I was just in it for the free food. \nthen it all started smelling funny", "Peelz");
+        Invoke("SmokeEnterExit", 4.8f);
+        Invoke("DisableCharacter", 5f);
+    }
+
+    public void Logjam()
+    {
+        Animator animator = characters[4].GetComponent<Animator>();
+        SmokeEnterExit();
+        characters[4].SetActive(true);
+        ShowBubbleRight("Useless ape. He's all for show. Me? i dont give a dam. get it? cause im a beaver..", "Logjam");
+        Invoke("SmokeEnterExit", 4.8f);
+        Invoke("DisableCharacter", 5f);
+    }
+
+    public void Baron()
+    {
+        Animator animator = characters[0].GetComponent<Animator>();
+        SmokeEnterExit();
+        characters[0].SetActive(true);
+        ShowBubbleRight("Those imbeciles. why must i do everything myself. \n\nthe fruit are mine!!!", "Baron Von Fruit");
+        Invoke("SmokeEnterExit", 4.8f);
+        Invoke("DisableCharacter", 5f);
     }
 
     public void SmokeEnterExit()
@@ -176,9 +207,13 @@ public class SpeechScript : MonoBehaviour
         animator.SetTrigger("smokeIdle");
     }
 
-    public void DisableBoomberry()
+    public void DisableCharacter()
     {
-        characters[1].SetActive(false);
+        for (int i = 0; i < characters.Length; i++)
+            if (characters[i].activeSelf)
+            {
+                characters[i].SetActive(false);
+            }
     }
 
 }

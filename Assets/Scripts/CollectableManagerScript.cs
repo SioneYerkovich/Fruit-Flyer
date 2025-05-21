@@ -39,6 +39,10 @@ public class CollectableManagerScript : MonoBehaviour
             Destroy(effect, 0.5f);
             Destroy(gameObject, 1f);
         }
+        else if (this.gameObject.CompareTag("Rotten"))
+        {
+            TriggerSound();
+        }
     }
 
     private void TriggerSound()

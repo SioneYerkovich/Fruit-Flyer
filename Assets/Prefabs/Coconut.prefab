@@ -275,7 +275,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: {fileID: 2877310755192162795}
-  powerupSparkles: {fileID: 2631208630969574817, guid: 55c9b044904d1a84091342ae64fff3fe, type: 3}
-  animator: {fileID: 0}
+  powerupSparkles: {fileID: 2318559551733805806, guid: 6d2a13ca1bd3c1340b1d69fc8024eff7, type: 3}
+  animator: {fileID: 248357579353887431}
   deadZone: -15
   powerupDuration: 10

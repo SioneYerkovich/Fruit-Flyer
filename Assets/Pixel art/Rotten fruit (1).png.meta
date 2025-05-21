@@ -1,0 +1,730 @@
+fileFormatVersion: 2
+guid: 41e5e2f799e7d5147847eb6e4b56678e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 9178112142902613124
+    second: Rotten fruit (1)_0
+  - first:
+      213: -5799422297479016332
+    second: Rotten fruit (1)_1
+  - first:
+      213: 4057272951451116103
+    second: Rotten fruit (1)_2
+  - first:
+      213: 8173388842061358761
+    second: Rotten fruit (1)_3
+  - first:
+      213: -7298270207440412006
+    second: Rotten fruit (1)_4
+  - first:
+      213: -9109297184606568485
+    second: Rotten fruit (1)_5
+  - first:
+      213: 8730036530003812766
+    second: Rotten fruit (1)_6
+  - first:
+      213: 5499703637207813967
+    second: Rotten fruit (1)_7
+  - first:
+      213: 2574184327488684303
+    second: Rotten fruit (1)_8
+  - first:
+      213: 3481079822543363224
+    second: Rotten fruit (1)_9
+  - first:
+      213: 1079951106926678494
+    second: Rotten fruit (1)_10
+  - first:
+      213: 2788134584796217446
+    second: Rotten fruit (1)_11
+  - first:
+      213: -6402041144365059728
+    second: Rotten fruit (1)_12
+  - first:
+      213: -4765974374448510287
+    second: Rotten fruit (1)_13
+  - first:
+      213: 3272007486530227649
+    second: Rotten fruit (1)_14
+  - first:
+      213: 1316987726140281261
+    second: Rotten fruit (1)_15
+  - first:
+      213: -2196559857679097006
+    second: Rotten fruit (1)_16
+  - first:
+      213: -5222473320910538548
+    second: Rotten fruit (1)_17
+  - first:
+      213: -6074764504621049966
+    second: Rotten fruit (1)_18
+  - first:
+      213: 7467078252775925216
+    second: Rotten fruit (1)_19
+  - first:
+      213: -4267459376877719868
+    second: Rotten fruit (1)_20
+  - first:
+      213: -8959512901023186530
+    second: Rotten fruit (1)_21
+  - first:
+      213: 6128553927168606089
+    second: Rotten fruit (1)_22
+  - first:
+      213: 8266068292374630457
+    second: Rotten fruit (1)_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Rotten fruit (1)_0
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 308
+        width: 53
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 484d862cd543f5f70800000000000000
+      internalID: 9178112142902613124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rotten fruit (1)_1
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 308
+        width: 53
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4709848a520548fa0800000000000000
+      internalID: -5799422297479016332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rotten fruit (1)_2
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 308
+        width: 53
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7426b04c0445e4830800000000000000
+      internalID: 4057272951451116103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rotten fruit (1)_3
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 308
+        width: 53
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a6653ee8d5bd6170800000000000000
+      internalID: 8173388842061358761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rotten fruit (1)_4
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 308
+        width: 53
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a92a2ba0ae557ba90800000000000000
+      internalID: -7298270207440412006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rotten fruit (1)_5
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 308
+        width: 53
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdf3f064976459180800000000000000
+      internalID: -9109297184606568485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rotten fruit (1)_6
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 218
+        width: 53
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e91af0768f1572970800000000000000
+      internalID: 8730036530003812766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rotten fruit (1)_7
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 218
+        width: 53
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4f02b1c15fd25c40800000000000000
+      internalID: 5499703637207813967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rotten fruit (1)_8
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 218
+        width: 53
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f01475ad10759b320800000000000000
+      internalID: 2574184327488684303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rotten fruit (1)_9
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 218
+        width: 53
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89c1a71b7a74f4030800000000000000
+      internalID: 3481079822543363224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rotten fruit (1)_10
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 218
+        width: 53
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed197275fc1ccfe00800000000000000
+      internalID: 1079951106926678494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rotten fruit (1)_11
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 218
+        width: 53
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66082c8f1a171b620800000000000000
+      internalID: 2788134584796217446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rotten fruit (1)_12
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 122
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0717fa8af716727a0800000000000000
+      internalID: -6402041144365059728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rotten fruit (1)_13
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 122
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bac162ce8bdbddb0800000000000000
+      internalID: -4765974374448510287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rotten fruit (1)_14
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 122
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cd8d012971886d20800000000000000
+      internalID: 3272007486530227649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rotten fruit (1)_15
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 122
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da11426fb51e64210800000000000000
+      internalID: 1316987726140281261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rotten fruit (1)_16
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 122
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 253a72382704481e0800000000000000
+      internalID: -2196559857679097006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rotten fruit (1)_17
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 122
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc83c2a3f2c0687b0800000000000000
+      internalID: -5222473320910538548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rotten fruit (1)_18
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 17
+        width: 59
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29719e75ed912bba0800000000000000
+      internalID: -6074764504621049966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rotten fruit (1)_19
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 17
+        width: 59
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e5e0cecb1460a760800000000000000
+      internalID: 7467078252775925216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rotten fruit (1)_20
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 17
+        width: 59
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ce2bc38e40f6c4c0800000000000000
+      internalID: -4267459376877719868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rotten fruit (1)_21
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 17
+        width: 59
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e91cbfd6c7a69a380800000000000000
+      internalID: -8959512901023186530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rotten fruit (1)_22
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 17
+        width: 59
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98fb5b7835ffc0550800000000000000
+      internalID: 6128553927168606089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rotten fruit (1)_23
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 17
+        width: 59
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9301c100159f6b270800000000000000
+      internalID: 8266068292374630457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

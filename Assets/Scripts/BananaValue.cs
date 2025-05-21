@@ -26,7 +26,15 @@ public class BananaValue : MonoBehaviour
             {
                 ObjectiveManager.Instance.AddPoints(banana.value);
             }
-            animator.SetBool("PopFruit", true);
+
+            if (this.gameObject.CompareTag("Rotten"))
+            {
+                animator.SetBool("Rotten", true);
+            }
+            else
+            {
+                animator.SetBool("PopFruit", true);
+            }
             GameObject effect = Instantiate(sparkles, transform.position, Quaternion.identity);
             ParticleSystem sparklesEffect = effect.GetComponent<ParticleSystem>();
             sparklesEffect.Play();
