@@ -30,6 +30,7 @@ public class CollectableManagerScript : MonoBehaviour
         }
         else if (this.gameObject.CompareTag("SpeedBoost"))
         {
+            GetComponent<Collider2D>().enabled = false;
             SpeedBoostManagerScript.Instance.ActivateBoost(powerupDuration);
             animator.SetBool("grabbed", true);
             TriggerSound();
@@ -41,6 +42,7 @@ public class CollectableManagerScript : MonoBehaviour
         }
         else if (this.gameObject.CompareTag("DoublePoints"))
         {
+            GetComponent<Collider2D>().enabled = false;
             DoublePointManagerScript.Instance.ActivateBonus(powerupDuration);
             this.gameObject.GetComponent<ParticleSystem>().Stop();
             animator.SetBool("grabbed", true);

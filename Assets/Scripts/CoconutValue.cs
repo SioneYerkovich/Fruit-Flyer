@@ -21,15 +21,14 @@ public class CoconutValue : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            CoconutValue coconut = GetComponent<CoconutValue>();
-            if (coconut != null)
-            {
-                ObjectiveManager.Instance.AddPoints(coconut.value);
-            }
+            ObjectiveManager.Instance.AddPoints(value);
+            GetComponent<Collider2D>().enabled = false;
+
 
             if (this.gameObject.CompareTag("Rotten"))
             {
                 animator.SetBool("Rotten", true);
+                GetComponent<Collider2D>().enabled = false;
             }
             else
             {

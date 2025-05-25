@@ -33,6 +33,16 @@ public class PanelManagerScript : MonoBehaviour
             }
         }
 
+        if (GameManagerScript.Instance.gameOutro)
+        {
+            jumpAction.Enable();
+            if (jumpAction.IsPressed())
+            {
+                ShowStartMenu();
+                PlayerPrefs.DeleteKey("CurrentStage");
+            }
+        }
+
         TogglePowerupPanel();
     }
 
@@ -113,20 +123,12 @@ public class PanelManagerScript : MonoBehaviour
         }
     }
 
-
-    public void ExitGameAnimation()
-    {
-        ShowStartMenu();
-        Animator animator = panels[0].GetComponent<Animator>();
-        animator.Play("fade_in_start_menu");
-    }
-
     public void ShowStartMenu()
     {
         panels[0].SetActive(true);
         panels[1].SetActive(false);
         panels[2].SetActive(false);
-        panels[3].SetActive(false);
+        panels[9].SetActive(false);
     } 
 
     public void DisableIntro()
@@ -148,13 +150,10 @@ public class PanelManagerScript : MonoBehaviour
 
     public void StageComplete()
     {
-        if (ObjectiveManager.Instance.stageComplete == true)
-        {
-            Animator animator = panels[6].GetComponent<Animator>();
-            panels[6].SetActive(true);
-            animator.Play("fade_out");
-            Invoke("StageTransitionDelay", 2f);
-        }
+        Animator animator = panels[6].GetComponent<Animator>();
+        panels[6].SetActive(true);
+        animator.Play("fade_out");
+        Invoke("StageTransitionDelay", 2f);
     }
 
     public void StageTransitionDelay()
@@ -185,6 +184,28 @@ public class PanelManagerScript : MonoBehaviour
         {
             StageManagerScript.Instance.stages[0].SetActive(true);
         }
+    }
+
+    public void DeathPanel()
+    {
+        panels[8].SetActive(true);
+    }
+
+    public void RestartGame()
+    {
+        panels[8].SetActive(false);
+        StageComplete();
+        FergusScript.instance.ResetPlayer();
+        ObjectiveManager.Instance.ResetScene();
+    }
+
+    public void CallOutro()
+    {
+        Animator animator = panels[9].GetComponent<Animator>();
+        panels[9].SetActive(true);
+        animator.SetTrigger("triggerOutro");
+        GameManagerScript.Instance.gameOutro = true;
+
     }
 
     public void CloseGame()

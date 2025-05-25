@@ -21,15 +21,13 @@ public class WatermelonValue : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            WatermelonValue watermelon = GetComponent<WatermelonValue>();
-            if (watermelon != null)
-            {
-                ObjectiveManager.Instance.AddPoints(watermelon.value);
-            }
+            ObjectiveManager.Instance.AddPoints(value);
+            GetComponent<Collider2D>().enabled = false;
 
             if (this.gameObject.CompareTag("Rotten"))
             {
                 animator.SetBool("Rotten", true);
+                GetComponent<Collider2D>().enabled = false;
             }
             else
             {

@@ -21,15 +21,13 @@ public class AppleValue : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            AppleValue apple = GetComponent<AppleValue>();
-            if (apple != null)
-            {
-                ObjectiveManager.Instance.AddPoints(apple.value);
-            }
+            ObjectiveManager.Instance.AddPoints(value);
+            GetComponent<Collider2D>().enabled = false;
 
             if (this.gameObject.CompareTag("Rotten"))
             {
                 animator.SetBool("Rotten", true);
+                GetComponent<Collider2D>().enabled = false;
             }
             else
             {

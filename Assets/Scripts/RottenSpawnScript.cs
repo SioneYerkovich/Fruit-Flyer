@@ -22,7 +22,6 @@ public class RottenSpawnScript : MonoBehaviour
         {
             GameManagerScript.Instance.commenceRottenSpawn = true;
             InvokeRepeating("SpawnRottenFruit", 1f, Random.Range(minSpawnTime, maxSpawnTime));
-            Debug.Log("rottenspawned");
         }
     }
     GameObject GetRandomObject()
@@ -43,11 +42,19 @@ public class RottenSpawnScript : MonoBehaviour
     {
         if (GameManagerScript.Instance.gameStarted)
         {
+            Debug.Log("rotten spawned");
             GameObject chosenFruit = GetRandomObject();
             Instantiate(chosenFruit, GetRandomPosition(), Quaternion.identity);
             CancelInvoke("SpawnRottenFruit");
             InvokeRepeating("SpawnRottenFruit", Random.Range(minSpawnTime, maxSpawnTime), Random.Range(minSpawnTime, maxSpawnTime));
         }
     }
+
+    private void OnDisable()
+    {
+        CancelInvoke("SpawnRottenFruit");
+        GameManagerScript.Instance.commenceRottenSpawn = false;
+    }
+
 
 }

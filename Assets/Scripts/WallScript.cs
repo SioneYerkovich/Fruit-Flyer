@@ -1,15 +1,15 @@
 using UnityEngine;
 
-public class BombScript : MonoBehaviour
+public class WallScript : MonoBehaviour
 {
     public Animator animator;
     public float moveSpeed = 5;
     public float deadZone = -15;
-    public AudioSource explosionSound;
+    public AudioSource wallSound;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        explosionSound = GetComponent<AudioSource>();
+        wallSound = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -33,15 +33,8 @@ public class BombScript : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            GetComponent<Collider2D>().enabled = false;
-            TriggerExplosionSound();
+            wallSound.Play();
             animator.SetBool("Death", true);
-            Destroy(gameObject, 0.8f);
         }
-    }
-
-    private void TriggerExplosionSound()
-    {
-        explosionSound.Play();
     }
 }

@@ -6,6 +6,7 @@ using UnityEngine.UIElements;
 
 public class FergusScript : MonoBehaviour
 {
+    public static FergusScript instance;
     public GameObject player;
     public GameObject startText;
     public GameObject introText;
@@ -26,7 +27,7 @@ public class FergusScript : MonoBehaviour
     {
         startText.SetActive(!GameManagerScript.Instance.gameStarted && !GameManagerScript.Instance.characterMonologue);
 
-        ResetPlayer();
+        //ResetPlayer();
 
         if (!GameManagerScript.Instance.gameStarted && !GameManagerScript.Instance.characterMonologue)
         {
@@ -51,30 +52,53 @@ public class FergusScript : MonoBehaviour
         }
     }
 
+    public void Awake()
+    {
+        instance = this;
+    }
+
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Bomb"))
         {
-            Die();
+            Collider2D collider = player.GetComponent<Collider2D>();
+            collider.enabled = false;
+            DisableControls();
             animator.SetBool("Death", true);
-            Destroy(gameObject, 2.3f);
+            Invoke("DelayedDeath", 2.3f);
         }
-    }
-
-    private void ResetPlayer()
-    {
-        if (ObjectiveManager.Instance.stageComplete)
+        else if (other.CompareTag("Obstacle"))
         {
-            FergusRigidbody.constraints = RigidbodyConstraints2D.FreezeAll;
-            int currentStage = PlayerPrefs.GetInt("CurrentStage", 0);
-            Vector3 spawnPoint = StageManagerScript.Instance.GetStartPosition(currentStage);
-            player.transform.position = spawnPoint;
+            player.SetActive(false);
+            Time.timeScale = 0;
+            PanelManagerScript.Instance.DeathPanel();
         }
     }
 
-    private void Die()
+    public void ResetPlayer()
+    {
+        Collider2D collider = player.GetComponent<Collider2D>();
+        collider.enabled = true;
+        Time.timeScale = 1;
+        player.SetActive(true);
+        jumpAction.Enable();
+        FergusRigidbody.gravityScale = 2f;
+        FergusRigidbody.constraints = RigidbodyConstraints2D.FreezeAll;
+        int currentStage = PlayerPrefs.GetInt("CurrentStage", 0);
+        Vector3 spawnPoint = StageManagerScript.Instance.GetStartPosition(currentStage);
+        player.transform.position = spawnPoint;
+    }
+
+    private void DisableControls()
     {
         jumpAction.Disable();
-        FergusRigidbody.gravityScale = 0.4f;
+        FergusRigidbody.gravityScale = 0.2f;
+    }
+
+    private void DelayedDeath()
+    {
+        Time.timeScale = 0;
+        player.SetActive(false);
+        PanelManagerScript.Instance.DeathPanel();
     }
 }

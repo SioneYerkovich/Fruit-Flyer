@@ -7,13 +7,17 @@ public class GameManagerScript : MonoBehaviour
     public GameObject[] Mechanic;
     public GameObject player;
     public static GameManagerScript Instance;
+    public bool finalBomb = false;
+    public bool gameCompleted = false;
     public bool commenceFruitSpawn = false;
     public bool commenceBombSpawn = false;
     public bool commencePowerupSpawn = false;
     public bool commenceRottenSpawn = false;
+    public bool commenceWallSpawn = false;
     public bool characterMonologue = true;
     public bool gameStarted = false;
     public bool gameIntro = true;
+    public bool gameOutro = false;
     public bool activateSpeech = false;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -54,13 +58,13 @@ public class GameManagerScript : MonoBehaviour
                 Mechanic[1].SetActive(false);
                 Mechanic[0].SetActive(true);
                 Mechanic[2].SetActive(true);
-                //this will be wall mechanic Mechanic[3].SetActive(true);
+                Mechanic[3].SetActive(true);
                 break;
             case 4:
                 Mechanic[0].SetActive(true);
                 Mechanic[1].SetActive(true);
                 Mechanic[2].SetActive(true);
-                //this will be wall mechanic Mechanic[3].SetActive(true);
+                Mechanic[3].SetActive(true);
                 break;
         }
     }

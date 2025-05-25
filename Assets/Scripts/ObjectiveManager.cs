@@ -5,6 +5,7 @@ using UnityEngine.UI;
 public class ObjectiveManager : MonoBehaviour
 {
     public static ObjectiveManager Instance;
+    public AudioSource winSound;
     public GameObject player;
     public int fruitsCollected = 0;
     public int fruitsNeeded = 100;
@@ -13,7 +14,7 @@ public class ObjectiveManager : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-      
+        winSound = GetComponent<AudioSource>();
     }
 
     //Update is called once per frame
@@ -41,16 +42,29 @@ public class ObjectiveManager : MonoBehaviour
         }
         if (fruitsCollected >= fruitsNeeded)
         {
-            stageComplete = true;
-            StageManagerScript.Instance.GoToNextStage();
-            ResetScene();
+            if (PlayerPrefs.GetInt("CurrentStage", 0) == 4) 
+            {
+                GameManagerScript.Instance.gameCompleted = true;
+                StageManagerScript.Instance.GoToNextStage();
+                winSound.Play();
+                stageComplete = true;
+                FergusScript.instance.ResetPlayer();
+                ResetScene();
+            }
+            else
+            {
+                StageManagerScript.Instance.GoToNextStage();
+                winSound.Play();
+                stageComplete = true;
+                FergusScript.instance.ResetPlayer();
+                ResetScene();
+            }
+
         }
     }
 
     public void ResetScene()
     {
-        if (stageComplete == true)
-        {
             fruitsCollected = 0;
             scoreText.text = fruitsCollected.ToString() + "/100";
             SpeedBoostManagerScript.Instance.EndBoost();
@@ -63,6 +77,7 @@ public class ObjectiveManager : MonoBehaviour
             GameObject[] spawnedSpeed = GameObject.FindGameObjectsWithTag("SpeedBoost");
             GameObject[] spawnedBonus = GameObject.FindGameObjectsWithTag("DoublePoints");
             GameObject[] spawnedRotten = GameObject.FindGameObjectsWithTag("Rotten");
+            GameObject[] spawnedWall = GameObject.FindGameObjectsWithTag("Obstacle");
 
             List<GameObject> allObjects = new List<GameObject>();
             allObjects.AddRange(spawnedFruits);
@@ -70,13 +85,13 @@ public class ObjectiveManager : MonoBehaviour
             allObjects.AddRange(spawnedSpeed);
             allObjects.AddRange(spawnedBonus);
             allObjects.AddRange(spawnedRotten);
+            allObjects.AddRange(spawnedWall);
             GameObject[] spawnedStuff = allObjects.ToArray();
 
             foreach (GameObject objects in spawnedStuff)
             {
                 Destroy(objects);
             }
-        }
     }
 
 }

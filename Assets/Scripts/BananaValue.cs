@@ -21,15 +21,13 @@ public class BananaValue : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            BananaValue banana = GetComponent<BananaValue>();
-            if (banana != null)
-            {
-                ObjectiveManager.Instance.AddPoints(banana.value);
-            }
+            ObjectiveManager.Instance.AddPoints(value);
+            GetComponent<Collider2D>().enabled = false;
 
             if (this.gameObject.CompareTag("Rotten"))
             {
                 animator.SetBool("Rotten", true);
+                GetComponent<Collider2D>().enabled = false;
             }
             else
             {
