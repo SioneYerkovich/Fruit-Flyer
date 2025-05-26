@@ -3,28 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\sione\\2d test\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5483BADE-4D87-6A55-82D8-E57727570750}|Assembly-CSharp.csproj|C:\\Users\\sione\\2d test\\assets\\scripts\\bombspawnscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5483BADE-4D87-6A55-82D8-E57727570750}|Assembly-CSharp.csproj|C:\\Users\\sione\\2d test\\assets\\scripts\\collectablemanagerscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5483BADE-4D87-6A55-82D8-E57727570750}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\collectablemanagerscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5483BADE-4D87-6A55-82D8-E57727570750}|Assembly-CSharp.csproj|c:\\users\\sione\\2d test\\assets\\scripts\\bombspawnscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5483BADE-4D87-6A55-82D8-E57727570750}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\bombspawnscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5483BADE-4D87-6A55-82D8-E57727570750}|Assembly-CSharp.csproj|c:\\users\\sione\\2d test\\assets\\scripts\\rottenspawnscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5483BADE-4D87-6A55-82D8-E57727570750}|Assembly-CSharp.csproj|C:\\Users\\sione\\2d test\\assets\\scripts\\rottenspawnscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5483BADE-4D87-6A55-82D8-E57727570750}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\rottenspawnscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5483BADE-4D87-6A55-82D8-E57727570750}|Assembly-CSharp.csproj|c:\\users\\sione\\2d test\\assets\\scripts\\powerupspawnscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5483BADE-4D87-6A55-82D8-E57727570750}|Assembly-CSharp.csproj|C:\\Users\\sione\\2d test\\assets\\scripts\\powerupspawnscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5483BADE-4D87-6A55-82D8-E57727570750}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\powerupspawnscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5483BADE-4D87-6A55-82D8-E57727570750}|Assembly-CSharp.csproj|c:\\users\\sione\\2d test\\assets\\scripts\\fruitspawnscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5483BADE-4D87-6A55-82D8-E57727570750}|Assembly-CSharp.csproj|C:\\Users\\sione\\2d test\\assets\\scripts\\fruitspawnscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5483BADE-4D87-6A55-82D8-E57727570750}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\fruitspawnscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5483BADE-4D87-6A55-82D8-E57727570750}|Assembly-CSharp.csproj|c:\\users\\sione\\2d test\\assets\\scripts\\wallspawnscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5483BADE-4D87-6A55-82D8-E57727570750}|Assembly-CSharp.csproj|C:\\Users\\sione\\2d test\\assets\\scripts\\wallspawnscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5483BADE-4D87-6A55-82D8-E57727570750}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\wallspawnscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5483BADE-4D87-6A55-82D8-E57727570750}|Assembly-CSharp.csproj|c:\\users\\sione\\2d test\\assets\\scripts\\collectablemanagerscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5483BADE-4D87-6A55-82D8-E57727570750}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\collectablemanagerscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5483BADE-4D87-6A55-82D8-E57727570750}|Assembly-CSharp.csproj|C:\\Users\\sione\\2d test\\assets\\scripts\\bombscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -62,7 +62,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -82,7 +82,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "FruitSpawnScript.cs",
               "DocumentMoniker": "C:\\Users\\sione\\2d test\\Assets\\Scripts\\FruitSpawnScript.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\FruitSpawnScript.cs",
@@ -90,12 +90,11 @@
               "RelativeToolTip": "Assets\\Scripts\\FruitSpawnScript.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-26T09:37:02.136Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-26T09:37:02.136Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "PowerupSpawnScript.cs",
               "DocumentMoniker": "C:\\Users\\sione\\2d test\\Assets\\Scripts\\PowerupSpawnScript.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PowerupSpawnScript.cs",
@@ -103,12 +102,11 @@
               "RelativeToolTip": "Assets\\Scripts\\PowerupSpawnScript.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-26T09:36:44.603Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-26T09:36:44.603Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "RottenSpawnScript.cs",
               "DocumentMoniker": "C:\\Users\\sione\\2d test\\Assets\\Scripts\\RottenSpawnScript.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\RottenSpawnScript.cs",
@@ -116,12 +114,11 @@
               "RelativeToolTip": "Assets\\Scripts\\RottenSpawnScript.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-26T09:36:34.439Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-26T09:36:34.439Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "WallSpawnScript.cs",
               "DocumentMoniker": "C:\\Users\\sione\\2d test\\Assets\\Scripts\\WallSpawnScript.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\WallSpawnScript.cs",
@@ -129,18 +126,17 @@
               "RelativeToolTip": "Assets\\Scripts\\WallSpawnScript.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-26T09:35:02.659Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-26T09:35:02.659Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "CollectableManagerScript.cs",
               "DocumentMoniker": "C:\\Users\\sione\\2d test\\Assets\\Scripts\\CollectableManagerScript.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\CollectableManagerScript.cs",
               "ToolTip": "C:\\Users\\sione\\2d test\\Assets\\Scripts\\CollectableManagerScript.cs",
               "RelativeToolTip": "Assets\\Scripts\\CollectableManagerScript.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACkAAAAAAAAAAAAEwD8AAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-26T09:14:32.182Z",
               "EditorCaption": ""
@@ -159,7 +155,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "BombSpawnScript.cs",
               "DocumentMoniker": "C:\\Users\\sione\\2d test\\Assets\\Scripts\\BombSpawnScript.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\BombSpawnScript.cs",
