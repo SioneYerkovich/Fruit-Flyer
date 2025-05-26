@@ -239,7 +239,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!225 &27134496
 CanvasGroup:
   m_ObjectHideFlags: 0
@@ -618,8 +618,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.000038147, y: 0}
-  m_SizeDelta: {x: 1851.9546, y: 788.7277}
+  m_AnchoredPosition: {x: -0.000022888, y: 0}
+  m_SizeDelta: {x: 1851.9546, y: 811.2567}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &76370599
 MonoBehaviour:
@@ -643,7 +643,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 652f7165b7c30ab46af6c4aad90a639b, type: 2}
-    m_FontSize: 60
+    m_FontSize: 40
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -659,20 +659,29 @@ MonoBehaviour:
 
 
 
-    Balance was restored to the kingdom of mother nature,
-    every species was once again feeding on the "fruits" of their labour.
+    Silence was present, yet only for a moment. Afterwards,
+    faint roaring in the distance.  Lions, Monkeys, Ladybugs alike. You could hear
+    them all cheering far and wide.
 
 
 
-    Though
-    they often say, you may have won the battle....
+    Balance was restored to the kingdom of
+    mother nature, every species was once again feeding on the "fruits" of their
+    labour.
 
 
-    but have you won the war?
+
+    Though they often say, you may have won the battle....
 
 
-    press
-    spacebar to Exit'
+    but
+    have you won the war?
+
+
+
+
+
+    press spacebar to Exit'
 --- !u!222 &76370600
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -6043,7 +6052,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &941077496
 RectTransform:
   m_ObjectHideFlags: 0
@@ -11893,7 +11902,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!222 &1999609961
 CanvasRenderer:
   m_ObjectHideFlags: 0
