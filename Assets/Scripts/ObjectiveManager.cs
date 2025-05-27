@@ -30,19 +30,23 @@ public class ObjectiveManager : MonoBehaviour
 
     public void AddPoints(int amount)
     {
+        //Double points active event handler
         if (DoublePointManagerScript.Instance.bonus)
         {
-            fruitsCollected += amount * 2;
+            fruitsCollected += amount * 2; //Double the value added to the score text
             scoreText.text = fruitsCollected.ToString() + "/100";
         }
-        else
+        else //if double points not active, do the standard method of 1 to 1 scoring
         {
             fruitsCollected += amount;
             scoreText.text = fruitsCollected.ToString() + "/100";
         }
-        if (fruitsCollected >= fruitsNeeded)
+
+        //Objective reached event handler
+        if (fruitsCollected >= fruitsNeeded) 
         {
-            if (PlayerPrefs.GetInt("CurrentStage", 0) == 4) 
+            if (PlayerPrefs.GetInt("CurrentStage", 0) == 4) //if player is currently on the final boss
+            //handle it this way (AKA trigger gameCompleted boolean for different logic)
             {
                 GameManagerScript.Instance.gameCompleted = true;
                 StageManagerScript.Instance.GoToNextStage();
@@ -51,7 +55,7 @@ public class ObjectiveManager : MonoBehaviour
                 FergusScript.instance.ResetPlayer();
                 ResetScene();
             }
-            else
+            else //Otherwise just trigger a regular next stage event
             {
                 StageManagerScript.Instance.GoToNextStage();
                 winSound.Play();

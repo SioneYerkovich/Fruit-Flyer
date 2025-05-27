@@ -26,27 +26,30 @@ public class SpeedBoostManagerScript : MonoBehaviour
         Instance = this;
     }
 
+    //Method to apply variable changes when boost activates
     public void ActivateBoost(float duration)
     {
         boostedSpeed = boostedMoveSpeed;
         speedBoostTimer = duration;
-        isBoosted = true;
+        isBoosted = true; //Triggers isBoosted boolean
     }
 
+    //Ends the boost period and resets it
     public void EndBoost()
     {
-        isBoosted = false;
-        speedBoostTimer = 0f;
+        isBoosted = false; //resets isBoosted to turn toggle the boost control
+        speedBoostTimer = 0f; //reset the boost timer
     }
 
+    //Method that controls the boost activation
     public void BoostControl()
     {
-        if (isBoosted)
+        if (isBoosted) //triggered by ActivateBoost()
         {
-            speedBoostTimer -= Time.deltaTime;
-            if (speedBoostTimer <= 0f)
+            speedBoostTimer -= Time.deltaTime; //assigns a incementally decreasing value to the timer
+            if (speedBoostTimer <= 0f) //if the timer reaches 0
             {
-                EndBoost();
+                EndBoost(); //call the EndBoost method to deactivate boost
             }
         }
     }

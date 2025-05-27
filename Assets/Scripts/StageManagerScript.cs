@@ -22,28 +22,32 @@ public class StageManagerScript : MonoBehaviour
         Instance = this;
     }
 
+    //Method to handle the stage transition
     public void GoToNextStage()
     {
-        if (currentStage < stages.Length -1)
+        if (currentStage < stages.Length -1) //Checks if theyre not on the final stage
         {
             PanelManagerScript.Instance.StageComplete();
-            Invoke("SaveCheckpoint", 2f);
+            Invoke("SaveCheckpoint", 2f); //Delay SaveCheckpoint to allow the background to fade
+                                          //this will hide the stage swap logic
         }
-        else
+        else //if theyre on the final stage dont save a checkpoint
         {
             PanelManagerScript.Instance.StageComplete();
         }
     }
 
+    //Method to save checkpoint
     public void SaveCheckpoint()
     {
-        currentStage = PlayerPrefs.GetInt("CurrentStage", 0);
+        currentStage = PlayerPrefs.GetInt("CurrentStage", 0); //Retrieve the current player stage in Player prefs
 
-        if (currentStage < stages.Length - 1)
+        if (currentStage < stages.Length - 1) //if theyre not on the last stage
         {
-            stages[currentStage].SetActive(false);
-            currentStage++;
-            stages[currentStage].SetActive(true);
+            //stages[] is the array declared above and assigned in the inspector
+            stages[currentStage].SetActive(false); //deactivate the current stage using the int value of player prefs
+            currentStage++; //Increment player prefs to handle the stage management
+            stages[currentStage].SetActive(true); //use the new increment value and set that stage int as active
             PlayerPrefs.SetInt("CurrentStage", currentStage);
         }
     }

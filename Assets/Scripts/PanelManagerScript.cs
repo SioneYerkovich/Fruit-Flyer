@@ -76,43 +76,46 @@ public class PanelManagerScript : MonoBehaviour
         GameManagerScript.Instance.activateSpeech = true;
     }
 
+    //Method to control pause logic
     public void TogglePauseMenu()
     {
-        if (panels[2].activeSelf == false)
+        if (panels[2].activeSelf == false) //Onclick, if the pause menu is not active
         {
-            Time.timeScale = 0;
-            panels[2].SetActive(true);
+            Time.timeScale = 0; //Freeze the game state
+            panels[2].SetActive(true); //Set the pause menu as active
         }
-        else
+        else //This is handled by the resume button (in the pause menu)
         {
-            Time.timeScale = 1;
-            panels[2].SetActive(false);
+            Time.timeScale = 1; //Unfreeze the game
+            panels[2].SetActive(false); //Deactivate the pause menu
         }
     }
 
+    //Method to control the Powerup Panel
     public void TogglePowerupPanel()
     {
-        if (SpeedBoostManagerScript.Instance.isBoosted)
+        if (SpeedBoostManagerScript.Instance.isBoosted) //Checks for speed boosts
         {
-            panels[3].SetActive(true);
-            float timeRemaining = SpeedBoostManagerScript.Instance.speedBoostTimer;
+            panels[3].SetActive(true); //activates the powerup panel
+            float timeRemaining = SpeedBoostManagerScript.Instance.speedBoostTimer; //Gets the current value of speedBoostTimer
 
-            if (timeRemaining > 0)
+            if (timeRemaining > 0) //checks the timer hasn't hit 0 seconds
             {
-                speedTimerText.text = Mathf.Ceil(timeRemaining).ToString() + " s";
+                speedTimerText.text = Mathf.Ceil(timeRemaining).ToString() + " s"; //rounds the number to the nearest whole
+                                                                                   //and adds an "s" at the end
             }
         }
-        else
+        else //if no speed boost, deactivate
         {
             panels[3].SetActive(false);
         }
 
-        if (DoublePointManagerScript.Instance.bonus)
+        if (DoublePointManagerScript.Instance.bonus) //Checks for double point bonus
         {
             panels[7].SetActive(true);
             float timeRemaining = DoublePointManagerScript.Instance.bonusTimer;
 
-            if (timeRemaining > 0)
+            if (timeRemaining > 0) 
             {
                 bonusTimerText.text = Mathf.Ceil(timeRemaining).ToString() + " s";
             }
@@ -208,9 +211,10 @@ public class PanelManagerScript : MonoBehaviour
 
     }
 
+    //Method to close the game
     public void CloseGame()
     {
-        Application.Quit();
+        Application.Quit(); //Closes the application
     }
 
 }

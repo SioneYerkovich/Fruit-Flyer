@@ -59,8 +59,8 @@ public class SpeechScript : MonoBehaviour
 
     public void EncounterSwitch()
     {
-            currentStage = PlayerPrefs.GetInt("CurrentStage", 0);
-            switch (currentStage)
+            currentStage = PlayerPrefs.GetInt("CurrentStage", 0); //get player stage
+            switch (currentStage) //use the current stage int to decide logic path
             {
                 case 0:
                     FirstEncounter();
@@ -74,12 +74,12 @@ public class SpeechScript : MonoBehaviour
                 case 3:
                     FourthEncounter();
                     break;
-                case 4:
-                    if (GameManagerScript.Instance.gameCompleted == false)
+                case 4: //this is the final stage
+                    if (GameManagerScript.Instance.gameCompleted == false) //if arriving to the stage
                     {
                         FinalEncounter();
                     }
-                    else
+                    else //if completing the final stage
                     {
                         Ending();
                     }
@@ -87,7 +87,7 @@ public class SpeechScript : MonoBehaviour
                     
             }
     }
-
+    //these methods are based on which stage, invoking the correct boss
     public void FirstEncounter()
     {
         float delay = 13f;
