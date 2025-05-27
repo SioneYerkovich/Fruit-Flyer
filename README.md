@@ -9,14 +9,23 @@ It is a pixel game at heart, that features mostly hand drawn animations and artw
 Development was introduced with several requirements to be satisfied as follows:
 
 ***1. Start & Finish Section:*** Design a clear beginning and end, setting the stage for the adventure and providing a satisfying conclusion.
+
 ***2. Movement:*** Implement smooth and intuitive player movement that enhances the gameplay experience.
+
 ***3. Five Sections with Obstacles:*** Create five distinct sections. Each section should feature a unique obstacle or challenge that the player must overcome.
+
 ***4. Pause Menu:*** Include a pause menu with options to resume or quit the game.
+
 ***5. Timer:*** Integrate a timer. You have the flexibility to decide how the timer will be used. It could track the player’s progress, limit the time available to complete a section, countdown for specific challenges, or any other creative implementation that fits the game design.
+
 ***6. Checkpoint System:*** Develop a checkpoint system. I am free to interpret this concept in any way that fits the game design.
+
 ***7. Game Complete Screen:*** Design a game complete screen that celebrates the player’s success upon finishing the game.
+
 ***8. Sound Effects:*** Add at least three different sound effects to the game.
+
 ***9. Number of Lives:*** Implement a system that manages the number of lives a player has, which can range from a single life to unlimited lives. This adds a layer of challenge or flexibility to the game.
+
 ***10. Collisions:*** Ensure accurate collision detection to provide a realistic and responsive gameplay experience.
 
 # 🚀 *Tech Stack*
