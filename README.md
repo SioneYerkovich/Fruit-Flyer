@@ -30,8 +30,11 @@ VS2022 was the IDE used to create all of my C# scripts for the game.
 
 # 💭 *Future Scope*
 Additional stages expansion
+
 "New game" feature to start from the beginning
+
 New bosses including potentially Baron Von Vegetable!
+
 All new powerups that enhance gameplay in various ways
 
 # ✍️ *Relevant documentation*
