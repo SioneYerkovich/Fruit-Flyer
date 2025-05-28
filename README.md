@@ -2,7 +2,9 @@
 Welcome to Fruit Flyer! designed and developed by Sione Yerkovich. The purpose of this project was to develop a 2d game using the Unity Game Development Engine.
 
 The game is a story driven, runner-style game. Inspired by the glory days of big names like Galaga, Space invaders and subway surfers. It was designed with one target market in mind: People who are bad at playing games! This was achieved by narrowing the spectrum
-of conventional game controls, if you only have to press one button; it can't be too hard right? To combat this philosophy I have eased the player into the game, allowing them to become familiar with the physics and overall objective of the game. Slowly the game
+of conventional game controls, if you only have to press one button; it can't be too hard right?
+
+In order to add a layer of complexity to this philosophy I have eased the player into the game, allowing them to become familiar with the physics and overall objective of the game. Slowly the game
 becomes increasingly more challenging ensuring a good balance between challenge and frustration with equal satisfaction. Anyone can play!
 It is a pixel game at heart, that features mostly hand drawn animations and artwork. 
 
