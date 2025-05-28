@@ -3,44 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\sione\\Fruit Flyer\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A65BD836-64DA-EEB6-99C9-C91D9BB82831}|Assembly-CSharp.csproj|C:\\Users\\sione\\Fruit Flyer\\assets\\scripts\\panelmanagerscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A65BD836-64DA-EEB6-99C9-C91D9BB82831}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\panelmanagerscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A65BD836-64DA-EEB6-99C9-C91D9BB82831}|Assembly-CSharp.csproj|C:\\Users\\sione\\Fruit Flyer\\assets\\scripts\\gamemanagerscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A65BD836-64DA-EEB6-99C9-C91D9BB82831}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamemanagerscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A65BD836-64DA-EEB6-99C9-C91D9BB82831}|Assembly-CSharp.csproj|C:\\Users\\sione\\Fruit Flyer\\assets\\scripts\\speechscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A65BD836-64DA-EEB6-99C9-C91D9BB82831}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\speechscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A65BD836-64DA-EEB6-99C9-C91D9BB82831}|Assembly-CSharp.csproj|C:\\Users\\sione\\Fruit Flyer\\assets\\scripts\\stagemanagerscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A65BD836-64DA-EEB6-99C9-C91D9BB82831}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\stagemanagerscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A65BD836-64DA-EEB6-99C9-C91D9BB82831}|Assembly-CSharp.csproj|c:\\users\\sione\\fruit flyer\\assets\\scripts\\fruitspawnscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A65BD836-64DA-EEB6-99C9-C91D9BB82831}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\fruitspawnscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A65BD836-64DA-EEB6-99C9-C91D9BB82831}|Assembly-CSharp.csproj|C:\\Users\\sione\\Fruit Flyer\\assets\\scripts\\gamemanagerscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A65BD836-64DA-EEB6-99C9-C91D9BB82831}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamemanagerscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A65BD836-64DA-EEB6-99C9-C91D9BB82831}|Assembly-CSharp.csproj|C:\\Users\\sione\\Fruit Flyer\\assets\\scripts\\objectivemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A65BD836-64DA-EEB6-99C9-C91D9BB82831}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\objectivemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A65BD836-64DA-EEB6-99C9-C91D9BB82831}|Assembly-CSharp.csproj|C:\\Users\\sione\\Fruit Flyer\\assets\\scripts\\fergusscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A65BD836-64DA-EEB6-99C9-C91D9BB82831}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\fergusscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A65BD836-64DA-EEB6-99C9-C91D9BB82831}|Assembly-CSharp.csproj|c:\\users\\sione\\fruit flyer\\assets\\scripts\\panelmanagerscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A65BD836-64DA-EEB6-99C9-C91D9BB82831}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\panelmanagerscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A65BD836-64DA-EEB6-99C9-C91D9BB82831}|Assembly-CSharp.csproj|C:\\Users\\sione\\Fruit Flyer\\assets\\scripts\\speedboostmanagerscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A65BD836-64DA-EEB6-99C9-C91D9BB82831}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\speedboostmanagerscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A65BD836-64DA-EEB6-99C9-C91D9BB82831}|Assembly-CSharp.csproj|C:\\Users\\sione\\Fruit Flyer\\assets\\scripts\\stagemanagerscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A65BD836-64DA-EEB6-99C9-C91D9BB82831}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\stagemanagerscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A65BD836-64DA-EEB6-99C9-C91D9BB82831}|Assembly-CSharp.csproj|C:\\Users\\sione\\Fruit Flyer\\assets\\scripts\\collectablemanagerscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A65BD836-64DA-EEB6-99C9-C91D9BB82831}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\collectablemanagerscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A65BD836-64DA-EEB6-99C9-C91D9BB82831}|Assembly-CSharp.csproj|C:\\Users\\sione\\Fruit Flyer\\assets\\scripts\\doublepointmanagerscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A65BD836-64DA-EEB6-99C9-C91D9BB82831}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\doublepointmanagerscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A65BD836-64DA-EEB6-99C9-C91D9BB82831}|Assembly-CSharp.csproj|c:\\users\\sione\\fruit flyer\\assets\\scripts\\rottenspawnscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A65BD836-64DA-EEB6-99C9-C91D9BB82831}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\rottenspawnscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -70,77 +54,42 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "FruitSpawnScript.cs",
-              "DocumentMoniker": "C:\\Users\\sione\\Fruit Flyer\\Assets\\Scripts\\FruitSpawnScript.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\FruitSpawnScript.cs",
-              "ToolTip": "C:\\Users\\sione\\Fruit Flyer\\Assets\\Scripts\\FruitSpawnScript.cs",
-              "RelativeToolTip": "Assets\\Scripts\\FruitSpawnScript.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "RottenSpawnScript.cs",
+              "DocumentMoniker": "C:\\Users\\sione\\Fruit Flyer\\Assets\\Scripts\\RottenSpawnScript.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\RottenSpawnScript.cs",
+              "ToolTip": "C:\\Users\\sione\\Fruit Flyer\\Assets\\Scripts\\RottenSpawnScript.cs",
+              "RelativeToolTip": "Assets\\Scripts\\RottenSpawnScript.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T00:30:44.276Z",
+              "WhenOpened": "2025-05-28T01:44:56.456Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "DoublePointManagerScript.cs",
-              "DocumentMoniker": "C:\\Users\\sione\\Fruit Flyer\\Assets\\Scripts\\DoublePointManagerScript.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\DoublePointManagerScript.cs",
-              "ToolTip": "C:\\Users\\sione\\Fruit Flyer\\Assets\\Scripts\\DoublePointManagerScript.cs",
-              "RelativeToolTip": "Assets\\Scripts\\DoublePointManagerScript.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-26T23:22:16.6Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "CollectableManagerScript.cs",
-              "DocumentMoniker": "C:\\Users\\sione\\Fruit Flyer\\Assets\\Scripts\\CollectableManagerScript.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\CollectableManagerScript.cs",
-              "ToolTip": "C:\\Users\\sione\\Fruit Flyer\\Assets\\Scripts\\CollectableManagerScript.cs",
-              "RelativeToolTip": "Assets\\Scripts\\CollectableManagerScript.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-26T22:45:57.15Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "SpeedBoostManagerScript.cs",
-              "DocumentMoniker": "C:\\Users\\sione\\Fruit Flyer\\Assets\\Scripts\\SpeedBoostManagerScript.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\SpeedBoostManagerScript.cs",
-              "ToolTip": "C:\\Users\\sione\\Fruit Flyer\\Assets\\Scripts\\SpeedBoostManagerScript.cs",
-              "RelativeToolTip": "Assets\\Scripts\\SpeedBoostManagerScript.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAA5wBgAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-26T23:20:31.822Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "PanelManagerScript.cs",
               "DocumentMoniker": "C:\\Users\\sione\\Fruit Flyer\\Assets\\Scripts\\PanelManagerScript.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PanelManagerScript.cs",
               "ToolTip": "C:\\Users\\sione\\Fruit Flyer\\Assets\\Scripts\\PanelManagerScript.cs",
               "RelativeToolTip": "Assets\\Scripts\\PanelManagerScript.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAArAAAAAAAAAA==",
+              "ViewState": "AgIAALkAAAAAAAAAAAAqwM4AAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-26T22:27:00.562Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "GameManagerScript.cs",
               "DocumentMoniker": "C:\\Users\\sione\\Fruit Flyer\\Assets\\Scripts\\GameManagerScript.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\GameManagerScript.cs",
               "ToolTip": "C:\\Users\\sione\\Fruit Flyer\\Assets\\Scripts\\GameManagerScript.cs",
               "RelativeToolTip": "Assets\\Scripts\\GameManagerScript.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACwAAAAAAAAAAAAAAEsAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-26T22:08:05.766Z"
+              "WhenOpened": "2025-05-26T22:08:05.766Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -150,47 +99,36 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\SpeechScript.cs",
               "ToolTip": "C:\\Users\\sione\\Fruit Flyer\\Assets\\Scripts\\SpeechScript.cs",
               "RelativeToolTip": "Assets\\Scripts\\SpeechScript.cs",
-              "ViewState": "AgIAALgAAAAAAAAAAAAQwA8AAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAAMgAAAAAAAAAAAAowNkAAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-26T22:07:30.85Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "ObjectiveManager.cs",
               "DocumentMoniker": "C:\\Users\\sione\\Fruit Flyer\\Assets\\Scripts\\ObjectiveManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\ObjectiveManager.cs",
               "ToolTip": "C:\\Users\\sione\\Fruit Flyer\\Assets\\Scripts\\ObjectiveManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\ObjectiveManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAcwGcAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-26T21:57:43.657Z"
+              "WhenOpened": "2025-05-26T21:57:43.657Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "StageManagerScript.cs",
               "DocumentMoniker": "C:\\Users\\sione\\Fruit Flyer\\Assets\\Scripts\\StageManagerScript.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\StageManagerScript.cs",
               "ToolTip": "C:\\Users\\sione\\Fruit Flyer\\Assets\\Scripts\\StageManagerScript.cs",
               "RelativeToolTip": "Assets\\Scripts\\StageManagerScript.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAwwBUAAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwDMAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-26T21:57:38.182Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "FergusScript.cs",
-              "DocumentMoniker": "C:\\Users\\sione\\Fruit Flyer\\Assets\\Scripts\\FergusScript.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\FergusScript.cs",
-              "ToolTip": "C:\\Users\\sione\\Fruit Flyer\\Assets\\Scripts\\FergusScript.cs",
-              "RelativeToolTip": "Assets\\Scripts\\FergusScript.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAQwA8AAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-26T21:36:21.391Z"
             }
           ]
         }

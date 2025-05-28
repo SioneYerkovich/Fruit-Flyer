@@ -38,9 +38,7 @@ public class PanelManagerScript : MonoBehaviour
             jumpAction.Enable();
             if (jumpAction.IsPressed())
             {
-                ShowStartMenu();
-                PlayerPrefs.DeleteKey("CurrentStage");
-                panels[9].SetActive(false);
+                ObjectiveManager.Instance.FullGameReset();
             }
         }
 
@@ -72,6 +70,7 @@ public class PanelManagerScript : MonoBehaviour
 
     public void StartGame()
     {
+        GameManagerScript.Instance.ToggleMechanic();
         panels[0].SetActive(false);
         panels[1].SetActive(true);
         GameManagerScript.Instance.activateSpeech = true;
@@ -133,6 +132,8 @@ public class PanelManagerScript : MonoBehaviour
         panels[1].SetActive(false);
         panels[2].SetActive(false);
         panels[9].SetActive(false);
+        panels[5].SetActive(false);
+        GameManagerScript.Instance.activateSpeech = false;
     } 
 
     public void DisableIntro()
@@ -209,7 +210,6 @@ public class PanelManagerScript : MonoBehaviour
         panels[9].SetActive(true);
         animator.SetTrigger("triggerOutro");
         GameManagerScript.Instance.gameOutro = true;
-
     }
 
     //Method to close the game

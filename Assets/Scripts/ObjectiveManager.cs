@@ -98,4 +98,10 @@ public class ObjectiveManager : MonoBehaviour
             }
     }
 
+    public void FullGameReset()
+    {
+        PlayerPrefs.DeleteKey("CurrentStage");
+        PanelManagerScript.Instance.CloseGame();
+    }
+
 }

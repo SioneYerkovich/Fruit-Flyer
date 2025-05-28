@@ -44,6 +44,9 @@ public class GameManagerScript : MonoBehaviour
         {
             case 0:
                 Mechanic[0].SetActive(true);
+                Mechanic[1].SetActive(false);
+                Mechanic[2].SetActive(false);
+                Mechanic[3].SetActive(false);
                 break;
             case 1:
                 Mechanic[0].SetActive(true);
@@ -66,7 +69,9 @@ public class GameManagerScript : MonoBehaviour
                 Mechanic[2].SetActive(true);
                 Mechanic[3].SetActive(true);
                 break;
+            default:
+                Mechanic[0].SetActive(true);
+                break;
         }
     }
-
 }

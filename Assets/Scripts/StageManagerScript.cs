@@ -31,7 +31,7 @@ public class StageManagerScript : MonoBehaviour
             Invoke("SaveCheckpoint", 2f); //Delay SaveCheckpoint to allow the background to fade
                                           //this will hide the stage swap logic
         }
-        else //if theyre on the final stage dont save a checkpoint
+        else //if theyre on the final stage
         {
             PanelManagerScript.Instance.StageComplete();
         }
