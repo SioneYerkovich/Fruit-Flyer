@@ -16,7 +16,7 @@ Development was introduced with several requirements to be satisfied as follows:
 
 ***4. Pause Menu:*** Include a pause menu with options to resume or quit the game.
 
-***5. Timer:*** Integrate a timer. You have the flexibility to decide how the timer will be used. It could track the player’s progress, limit the time available to complete a section, countdown for specific challenges, or any other creative implementation that fits the game design.
+***5. Timer:*** Integrate a timer. It could track the player’s progress, limit the time available to complete a section, countdown for specific challenges, or any other creative implementation that fits the game design.
 
 ***6. Checkpoint System:*** Develop a checkpoint system. I am free to interpret this concept in any way that fits the game design.
 
