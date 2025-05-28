@@ -2,7 +2,9 @@
 Welcome to Fruit Flyer! designed and developed by Sione Yerkovich. The purpose of this project was to develop a 2d game using the Unity Game Development Engine.
 
 The game is a story driven, runner-style game. Inspired by the glory days of big names like Galaga, Space invaders and subway surfers. It was designed with one target market in mind: People who are bad at playing games! This was achieved by narrowing the spectrum
-of conventional game controls, if you only have to press one button; it can't be too hard right? To combat this philosophy I have eased the player into the game, allowing them to become familiar with the physics and overall objective of the game. Slowly the game
+of conventional game controls, if you only have to press one button; it can't be too hard right?
+
+In order to add a layer of complexity to this philosophy I have eased the player into the game, allowing them to become familiar with the physics and overall objective of the game. Slowly the game
 becomes increasingly more challenging ensuring a good balance between challenge and frustration with equal satisfaction. Anyone can play!
 It is a pixel game at heart, that features mostly hand drawn animations and artwork. 
 
@@ -16,9 +18,9 @@ Development was introduced with several requirements to be satisfied as follows:
 
 ***4. Pause Menu:*** Include a pause menu with options to resume or quit the game.
 
-***5. Timer:*** Integrate a timer. You have the flexibility to decide how the timer will be used. It could track the player’s progress, limit the time available to complete a section, countdown for specific challenges, or any other creative implementation that fits the game design.
+***5. Timer:*** Integrate a timer. It could track the player’s progress, limit the time available to complete a section, countdown for specific challenges, or any other creative implementation that fits the game design.
 
-***6. Checkpoint System:*** Develop a checkpoint system. I am free to interpret this concept in any way that fits the game design.
+***6. Checkpoint System:*** Develop a checkpoint system. Interpret this concept in any way that fits the game design.
 
 ***7. Game Complete Screen:*** Design a game complete screen that celebrates the player’s success upon finishing the game.
 
@@ -29,13 +31,15 @@ Development was introduced with several requirements to be satisfied as follows:
 ***10. Collisions:*** Ensure accurate collision detection to provide a realistic and responsive gameplay experience.
 
 # 🚀 *Tech Stack*
-I built this game using C#, the Unity Game Engine and Microsoft Visual Studios 2022.
+I built this game using C#, the Unity Game Engine, Microsoft Visual Studios 2022 and Github for version control.
 
 C# controlled the logic of the game, from objective spawns all the way to cutscene logic and player movement. Basically every aspect of the game has some sort of script attached to it written using C#.
 
 The Unity engine gave me an environment to simulate the games production. It allowed me to create prefabrications to re-use objects, attach physics systems, create particle animations and even design 2d games using 3d principles.
 
 VS2022 was the IDE used to create all of my C# scripts for the game.
+
+Github allowed me to maintain a controlled environment for different release versions of my game. As an iteration is completed, the repository is updated.
 
 # 💭 *Future Scope*
 Additional stages expansion
@@ -44,7 +48,9 @@ Additional stages expansion
 
 New bosses including potentially Baron Von Vegetable!
 
-All new powerups that enhance gameplay in various ways
+All new powerups that enhance gameplay in various ways such as Invincibility, Time Slow and Wing Growth!
+
+Update player animations to include new animations for currently active powerups e.g. lightning particles emmitting off the player model to symbolise an activ speed boost
 
 # ✍️ *Relevant documentation*
 
