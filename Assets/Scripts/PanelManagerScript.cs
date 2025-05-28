@@ -40,6 +40,7 @@ public class PanelManagerScript : MonoBehaviour
             {
                 ShowStartMenu();
                 PlayerPrefs.DeleteKey("CurrentStage");
+                panels[9].SetActive(false);
             }
         }
 
