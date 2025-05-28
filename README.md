@@ -29,13 +29,15 @@ Development was introduced with several requirements to be satisfied as follows:
 ***10. Collisions:*** Ensure accurate collision detection to provide a realistic and responsive gameplay experience.
 
 # 🚀 *Tech Stack*
-I built this game using C#, the Unity Game Engine and Microsoft Visual Studios 2022.
+I built this game using C#, the Unity Game Engine, Microsoft Visual Studios 2022 and Github for version control.
 
 C# controlled the logic of the game, from objective spawns all the way to cutscene logic and player movement. Basically every aspect of the game has some sort of script attached to it written using C#.
 
 The Unity engine gave me an environment to simulate the games production. It allowed me to create prefabrications to re-use objects, attach physics systems, create particle animations and even design 2d games using 3d principles.
 
 VS2022 was the IDE used to create all of my C# scripts for the game.
+
+Github allowed me to maintain a controlled environment for different release versions of my game. As an iteration is completed, the repository is updated.
 
 # 💭 *Future Scope*
 Additional stages expansion
