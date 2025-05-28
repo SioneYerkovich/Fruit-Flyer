@@ -46,7 +46,9 @@ Additional stages expansion
 
 New bosses including potentially Baron Von Vegetable!
 
-All new powerups that enhance gameplay in various ways
+All new powerups that enhance gameplay in various ways such as Invincibility, Time Slow and Wing Growth!
+
+Update player animations to include new animations for currently active powerups e.g. lightning particles emmitting off the player model to symbolise an activ speed boost
 
 # ✍️ *Relevant documentation*
 
